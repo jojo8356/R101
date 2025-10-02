@@ -1,0 +1,15 @@
+{
+	"configurations": [
+		{
+			"name": "Linux",
+			"includePath": ["${workspaceFolder}/**"],
+			"defines": [],
+			"compilerPath": "/usr/bin/gcc",
+			"compilerArgs": ["-v", "-Wall", "-Werror"],
+			// switch to c23 when issue closed https://github.com/microsoft/vscode-cpptools/issues/10696
+			"cStandard": "c17",
+			"intelliSenseMode": "gcc-x64"
+		}
+	],
+	"version": 4
+}

@@ -1,0 +1,17 @@
+{
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "C_Cpp.autocompleteAddParentheses": true,
+  "C_Cpp.default.cStandard": "c23",
+  "cSpell.language": "en,fr",
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.c": "c",
+    "*.h": "c",
+    "main.C": "cpp"
+  },
+  "ltex.language": "fr",
+  "workbench.colorTheme": "Default Light Modern",
+  "C_Cpp.errorSquiggles": "disabled"
+}
