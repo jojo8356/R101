@@ -286,10 +286,6 @@ void print_nb_ticket_client(int target_client_id){
     printf("%d\n", nb_ticket);
 }
 
-void print_top_10_products() {
-
-}
-
 int main(int argc, char *argv[]) {
   if (argc <= 1) return 1;
   if (ft_strcmp(argv[1], "-caj") == 0 || ft_strcmp(argv[1], "--CA-jour") == 0) {
