@@ -34,6 +34,34 @@ void print_csv() {
   afficherLigneSeparation();
 }
 
+void print_moyenne_client(float target_client_id) {
+    char datetime[20] = "";
+    int caissiere_id = 0;
+    float client_id = 0;
+    char type[16] = "";
+    char ean[32] = "";
+    char nom[128] = "";
+    float pu = 0;
+    float qte = 0;
+
+    double somme = 0;
+    int nb_ticket = 0;
+    scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n]\n");
+
+    printf("📊 Moyenne du client n°%.1f\n", target_client_id);
+    printf("--------------------------------\n");
+
+    while (scanf("%[^,],%d,%f,%[^,],%[^,],%[^,\n],%f,%f\n",
+                 datetime, &caissiere_id, &client_id,
+                 type, ean, nom, &pu, &qte) == 8) {
+        if (client_id == target_client_id){
+            somme += pu*qte;
+            nb_ticket++;
+        }
+    }
+    printf("Moyenne: %.2lf euros\n", (double)somme/nb_ticket);
+}
+
 void print_CA_day() {
     char datetime[20] = "";
     int caissiere_id = 0;
@@ -82,6 +110,7 @@ void print_CA_caissiere(int target_caissiere_id) {
     while (scanf("%[^,],%d,%f,%[^,],%[^,],%[^,\n],%f,%f\n",
                  datetime, &caissiere_id, &client_id,
                  type, ean, nom, &pu, &qte) == 8) {
+        //printf("%s , %d , %f , %s , %s , %s , %f , %f\n", datetime, caissiere_id, client_id, type, ean, nom, pu, qte);
         if (caissiere_id == target_caissiere_id){
           somme += pu * qte;
           nb_ticket++;
@@ -114,6 +143,55 @@ void print_ID_caissiere(char *target_nom, char *target_prenom){
     }
 }
 
+void print_nb_ticket(){
+    char datetime[20] = "";
+    int caissiere_id = 0;
+    float client_id = 0;
+    char type[16] = "";
+    char ean[32] = "";
+    char nom[128] = "";
+    float pu = 0;
+    float qte = 0;
+
+    int nb_ticket = 0;
+    scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n]\n");
+
+    printf("Nombre de tickets: ");
+
+    while (scanf("%[^,],%d,%f,%[^,],%[^,],%[^,\n],%f,%f\n",
+                 datetime, &caissiere_id, &client_id,
+                 type, ean, nom, &pu, &qte) == 8) {
+        nb_ticket++;
+    }
+    printf("%d\n", nb_ticket);
+}
+
+void print_nb_ticket_client(float target_client_id){
+    char datetime[20] = "";
+    int caissiere_id = 0;
+    float client_id = 0;
+    char type[16] = "";
+    char ean[32] = "";
+    char nom[128] = "";
+    float pu = 0;
+    float qte = 0;
+
+    int nb_ticket = 0;
+    scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n]\n");
+
+    printf("Nombre de tickets du client n°%.1lf: ", target_client_id);
+
+    while (scanf("%[^,],%d,%f,%[^,],%[^,],%[^,\n],%f,%f\n",
+                 datetime, &caissiere_id, &client_id,
+                 type, ean, nom, &pu, &qte) == 8) {
+        if (client_id == target_client_id){
+            nb_ticket++;
+        }
+    }
+    printf("%d\n", nb_ticket);
+}
+
+/*
 int main(int argc, char *argv[]) {
   if (argc <= 1) return 1;
   if (ft_strcmp(argv[1], "-caj") == 0 || ft_strcmp(argv[1], "--CA-jour") == 0) {
@@ -133,8 +211,56 @@ int main(int argc, char *argv[]) {
           fprintf(stderr, "Erreur: arguments manquants pour --ID-Caissiere\n");
       }
   }
+  else if (ft_strcmp(argv[1], "-lt") == 0 || ft_strcmp(argv[1], "--len-ticket") == 0) {
+    print_nb_ticket();
+  }
+  else if (ft_strcmp(argv[1], "-mc") == 0 || ft_strcmp(argv[1], "--moyenne-client") == 0) {
+      if (argc > 2) {
+          print_moyenne_client(atoi(argv[2]));
+      } else {
+          fprintf(stderr, "Erreur: arguments manquants pour --moyenne-client\n");
+      }
+  }
+  else if (ft_strcmp(argv[1], "-ltc") == 0 || ft_strcmp(argv[1], "--len-ticket-client") == 0) {
+      if (argc > 2) {
+          print_nb_ticket_client(atoi(argv[2]));
+      } else {
+          fprintf(stderr, "Erreur: arguments manquants pour --moyenne-client\n");
+      }
+  }
   else {
       fprintf(stderr, "Option inconnue: %s\n", argv[1]);
   }
   return 0;
 }
+*/
+
+int main() {
+    char buffer[128];
+    int col = 0;
+
+    while (1) {
+        if (scanf("%127[^,\n]", buffer) != 1) buffer[0] = '\0';
+
+        printf("%s |",buffer);
+
+        int c = getchar();
+        if (c == ',') {
+            col++;
+        } else if (c == '\n') {
+            printf("%c", c);
+            col = 0;
+        } else if (c == EOF) {
+            break;
+        }
+    }
+
+    return 0;
+}
+
+/*
+int main(){
+    print_csv();
+    return 0;
+}
+*/
