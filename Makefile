@@ -5,7 +5,7 @@
 
 # Compilateur et options
 CC      := gcc
-CFLAGS  := -Wall -Wextra -Werror -std=c11 -D_POSIX_C_SOURCE=200809L -Ilib -g
+CFLAGS  := -Wall -Wextra -pedantic -std=c11 -fno-common -fno-builtin -D_POSIX_C_SOURCE=200809L -Ilib -g
 LDFLAGS := 
 
 # Répertoires
