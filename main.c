@@ -7,31 +7,6 @@
 #include "lib/exemple.h"
 #include "lib/utils.h"
 
-/*
-int main() {
-    char buffer[128];
-    int col = 0;
-
-    while (1) {
-        if (scanf("%127[^,\n]", buffer) != 1) buffer[0] = '\0';
-
-        printf("%s |",buffer);
-
-        int c = getchar();
-        if (c == ',') {
-            col++;
-        } else if (c == '\n') {
-            printf("%c", c);
-            col = 0;
-        } else if (c == EOF) {
-            break;
-        }
-    }
-
-    return 0;
-}
-*/
-
 void print_moyenne_client(int target_client_id) {
     float client_id = 0;
     float pu = 0;
@@ -143,7 +118,7 @@ void print_infos_caissiere(int target_caissiere_id) {
     while (1) {
         if (scanf("%127[^,\n]", buffer) != 1) buffer[0] = '\0';
 
-        switch(col){
+        switch (col) {
             case 0:
                 ft_strcpy(datetime, buffer);
                 break;
@@ -161,32 +136,36 @@ void print_infos_caissiere(int target_caissiere_id) {
         }
 
         int c = getchar();
+
         if (c == ',') {
             col++;
-        } else if (c == '\n') {
-            if (caissiere_id == target_caissiere_id){
-                somme += pu*qte;
+        } 
+        else if (c == '\n') {
+            if (caissiere_id == target_caissiere_id) {
+                somme += pu * qte;
                 nb_ticket++;
-            }
-            if (ft_strcmp(datetime, last_datetime) != 0){
-                if (last_datetime[0] == '\0') {
-                    ft_strcpy(last_datetime, datetime);
-                }
-                else{
-                    int diff = diff_seconds(last_datetime, datetime);
+
+                if (ft_strcmp(datetime, last_datetime) != 0) {
+                    int diff = 0;
+                    if (last_datetime[0] != '\0')
+                        diff = diff_seconds(last_datetime, datetime);
                     ft_strcpy(last_datetime, datetime);
                     time += diff;
                 }
             }
             col = 0;
-        } else if (c == EOF) {
+        } 
+        else if (c == EOF) {
             break;
         }
     }
+
     printf("Total CA : %.2lf €\n", somme);
     printf("Nombre total de tickets : %d\n", nb_ticket);
-    format_time(time/nb_ticket, formatted);
-    printf("Temps moyen : %s\n", formatted);
+    if (nb_ticket > 0) {
+        format_time(time / nb_ticket, formatted);
+        printf("Temps moyen : %s\n", formatted);
+    }
 }
 
 void print_ID_caissiere(char *target_nom, char *target_prenom){
@@ -327,10 +306,3 @@ int main(int argc, char *argv[]) {
   }
   return 0;
 }
-
-/*
-int main(){
-    print_csv();
-    return 0;
-}
-*/
