@@ -18,3 +18,24 @@ void afficheSep() {
   }
   printf("\n");
 }
+
+void print_csv() {
+    char buffer[128];
+    int col = 0;
+
+    while (1) {
+        if (scanf("%127[^,\n]", buffer) != 1) buffer[0] = '\0';
+
+        printf("%s |",buffer);
+
+        int c = getchar();
+        if (c == ',') {
+            col++;
+        } else if (c == '\n') {
+            printf("%c", c);
+            col = 0;
+        } else if (c == EOF) {
+            break;
+        }
+    }
+}
