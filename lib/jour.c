@@ -100,25 +100,18 @@ void print_CA_day()
 
 void print_day_csv()
 {
-    char date[19];
-    int caissiere_id;
-    int client_id;
-    char type[7];
-    int ean;
-    char nom[30];
-    float pu = 0;
-    float qte = 0;
-
     char buffer[128];
     int col = 0;
     char enTete[8][20];
+    int spaces = 157;
 
-    scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n]\n", enTete[0], enTete[1], enTete[2], enTete[3], enTete[4],
-          enTete[5], enTete[6], enTete[7]);
+    scanf("%19[^,],%19[^,],%19[^,],%19[^,],%19[^,],%19[^,],%19[^,],%19[^\n]\n",
+          enTete[0], enTete[1], enTete[2], enTete[3],
+          enTete[4], enTete[5], enTete[6], enTete[7]);
 
-    afficherLigneSeparation(134);
-    printf("| %-19s | %-12s | %-9s | %-7s | %-15s | %-30s | %-5s | %-5s |\n", enTete[0], enTete[1], enTete[2], enTete[3], enTete[4], enTete[5], enTete[6], enTete[7]);
-    afficherLigneSeparation(134);
+    afficherLigneSeparation(spaces);
+    printf("| %-19s | %-12s | %-9s | %-7s | %-15s | %-60s | %-5s | %-5s |\n", enTete[0], enTete[1], enTete[2], enTete[3], enTete[4], enTete[5], enTete[6], enTete[7]);
+    afficherLigneSeparation(spaces);
 
     int c;
     while ((c = getchar()) != '\n' && c != EOF)
@@ -133,28 +126,28 @@ void print_day_csv()
         switch (col)
         {
         case 0:
-            ft_strcpy(date, buffer);
+            printf("| %-19s |", buffer);
             break;
         case 1:
-            caissiere_id = atoi(buffer);
+            printf(" %-12s |", buffer);
             break;
         case 2:
-            client_id = atoi(buffer);
+            printf(" %-9s |", buffer);
             break;
         case 3:
-            ft_strcpy(type, buffer);
+            printf(" %-7s |", buffer);
             break;
         case 4:
-            ean = atoi(buffer);
+            printf(" %-15s |", buffer);
             break;
         case 5:
-            ft_strcpy(nom, buffer);
+            printf(" %-60s |", buffer);
             break;
         case 6:
-            pu = atof(buffer);
+            printf(" %-5s |", buffer);
             break;
         case 7:
-            qte = atof(buffer);
+            printf(" %-5s |\n", buffer);
             break;
         default:
             break;
@@ -165,11 +158,10 @@ void print_day_csv()
             col++;
         else if (c == '\n')
         {
-            // printf("| %-19s | %-12d | %-9d | %-7s | %-15d | %-83s | %-5.2f | %-5.2f |\n", date, caissiere_id, client_id, type, ean, nom, pu, qte);
             col = 0;
         }
         else if (c == EOF)
             break;
     }
-    afficherLigneSeparation(134);
+    afficherLigneSeparation(spaces);
 }
