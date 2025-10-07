@@ -1,5 +1,5 @@
 # ===============================
-# Projet : Log2Report
+# Projet : Log2Report (R101)
 # Auteur : Johan Polsinelli
 # ===============================
 
@@ -14,11 +14,9 @@ LIB_DIR := lib
 BIN_DIR := bin
 OBJ_DIR := obj
 
-# Fichiers sources
 SRC_MAIN := $(SRC_DIR)/main.c
 SRC_LIBS := $(wildcard $(LIB_DIR)/*.c)
 
-# Fichiers objets
 OBJ_MAIN := $(OBJ_DIR)/main.o
 OBJ_LIBS := $(patsubst $(LIB_DIR)/%.c,$(OBJ_DIR)/%.o,$(SRC_LIBS))
 OBJS     := $(OBJ_MAIN) $(OBJ_LIBS)
@@ -53,9 +51,4 @@ fclean: clean
 
 re: fclean all
 
-# Debug rapide
-run: $(TARGET)
-	@echo "=== Exécution ==="
-	@./$(TARGET)
-
-.PHONY: all clean fclean re run
+.PHONY: all clean fclean re
