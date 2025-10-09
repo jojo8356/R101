@@ -122,7 +122,6 @@ void print_day_csv()
 
     while (1)
     {
-
         if (scanf("%127[^,\n]", buffer) != 1)
             buffer[0] = '\0';
 
@@ -150,7 +149,7 @@ void print_day_csv()
             while (buffer[i])
             {
                 unsigned char c = buffer[i];
-
+                int len = len_utf8_chars(c);
                 for (int k = 0; k < len; k++)
                     printf("%c", buffer[i + k]);
                 i += len;

@@ -64,8 +64,8 @@ int len_utf8_chars(unsigned char c)
   if ((c & 0xE0) == 0xC0)
     return 2;
   else if ((c & 0xF0) == 0xE0)
-    len = 3;
+    return 3;
   else if ((c & 0xF8) == 0xF0)
-    len = 4;
+    return 4;
   return 1;
 }
