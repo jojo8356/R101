@@ -23,19 +23,23 @@ TARGET := $(BIN_DIR)/log2report
 all: $(TARGET)
 
 # Création de l'exécutable
-$(TARGET): $(OBJS) | $(BIN_DIR)
+$(TARGET): $(OBJS) | $(BIN_DIR) # Crée le répertoire bin si nécessaire
 	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)
+# Lie les fichiers objets pour créer l'exécutable
 
 # Compilation des .c en .o
-$(OBJ_DIR)/%.o: $(LIB_DIR)/%.c | $(OBJ_DIR)
+$(OBJ_DIR)/%.o: $(LIB_DIR)/%.c | $(OBJ_DIR) # Crée le répertoire obj si nécessaire
 	$(CC) $(CFLAGS) -c $< -o $@
+# Compile chaque fichier source en fichier objet
 
-$(OBJ_DIR)/main.o: $(SRC_MAIN) | $(OBJ_DIR)
-	$(CC) $(CFLAGS) -c $< -o $@
+$(OBJ_DIR)/main.o: $(SRC_MAIN) | $(OBJ_DIR) # Crée le répertoire obj si nécessaire
+	$(CC) $(CFLAGS) -c $< -o $@ 
+# Compile le fichier source principal en fichier objet
 
 # Répertoires nécessaires
 $(BIN_DIR) $(OBJ_DIR):
 	mkdir -p $@
+# Crée les répertoires bin et obj
 
 # Nettoyage
 clean:
