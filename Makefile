@@ -1,8 +1,3 @@
-# ===============================
-# Projet : Log2Report (R101)
-# Auteur : Johan Polsinelli
-# ===============================
-
 # Compilateur et options
 CC      := gcc
 CFLAGS  := -Wall -Wextra -pedantic -std=c11 -fno-common -fno-builtin -D_POSIX_C_SOURCE=200809L -Ilib -g
