@@ -4,12 +4,12 @@
 | 2025-09-22 09:00:27 | 3            | 366.0     | PRODUIT | 3360102260014   | Bonbons Citron Les anis de Flavigny Etui 40g                 | 2.2   | 2.0   |
 | 2025-09-22 09:00:27 | 3            | 366.0     | PRODUIT | 50300846        | NEW MAN S OWN CREAMY CEASAR DR ESSING 250ML X 6              | 5.24  | 4.0   |
 | 2025-09-22 09:00:27 | 3            | 366.0     | VRAC    |                 | PONELOS STAR RUBY                                            | 3.99  | 1.86  |
-| 2025-09-22 09:00:27 | 3            | 366.0     | PRODUIT | 3273220101988   | Fromage blanc à la vanille Bourbon 4x100g Tante Hélène Bio | 3.01  | 1.0   |
+| 2025-09-22 09:00:27 | 3            | 366.0     | PRODUIT | 3273220101988   | Fromage blanc à la vanille Bourbon 4x100g Tante Hélène Bio   | 3.01  | 1.0   |
 | 2025-09-22 09:00:27 | 3            | 366.0     | PRODUIT | 3359626205021   | ALGUE SEL HARICOTS MER                                       | 2.18  | 1.0   |
 | 2025-09-22 09:00:27 | 3            | 366.0     | VRAC    |                 | Mamen Cuit                                                   | 24.95 | 0.73  |
 | 2025-09-22 09:00:27 | 3            | 366.0     | PRODUIT | 8719200072480   | GRAIS. VEGETALE FRITURE 100%MG                               | 6.38  | 5.0   |
 | 2025-09-22 09:00:27 | 3            | 366.0     | PRODUIT | 3760126831397   | COCA COLA ZERO PET 1L75                                      | 2.56  | 2.0   |
-| 2025-09-22 09:00:27 | 3            | 366.0     | VRAC    |                 | Pêche Chair Blanche                                         | 4.99  | 2.47  |
+| 2025-09-22 09:00:27 | 3            | 366.0     | VRAC    |                 | Pêche Chair Blanche                                          | 4.99  | 2.47  |
 | 2025-09-22 09:00:27 | 3            | 366.0     | PRODUIT | 3029330801900   | JACQUET BURGER GEANT NATURE X4                               | 1.33  | 1.0   |
 | 2025-09-22 09:00:27 | 3            | 366.0     | VRAC    |                 | asperge blanche violette                                     | 21.0  | 0.38  |
 | 2025-09-22 09:00:27 | 3            | 366.0     | PRODUIT | 4023103072213   | SUPER MOCIO TRIPLE ACTION RECHARGE                           | 4.28  | 3.0   |
@@ -45,10 +45,10 @@
 | 2025-09-22 09:08:24 | 5            |           | PRODUIT | 3770008524170   | MINI CALISSON ASSORTIMENT                                    | 6.72  | 4.0   |
 | 2025-09-22 09:08:24 | 5            |           | VRAC    |                 | Pomme de terre Alosette                                      | 3.4   | 0.52  |
 | 2025-09-22 09:08:24 | 5            |           | VRAC    |                 | Chou Louge                                                   | 2.95  | 0.84  |
-| 2025-09-22 09:08:24 | 5            |           | PRODUIT | 26033143        | Café au lait à la chicorée                                | 3.59  | 1.0   |
+| 2025-09-22 09:08:24 | 5            |           | PRODUIT | 26033143        | Café au lait à la chicorée                                   | 3.59  | 1.0   |
 | 2025-09-22 09:08:24 | 5            |           | PRODUIT | 3600524135652   | 150ML DEMELANT GLYCOLIC ELSEVE                               | 6.99  | 4.0   |
 | 2025-09-22 09:08:24 | 5            |           | PRODUIT | 8718951645615   | AJAX NETT MEN COQUELIC 1.25L                                 | 2.29  | 3.0   |
-| 2025-09-22 09:08:24 | 5            |           | VRAC    |                 | MELON PASTÈQUE                                              | 3.69  | 1.09  |
+| 2025-09-22 09:08:24 | 5            |           | VRAC    |                 | MELON PASTÈQUE                                               | 3.69  | 1.09  |
 | 2025-09-22 09:08:24 | 5            |           | VRAC    |                 | TOMATE ALLONGEE                                              | 2.99  | 1.47  |
 | 2025-09-22 09:20:34 | 43           |           | PRODUIT | 3560070107049   | OIGNON VINAIGRE                                              | 1.13  | 3.0   |
 | 2025-09-22 09:20:34 | 43           |           | PRODUIT | 8423230000152   | H2 COEUR DE ROMAINE X2                                       | 1.79  | 3.0   |
@@ -58,7 +58,7 @@
 | 2025-09-22 09:20:34 | 43           |           | VRAC    |                 | Chou Chinois Piece                                           | 2.99  | 1.7   |
 | 2025-09-22 09:20:34 | 43           |           | VRAC    |                 | FOIE DE LAPIN BLEU BLANC COEUR                               | 8.44  | 2.44  |
 | 2025-09-22 09:20:34 | 43           |           | PRODUIT | 3179142754700   | VAHINE TICOCO 100G                                           | 2.1   | 3.0   |
-| 2025-09-22 09:20:34 | 43           |           | VRAC    |                 | Graines de sésame complet                                   | 13.9  | 1.7   |
+| 2025-09-22 09:20:34 | 43           |           | VRAC    |                 | Graines de sésame complet                                    | 13.9  | 1.7   |
 | 2025-09-22 09:26:16 | 8            |           | PRODUIT | 3450970024181   | ECO+ VELOUTE LEG BK1L SILL                                   | 0.91  | 4.0   |
 | 2025-09-22 09:26:16 | 8            |           | PRODUIT | 3162050040348   | POIVRE BLANC MOULU SAVEURS PR                                | 1.91  | 5.0   |
 | 2025-09-22 09:26:16 | 8            |           | VRAC    |                 | CITRONS FILET                                                | 3.98  | 0.46  |
@@ -76,7 +76,7 @@
 | 2025-09-22 09:26:16 | 8            |           | VRAC    |                 | POMELOS CHINOIS                                              | 3.99  | 0.68  |
 | 2025-09-22 09:26:16 | 8            |           | PRODUIT | 3256226760403   | DEO.HIBISCUS PROCT.U BIO 50ML                                | 1.68  | 5.0   |
 | 2025-09-22 09:26:16 | 8            |           | VRAC    |                 | Spirales blanches                                            | 2.79  | 1.18  |
-| 2025-09-22 09:33:04 | 12           | 320.0     | VRAC    |                 | POMME DE TERRE DE CONSOMMATION A CHAIR FERME Variété Acians | 2.99  | 0.6   |
+| 2025-09-22 09:33:04 | 12           | 320.0     | VRAC    |                 | POMME DE TERRE DE CONSOMMATION A CHAIR FERME Variété Acians  | 2.99  | 0.6   |
 | 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 4015290573567   | FEUILLES PERFOREES - OKOPAPLUS - CARREAU                     | 3.92  | 4.0   |
 | 2025-09-22 09:33:04 | 12           | 320.0     | VRAC    |                 | Radis Rouge                                                  | 5.88  | 1.55  |
 | 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 3760211481414   | SPRAY SOLAIRE SPF30 100ML                                    | 21.7  | 4.0   |
@@ -84,8 +84,8 @@
 | 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 3266191125725   | CURRY D'AUBERGINE                                            | 5.49  | 5.0   |
 | 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 3033491579769   | 125GX8 FRT ROUG DANONE VELOUTE                               | 3.39  | 3.0   |
 | 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 3601029899728   | BOMBE ANTI CREVAISON 1P                                      | 3.95  | 4.0   |
-| 2025-09-22 09:33:04 | 12           | 320.0     | VRAC    |                 | TOMATES ALLONGÉES LATINES                                   | 2.49  | 0.79  |
-| 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 20068059        | Pâte brisée                                                | 0.65  | 2.0   |
+| 2025-09-22 09:33:04 | 12           | 320.0     | VRAC    |                 | TOMATES ALLONGÉES LATINES                                    | 2.49  | 0.79  |
+| 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 20068059        | Pâte brisée                                                  | 0.65  | 2.0   |
 | 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 3700147257387   | ETIQUETTE VRAC PASTILLE LAVE VAISSELLE                       | 0.18  | 4.0   |
 | 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 0041500902449   | FRENCH'S MUSTARD NATURAL 226G                                | 3.28  | 2.0   |
 | 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 8714800014182   | B/AMB 8.6 AMBER                                              | 1.91  | 4.0   |
@@ -105,7 +105,7 @@
 | 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 3266191005461   | DESSERT DE RIZ VANILLE X2                                    | 2.49  | 1.0   |
 | 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 3292090000368   | ROYAL SODA KAMPANE 50CL                                      | 1.65  | 1.0   |
 | 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 3450970024440   | ECO+ PIST VITRES 1L                                          | 0.8   | 1.0   |
-| 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 0493110000006   | Biscuit sablé au Sarrasin Bio les P’tits Vénète vrac    | 18.68 | 1.0   |
+| 2025-09-22 09:33:04 | 12           | 320.0     | PRODUIT | 0493110000006   | Biscuit sablé au Sarrasin Bio les P’tits Vénète vrac         | 18.68 | 1.0   |
 | 2025-09-22 09:36:37 | 12           | 128.0     | PRODUIT | 5000159474399   | SNICKERS MINIS 333G                                          | 3.88  | 5.0   |
 | 2025-09-22 09:36:37 | 12           | 128.0     | PRODUIT | 3760122960770   | Yrt Boire Myrtil                                             | 3.4   | 3.0   |
 | 2025-09-22 09:36:37 | 12           | 128.0     | PRODUIT | 3252970009492   | 500G COQUILLETTES BIO ALP.SAV.                               | 2.15  | 3.0   |
@@ -141,25 +141,25 @@
 | 2025-09-22 09:37:18 | 19           | 42.0      | VRAC    |                 | Courge Potimaron                                             | 3.95  | 0.21  |
 | 2025-09-22 09:37:18 | 19           | 42.0      | PRODUIT | 4000007001440   | ORANGE 3KG                                                   | 1.95  | 1.0   |
 | 2025-09-22 09:37:18 | 19           | 42.0      | PRODUIT | 8437023359631   | BIO POIVRON BICO .PRD CEE                                    | 2.0   | 5.0   |
-| 2025-09-22 09:39:50 | 43           |           | PRODUIT | 3760193730937   | Vin pétillant Pet Nat Ricardelle 75cl                       | 9.74  | 5.0   |
+| 2025-09-22 09:39:50 | 43           |           | PRODUIT | 3760193730937   | Vin pétillant Pet Nat Ricardelle 75cl                        | 9.74  | 5.0   |
 | 2025-09-22 09:39:50 | 43           |           | PRODUIT | 3560071318574   | X6 FATS CHOCO                                                | 2.65  | 5.0   |
 | 2025-09-22 09:39:50 | 43           |           | PRODUIT | 5027324001808   | MOCHIS GLACES FRAISE A LA CREME L. MOONS 192G                | 5.95  | 2.0   |
 | 2025-09-22 09:39:50 | 43           |           | VRAC    |                 | AVOCAT COCKTAIL                                              | 13.99 | 2.16  |
 | 2025-09-22 09:39:50 | 43           |           | PRODUIT | 7613036724203   | HERTA KNACKI CSN 4P 140G                                     | 1.33  | 5.0   |
 | 2025-09-22 09:39:50 | 43           |           | PRODUIT | 8711000523001   | GD MERE 4X250G FAMIL                                         | 6.59  | 2.0   |
 | 2025-09-22 09:39:50 | 43           |           | PRODUIT | 3396411248771   | BISCUIT AVOINE CHOC                                          | 4.75  | 4.0   |
-| 2025-09-22 09:39:50 | 43           |           | PRODUIT | 3250392968472   | HAB GOÛT MOELL FOUR CHOC CHABRIOR                           | 5.76  | 5.0   |
+| 2025-09-22 09:39:50 | 43           |           | PRODUIT | 3250392968472   | HAB GOÛT MOELL FOUR CHOC CHABRIOR                            | 5.76  | 5.0   |
 | 2025-09-22 09:39:50 | 43           |           | PRODUIT | 8712100338724   | MAIZENA FLEUR DE MAIS 700G                                   | 2.52  | 5.0   |
 | 2025-09-22 09:41:13 | 6            |           | PRODUIT | 3480341003293   | ST MORET APERI BILLE FIGUE                                   | 2.25  | 5.0   |
-| 2025-09-22 09:41:13 | 6            |           | PRODUIT | 0490000000832   | Compotée 3 agrumes La fée dans les bois 225g               | 4.55  | 3.0   |
+| 2025-09-22 09:41:13 | 6            |           | PRODUIT | 0490000000832   | Compotée 3 agrumes La fée dans les bois 225g                 | 4.55  | 3.0   |
 | 2025-09-22 09:41:13 | 6            |           | VRAC    |                 | NECTARINE                                                    | 6.96  | 2.4   |
 | 2025-09-22 09:41:13 | 6            |           | PRODUIT | 3564706727656   | TABLET LU TTEN1.CITRON X45.1P                                | 5.57  | 4.0   |
 | 2025-09-22 09:41:13 | 6            |           | PRODUIT | 3700531201927   | TABLETTE NOIR 74% ECLATS D'AMA. BELLEDONNE                   | 4.55  | 5.0   |
 | 2025-09-22 09:41:13 | 6            |           | PRODUIT | 3083681085990   | HARICOT ROUGE PEU DE JUS                                     | 1.42  | 2.0   |
 | 2025-09-22 09:41:13 | 6            |           | PRODUIT | 8012666520589   | SALSA TARTUFATA TDI                                          | 4.99  | 1.0   |
-| 2025-09-22 09:41:13 | 6            |           | VRAC    |                 | Pêche Chair Blanche                                         | 4.99  | 0.86  |
+| 2025-09-22 09:41:13 | 6            |           | VRAC    |                 | Pêche Chair Blanche                                          | 4.99  | 0.86  |
 | 2025-09-22 09:41:13 | 6            |           | PRODUIT | 42449522        | LABELLO SOLAIRE STI..                                        | 3.34  | 2.0   |
-| 2025-09-22 09:41:13 | 6            |           | PRODUIT | 0490000000658   | Jus de raisin Tandem Le Pech d'André 1l RÉEMPLOI du VERRE  | 3.38  | 3.0   |
+| 2025-09-22 09:41:13 | 6            |           | PRODUIT | 0490000000658   | Jus de raisin Tandem Le Pech d'André 1l RÉEMPLOI du VERRE    | 3.38  | 3.0   |
 | 2025-09-22 09:41:13 | 6            |           | PRODUIT | 3250391170951   | bouton d'or capre                                            | 2.81  | 2.0   |
 | 2025-09-22 09:41:13 | 6            |           | PRODUIT | 8801005171410   | PATE PIM.ROUGE 500G KR                                       | 3.05  | 4.0   |
 | 2025-09-22 09:41:13 | 6            |           | PRODUIT | 5202136200018   | LESSIVE LIQUIDE 1L                                           | 2.53  | 4.0   |
@@ -218,7 +218,7 @@
 | 2025-09-22 09:59:34 | 45           |           | PRODUIT | 3601010106323   | LOT DE 20 CLIPS SACHETS                                      | 1.8   | 1.0   |
 | 2025-09-22 09:59:34 | 45           |           | PRODUIT | 3700311810332   | COOK.NOUG.PEPI.CHO.200G                                      | 1.35  | 3.0   |
 | 2025-09-22 09:59:34 | 45           |           | PRODUIT | 3038350013101   | PANZANI MACARONI                                             | 0.98  | 3.0   |
-| 2025-09-22 09:59:34 | 45           |           | PRODUIT | 3770013032035   | Kéfir de Fruit Boost KEF 33cl                               | 2.67  | 5.0   |
+| 2025-09-22 09:59:34 | 45           |           | PRODUIT | 3770013032035   | Kéfir de Fruit Boost KEF 33cl                                | 2.67  | 5.0   |
 | 2025-09-22 09:59:34 | 45           |           | PRODUIT | 3251320250621   | L Oeuf du Bocage                                             | 2.85  | 1.0   |
 | 2025-09-22 09:59:34 | 45           |           | PRODUIT | 3034450001123   | VIANDOX                                                      | 1.6   | 3.0   |
 | 2025-09-22 09:59:34 | 45           |           | VRAC    |                 | DATTE FRAICHE                                                | 15.9  | 2.28  |
@@ -229,7 +229,7 @@
 | 2025-09-22 09:59:34 | 45           |           | PRODUIT | 3700101740603   | CDM ARTICLE INSECTE A 6                                      | 6.0   | 1.0   |
 | 2025-09-22 09:59:34 | 45           |           | PRODUIT | 3350033200074   | PAIN D EPICES MPX                                            | 2.9   | 4.0   |
 | 2025-09-22 09:59:34 | 45           |           | VRAC    |                 | COURGE LONGUE DE NICE                                        | 2.99  | 1.7   |
-| 2025-09-22 09:59:34 | 45           |           | VRAC    |                 | orange à jus                                                | 2.7   | 1.42  |
+| 2025-09-22 09:59:34 | 45           |           | VRAC    |                 | orange à jus                                                 | 2.7   | 1.42  |
 | 2025-09-22 09:59:34 | 45           |           | PRODUIT | 3217661011741   | P/OC BL LA FIOLE 24 75CL                                     | 6.44  | 1.0   |
 | 2025-09-22 09:59:34 | 45           |           | VRAC    |                 | AIL BIO FILET 3 TETES                                        | 1.0   | 0.1   |
 | 2025-09-22 09:59:34 | 45           |           | PRODUIT | 4012200409213   | CORNICHON BURGER                                             | 1.93  | 4.0   |
@@ -270,7 +270,7 @@
 | 2025-09-22 09:59:45 | 27           | 161.0     | VRAC    |                 | FEUILLE DE CHENE R..                                         | 1.49  | 1.45  |
 | 2025-09-22 09:59:45 | 27           | 161.0     | VRAC    |                 | CHAMPIGNON BLANC EMINCE B                                    | 12.95 | 2.5   |
 | 2025-09-22 09:59:45 | 27           | 161.0     | PRODUIT | 4905524950311   | SO-MDRRF811RK-ARC-NOIR                                       | 43.5  | 5.0   |
-| 2025-09-22 10:00:02 | 13           | 51.0      | PRODUIT | 3760295171164   | Huile de sésame Bio Pour Tous 1L                            | 13.31 | 5.0   |
+| 2025-09-22 10:00:02 | 13           | 51.0      | PRODUIT | 3760295171164   | Huile de sésame Bio Pour Tous 1L                             | 13.31 | 5.0   |
 | 2025-09-22 10:00:02 | 13           | 51.0      | PRODUIT | 3017800132456   | DAUCY MERLU BEUR BLC BQ 300G                                 | 2.66  | 1.0   |
 | 2025-09-22 10:00:02 | 13           | 51.0      | PRODUIT | 3250393420573   | S/PAT BEURRE MOULE 1/2S 500G                                 | 4.8   | 5.0   |
 | 2025-09-22 10:00:02 | 13           | 51.0      | VRAC    |                 | CITRON VERT PIECE                                            | 0.59  | 1.39  |
@@ -300,12 +300,12 @@
 | 2025-09-22 10:00:02 | 13           | 51.0      | PRODUIT | 3017620420702   | Nutella                                                      | 5.49  | 2.0   |
 | 2025-09-22 10:00:02 | 13           | 51.0      | PRODUIT | 3700323801908   | BQ FRAISE RONDE P.RD 250G FR                                 | 2.0   | 3.0   |
 | 2025-09-22 10:02:00 | 11           |           | PRODUIT | 3229820789842   | Pain Complet Muesli                                          | 3.02  | 1.0   |
-| 2025-09-22 10:02:00 | 11           |           | PRODUIT | 3760197943579   | Fèves Cassées Import                                       | 3.96  | 1.0   |
+| 2025-09-22 10:02:00 | 11           |           | PRODUIT | 3760197943579   | Fèves Cassées Import                                         | 3.96  | 1.0   |
 | 2025-09-22 10:02:00 | 11           |           | PRODUIT | 4058075592711   | AMPOULE LED STANDARD CLAIR FILA                              | 9.37  | 1.0   |
 | 2025-09-22 10:02:00 | 11           |           | PRODUIT | 3520832130531   | Pesto rosso Philia 140g                                      | 2.33  | 3.0   |
 | 2025-09-22 10:02:00 | 11           |           | PRODUIT | 3162050041420   | thym feuilles aromatiques                                    | 4.69  | 4.0   |
 | 2025-09-22 10:07:07 | 10           | 199.0     | PRODUIT | 3560071245931   | PAST.LV VL CLASSIC                                           | 4.39  | 5.0   |
-| 2025-09-22 10:07:07 | 10           | 199.0     | VRAC    |                 | Olives noires entières                                      | 3.6   | 0.76  |
+| 2025-09-22 10:07:07 | 10           | 199.0     | VRAC    |                 | Olives noires entières                                       | 3.6   | 0.76  |
 | 2025-09-22 10:07:07 | 10           | 199.0     | PRODUIT | 3278584960066   | GELATINE FEUILLES                                            | 1.89  | 3.0   |
 | 2025-09-22 10:07:07 | 10           | 199.0     | PRODUIT | 3520832340572   | TORTILLA  WRAP PHILIA 240G                                   | 2.19  | 3.0   |
 | 2025-09-22 10:07:07 | 10           | 199.0     | PRODUIT | 3560070851416   | CASSOU.CASTELN AUD ARY RDF                                   | 3.75  | 1.0   |
@@ -320,7 +320,7 @@
 | 2025-09-22 10:07:07 | 10           | 199.0     | PRODUIT | 3322721209447   | H.EHRHART PINOT GRIS 2021.75CL                               | 6.5   | 5.0   |
 | 2025-09-22 10:07:07 | 10           | 199.0     | PRODUIT | 3760099603144   | SEVE DE BOULEAU                                              | 13.96 | 5.0   |
 | 2025-09-22 10:07:07 | 10           | 199.0     | PRODUIT | 3245677723686   | AUCH CAFE GRAINS ARABICA 100%                                | 14.69 | 1.0   |
-| 2025-09-22 10:07:07 | 10           | 199.0     | PRODUIT | 0490000000658   | Jus de raisin Tandem Le Pech d'André 1l RÉEMPLOI du VERRE  | 3.38  | 2.0   |
+| 2025-09-22 10:07:07 | 10           | 199.0     | PRODUIT | 0490000000658   | Jus de raisin Tandem Le Pech d'André 1l RÉEMPLOI du VERRE    | 3.38  | 2.0   |
 | 2025-09-22 10:07:07 | 10           | 199.0     | VRAC    |                 | POMMES Boskoop                                               | 3.0   | 0.28  |
 | 2025-09-22 10:07:07 | 10           | 199.0     | VRAC    |                 | courgette verte                                              | 3.2   | 2.13  |
 | 2025-09-22 10:07:07 | 10           | 199.0     | PRODUIT | 3350030139261   | MPX BEURRE PLAQ                                              | 2.45  | 3.0   |
@@ -358,7 +358,7 @@
 | 2025-09-22 10:11:07 | 26           |           | VRAC    |                 | Pomme de table Juliet                                        | 3.99  | 0.17  |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3346029988972   | CAROLIN TTES SURFACES HUILE LI                               | 2.52  | 3.0   |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3517360017274   | DENTIFRICE BLANCHEUR ET HALEINE FRAICHE                      | 3.35  | 1.0   |
-| 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3760278861655   | Infusion Menthe poivrée Massif Central Paysans d'Ici 30g    | 2.57  | 2.0   |
+| 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3760278861655   | Infusion Menthe poivrée Massif Central Paysans d'Ici 30g     | 2.57  | 2.0   |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3760010230244   | PREPARATION 3 FRUITS RGES 350G                               | 4.45  | 3.0   |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3410280010182   | TOP BUDGET EMMENTAL RAPE 200G                                | 1.58  | 3.0   |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3256223377420   | BOISSON RIZ U BIO 1L                                         | 2.08  | 5.0   |
@@ -366,7 +366,7 @@
 | 2025-09-22 10:11:07 | 26           |           | VRAC    |                 | Oignon Roux                                                  | 5.49  | 2.34  |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3086123593916   | BIC PAPETERIE 3 STYLOS 4 COULEURS CHAMPAGNE                  | 9.99  | 4.0   |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3242273204052   | PIZZA L OVALE JBN/FR                                         | 1.39  | 4.0   |
-| 2025-09-22 10:11:07 | 26           |           | VRAC    |                 | Purée de tomates                                            | 0.66  | 0.13  |
+| 2025-09-22 10:11:07 | 26           |           | VRAC    |                 | Purée de tomates                                             | 0.66  | 0.13  |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3083681148626   | 500G CAROTTES RAPEE CITRON DNP                               | 2.65  | 1.0   |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 8000428000899   | CREMA MANDORLA AMANDES                                       | 10.94 | 4.0   |
 | 2025-09-22 10:11:07 | 26           |           | VRAC    |                 | Raisin Rose Vrac                                             | 4.99  | 2.4   |
@@ -374,7 +374,7 @@
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3390390001518   | JEAN HERVE CRUNCHY                                           | 10.37 | 5.0   |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3083680682381   | CASSE GRAIN HARIKOTS VERTS ENF AGOTS LIEN DE POIREAU 220G    | 2.67  | 2.0   |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 0203182000000   | LAMELLES ENCORNETS                                           | 7.27  | 2.0   |
-| 2025-09-22 10:11:07 | 26           |           | PRODUIT | 7622202227578   | Bonbon de chocolat riz soufflé                              | 2.49  | 2.0   |
+| 2025-09-22 10:11:07 | 26           |           | PRODUIT | 7622202227578   | Bonbon de chocolat riz soufflé                               | 2.49  | 2.0   |
 | 2025-09-22 10:11:07 | 26           |           | VRAC    |                 | Cosommation Grenaille                                        | 2.99  | 1.65  |
 | 2025-09-22 10:11:07 | 26           |           | VRAC    |                 | Graine de courge                                             | 21.5  | 0.17  |
 | 2025-09-22 10:11:07 | 26           |           | PRODUIT | 3560070904181   | SEL FIN SALIERE RDF                                          | 2.16  | 4.0   |
@@ -395,7 +395,7 @@
 | 2025-09-22 10:20:56 | 11           | 218.0     | PRODUIT | 3560071172015   | 75ML DENTIFRICE CRF SOFT BIO                                 | 2.34  | 1.0   |
 | 2025-09-22 10:20:56 | 11           | 218.0     | PRODUIT | 3770011782796   | *LOT DE 100 PIQUES EN BAMBOU B                               | 0.99  | 4.0   |
 | 2025-09-22 10:20:56 | 11           | 218.0     | PRODUIT | 3266140062231   | RAVIOLES DAUPHINE LOT2X5PL STJ                               | 6.5   | 5.0   |
-| 2025-09-22 10:20:56 | 11           | 218.0     | PRODUIT | 3760191845077   | Farine de blé Bio T80 Gilles Matignon 1kg                   | 2.86  | 5.0   |
+| 2025-09-22 10:20:56 | 11           | 218.0     | PRODUIT | 3760191845077   | Farine de blé Bio T80 Gilles Matignon 1kg                    | 2.86  | 5.0   |
 | 2025-09-22 10:20:56 | 11           | 218.0     | PRODUIT | 3154230802167   | HERTA DES LARDONS NA                                         | 2.25  | 2.0   |
 | 2025-09-22 10:20:56 | 11           | 218.0     | PRODUIT | 3250392129156   | ECHALOTE TRADIFILET                                          | 2.49  | 4.0   |
 | 2025-09-22 10:20:56 | 11           | 218.0     | PRODUIT | 3288131510774   | POT POMME BANANE BABYBIO 2X130G                              | 2.45  | 1.0   |
@@ -415,7 +415,7 @@
 | 2025-09-22 10:24:20 | 45           | 424.0     | PRODUIT | 3760270910078   | FURIEUSE FURAX IPA                                           | 3.32  | 5.0   |
 | 2025-09-22 10:24:20 | 45           | 424.0     | PRODUIT | 3599741004660   | FINDUS COLIN D ALASKA FISH AND CHIPS SAVEUR SALT VINEGAR 240 | 4.85  | 3.0   |
 | 2025-09-22 10:24:20 | 45           | 424.0     | PRODUIT | 4005808816118   | 50ML DEO BIL.DRY COMFORT NIVEA                               | 2.56  | 5.0   |
-| 2025-09-22 10:24:20 | 45           | 424.0     | VRAC    |                 | Amande émondée                                             | 17.4  | 2.38  |
+| 2025-09-22 10:24:20 | 45           | 424.0     | VRAC    |                 | Amande émondée                                               | 17.4  | 2.38  |
 | 2025-09-22 10:24:20 | 45           | 424.0     | PRODUIT | 3270160140305   | HACHES 4X100G 5% MG                                          | 6.99  | 1.0   |
 | 2025-09-22 10:24:20 | 45           | 424.0     | VRAC    |                 | OIGNON JAUNE FILET                                           | 2.69  | 0.74  |
 | 2025-09-22 10:24:20 | 45           | 424.0     | PRODUIT | 3596710470891   | AUCHAN BIO COMTE RAPE                                        | 1.92  | 5.0   |
@@ -433,7 +433,7 @@
 | 2025-09-22 10:26:14 | 19           | 396.0     | PRODUIT | 3250391696949   | LABELL PH ECOLOGIQUE 4=12 RLX                                | 3.05  | 4.0   |
 | 2025-09-22 10:26:14 | 19           | 396.0     | PRODUIT | 3027030012541   | ALSA CREME PATISSIERE A FROID                                | 1.9   | 1.0   |
 | 2025-09-22 10:26:14 | 19           | 396.0     | VRAC    |                 | SHIITAKE                                                     | 17.89 | 1.52  |
-| 2025-09-22 10:26:14 | 19           | 396.0     | VRAC    |                 | FÈVE                                                        | 6.5   | 0.85  |
+| 2025-09-22 10:26:14 | 19           | 396.0     | VRAC    |                 | FÈVE                                                         | 6.5   | 0.85  |
 | 2025-09-22 10:26:14 | 19           | 396.0     | PRODUIT | 8006540882320   | ORAL B DENTIFRICE 3D WHITE ADVANCED LUXE CHARBON 75ML        | 4.7   | 5.0   |
 | 2025-09-22 10:26:14 | 19           | 396.0     | PRODUIT | 3760226462026   | SCE BECHAMEL MORILLE                                         | 3.99  | 3.0   |
 | 2025-09-22 10:26:14 | 19           | 396.0     | VRAC    |                 | OIGNON CEBETTE                                               | 2.59  | 1.52  |
@@ -488,13 +488,13 @@
 | 2025-09-22 10:28:09 | 48           |           | PRODUIT | 3760278861723   | Chocolat noir 78% cacao Guatemala Bio Ethiquable 100g        | 2.76  | 3.0   |
 | 2025-09-22 10:28:09 | 48           |           | PRODUIT | 3036811366988   | BIOL LIEBIG MOULINE DE LEGUMES                               | 2.52  | 5.0   |
 | 2025-09-22 10:31:10 | 37           |           | PRODUIT | 3363790808018   | TDLP THE VERT SVELTE                                         | 14.95 | 3.0   |
-| 2025-09-22 10:31:10 | 37           |           | PRODUIT | 3760294961261   | Purée de pomme en coupelle Elibio 4x95g                     | 1.36  | 1.0   |
+| 2025-09-22 10:31:10 | 37           |           | PRODUIT | 3760294961261   | Purée de pomme en coupelle Elibio 4x95g                      | 1.36  | 1.0   |
 | 2025-09-22 10:31:10 | 37           |           | PRODUIT | 3700640411590   | Cancoillotte Rbio 200g                                       | 3.83  | 5.0   |
 | 2025-09-22 10:31:10 | 37           |           | PRODUIT | 8076809525435   | BARILLA CAPELLINI                                            | 1.94  | 2.0   |
 | 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3497917002451   | 120G BRETS CHIPS S                                           | 4.66  | 3.0   |
 | 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3423182102015   | PUR JUS DE POMME BIO 1L                                      | 3.27  | 5.0   |
 | 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3560070178131   | 18G THYM CRF CLASSIC                                         | 0.65  | 2.0   |
-| 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3770013858086   | Bière Ambrée 50cl Les travailleurs de l'amer               | 3.77  | 3.0   |
+| 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3770013858086   | Bière Ambrée 50cl Les travailleurs de l'amer                 | 3.77  | 3.0   |
 | 2025-09-22 10:32:45 | 6            |           | PRODUIT | 8712857981037   | Noodlicious Korean ramen hot                                 | 0.49  | 1.0   |
 | 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3123349014129   | JOKER PJ ORANGE S/PULPE                                      | 3.34  | 5.0   |
 | 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3456776728100   | 2X150G CR. GDE CHOCO                                         | 2.0   | 3.0   |
@@ -502,7 +502,7 @@
 | 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3250392409524   | REGAIN BIO BOISS.RIZ AMANDE 1L                               | 1.88  | 3.0   |
 | 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3390390000122   | PUREE AMANDE COMPLETE 700GR BIO                              | 22.32 | 4.0   |
 | 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3256220311052   | CAFE MOULU ARABICA                                           | 4.92  | 4.0   |
-| 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3278122054288   | VINAIGRE DE VIN ROUGE 6�                                   | 3.1   | 2.0   |
+| 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3278122054288   | VINAIGRE DE VIN ROUGE 6�                                     | 3.1   | 2.0   |
 | 2025-09-22 10:32:45 | 6            |           | VRAC    |                 | Radis Daikon (famille)                                       | 3.4   | 0.31  |
 | 2025-09-22 10:32:45 | 6            |           | PRODUIT | 3596710379477   | AUCHAN CRACKERS APER                                         | 3.23  | 5.0   |
 | 2025-09-22 10:32:45 | 6            |           | VRAC    |                 | Echalote Traditionnelle Violette Longue                      | 9.99  | 0.33  |
@@ -529,7 +529,7 @@
 | 2025-09-22 10:36:19 | 9            | 141.0     | PRODUIT | 3250392426101   | PAT EDAM TRANCHES 200G                                       | 1.64  | 3.0   |
 | 2025-09-22 10:36:19 | 9            | 141.0     | VRAC    |                 | CHAMP PLEUROTE                                               | 11.99 | 1.43  |
 | 2025-09-22 10:36:19 | 9            | 141.0     | PRODUIT | 3176582005065   | RICHESMONTS FRO TARTIFLET 450G                               | 6.89  | 4.0   |
-| 2025-09-22 10:36:19 | 9            | 141.0     | PRODUIT | 5000281055909   | CAPT.MORGAN SPICED GOLD 35°1L                               | 22.07 | 5.0   |
+| 2025-09-22 10:36:19 | 9            | 141.0     | PRODUIT | 5000281055909   | CAPT.MORGAN SPICED GOLD 35°1L                                | 22.07 | 5.0   |
 | 2025-09-22 10:36:19 | 9            | 141.0     | PRODUIT | 3760156640051   | SOUPE A L ORTIE - 1 LITRE                                    | 4.59  | 4.0   |
 | 2025-09-22 10:36:19 | 9            | 141.0     | PRODUIT | 3999010000032   | CREVETTES CURRY JAUNE                                        | 8.9   | 1.0   |
 | 2025-09-22 10:36:19 | 9            | 141.0     | PRODUIT | 3512690002068   | ISLA DELICE DE POULET 8TR 240G                               | 4.52  | 3.0   |
@@ -537,7 +537,7 @@
 | 2025-09-22 10:36:19 | 9            | 141.0     | VRAC    |                 | CHAMPIGNON PLEUROTE VRAC                                     | 8.99  | 1.92  |
 | 2025-09-22 10:36:19 | 9            | 141.0     | VRAC    |                 | COURGE POTIMARRON VERT                                       | 4.5   | 2.37  |
 | 2025-09-22 10:36:19 | 9            | 141.0     | PRODUIT | 3302740046667   | FM SURIMI COEUR MAYOX14 224G                                 | 3.32  | 5.0   |
-| 2025-09-22 10:36:19 | 9            | 141.0     | VRAC    |                 | Amande émondée                                             | 17.4  | 0.44  |
+| 2025-09-22 10:36:19 | 9            | 141.0     | VRAC    |                 | Amande émondée                                               | 17.4  | 0.44  |
 | 2025-09-22 10:36:19 | 9            | 141.0     | PRODUIT | 3250392384111   | MINI COOKIES NOUGATINE                                       | 1.91  | 2.0   |
 | 2025-09-22 10:36:19 | 9            | 141.0     | VRAC    |                 | Poireaux                                                     | 5.24  | 0.21  |
 | 2025-09-22 10:37:53 | 47           | 217.0     | PRODUIT | 3760009538542   | BRASSEURS SAVOYARDS BRUNE                                    | 2.7   | 2.0   |
@@ -554,7 +554,7 @@
 | 2025-09-22 10:37:53 | 47           | 217.0     | PRODUIT | 0493149000008   | Oranges et oranges sanguines                                 | 1.81  | 5.0   |
 | 2025-09-22 10:37:53 | 47           | 217.0     | PRODUIT | 3267371042733   | Vals Gazeuse                                                 | 2.09  | 4.0   |
 | 2025-09-22 10:37:53 | 47           | 217.0     | VRAC    |                 | COURGETTE RONDE                                              | 2.99  | 0.67  |
-| 2025-09-22 10:37:53 | 47           | 217.0     | PRODUIT | 3380380077760   | Velouté de légumes verts                                   | 1.55  | 3.0   |
+| 2025-09-22 10:37:53 | 47           | 217.0     | PRODUIT | 3380380077760   | Velouté de légumes verts                                     | 1.55  | 3.0   |
 | 2025-09-22 10:37:53 | 47           | 217.0     | PRODUIT | 5201004022356   | CAPRICE GAUFRETT CAPPUCCI                                    | 5.31  | 3.0   |
 | 2025-09-22 10:37:53 | 47           | 217.0     | PRODUIT | 3564700028056   | PULPE DE TOMATES 3X400G MR                                   | 1.91  | 2.0   |
 | 2025-09-22 10:41:25 | 38           | 164.0     | PRODUIT | 3229820803395   | TANOSHI NOUILLES RIZ SECHES                                  | 2.59  | 4.0   |
@@ -577,7 +577,7 @@
 | 2025-09-22 10:46:52 | 13           |           | PRODUIT | 250504          | MACARONI VRAC                                                | 3.01  | 2.0   |
 | 2025-09-22 10:46:52 | 13           |           | PRODUIT | 3222471448298   | LENTILLE LARDON                                              | 3.25  | 3.0   |
 | 2025-09-22 10:46:52 | 13           |           | VRAC    |                 | FRAISE GARIGUETTE                                            | 19.98 | 1.4   |
-| 2025-09-22 10:46:52 | 13           |           | PRODUIT | 3477730001503   | Chocolat noir éclats noisette                               | 3.74  | 2.0   |
+| 2025-09-22 10:46:52 | 13           |           | PRODUIT | 3477730001503   | Chocolat noir éclats noisette                                | 3.74  | 2.0   |
 | 2025-09-22 10:46:52 | 13           |           | PRODUIT | 3760122965546   | M&A SABLES BREBIS PIMENT                                     | 3.09  | 3.0   |
 | 2025-09-22 10:46:52 | 13           |           | PRODUIT | 2000000083865   | #DC BACON VEGETAL FUMES 120GR                                | 2.16  | 2.0   |
 | 2025-09-22 10:46:52 | 13           |           | PRODUIT | 3347430012454   | GAUFRETTES POIS CHICHES TOMATE 64G BIO                       | 2.79  | 5.0   |
@@ -594,7 +594,7 @@
 | 2025-09-22 10:47:28 | 46           | 85.0      | PRODUIT | 7614800136024   | ECLATS DE PISTACHES.KAMBLY 80G                               | 2.89  | 4.0   |
 | 2025-09-22 10:47:28 | 46           | 85.0      | VRAC    |                 | Chou vert lisse                                              | 2.99  | 2.42  |
 | 2025-09-22 10:47:28 | 46           | 85.0      | PRODUIT | 3760278867817   | PUR JUS D ANANAS GIGEMBRE                                    | 5.11  | 3.0   |
-| 2025-09-22 10:47:28 | 46           | 85.0      | PRODUIT | 3770015013063   | Café 100% Arabica Moulu Corsé Biodyssée 250g              | 3.41  | 5.0   |
+| 2025-09-22 10:47:28 | 46           | 85.0      | PRODUIT | 3770015013063   | Café 100% Arabica Moulu Corsé Biodyssée 250g                 | 3.41  | 5.0   |
 | 2025-09-22 10:47:28 | 46           | 85.0      | PRODUIT | 3560071456160   | CONFIT ALLE MYRT                                             | 4.14  | 3.0   |
 | 2025-09-22 10:47:28 | 46           | 85.0      | PRODUIT | 8015197010024   | Penne blanches Iris 500g                                     | 1.52  | 5.0   |
 | 2025-09-22 10:47:28 | 46           | 85.0      | VRAC    |                 | POTIMARRON VERT                                              | 3.25  | 2.42  |
@@ -610,7 +610,7 @@
 | 2025-09-22 10:48:26 | 28           | 172.0     | PRODUIT | 3245415031004   | 3L BIB MEDOC RG MDD CAF NM                                   | 20.33 | 4.0   |
 | 2025-09-22 10:48:26 | 28           | 172.0     | VRAC    |                 | CHAMPIGNON BRUN                                              | 11.99 | 0.23  |
 | 2025-09-22 10:48:26 | 28           | 172.0     | PRODUIT | 3165430522007   | DADDY POUDRE SACHET                                          | 1.28  | 5.0   |
-| 2025-09-22 10:48:26 | 28           | 172.0     | VRAC    |                 | Carotte lavée                                               | 2.4   | 2.27  |
+| 2025-09-22 10:48:26 | 28           | 172.0     | VRAC    |                 | Carotte lavée                                                | 2.4   | 2.27  |
 | 2025-09-22 10:48:26 | 28           | 172.0     | VRAC    |                 | Courgette Ronde Tricolore                                    | 5.49  | 2.32  |
 | 2025-09-22 10:48:26 | 28           | 172.0     | VRAC    |                 | POMME DU LIMOUSIN AOP BARQUETTE                              | 0.49  | 0.98  |
 | 2025-09-22 10:48:26 | 28           | 172.0     | PRODUIT | 3267460020833   | FUSILLI RIZ COMPLET TROIS COULEURS                           | 2.95  | 5.0   |
@@ -663,7 +663,7 @@
 | 2025-09-22 11:04:13 | 33           | 206.0     | PRODUIT | 3245412654305   | NOUILLE CHINOISE                                             | 1.27  | 5.0   |
 | 2025-09-22 11:04:13 | 33           | 206.0     | PRODUIT | 3021762401734   | BIO POM PECHE BRUGNON                                        | 3.89  | 2.0   |
 | 2025-09-22 11:04:13 | 33           | 206.0     | VRAC    |                 | BUTTERNUT TRANCHE                                            | 2.69  | 0.26  |
-| 2025-09-22 11:04:13 | 33           | 206.0     | PRODUIT | 3425472103030   | Terrine de porc à la chataigne Minna 140gr                  | 5.02  | 2.0   |
+| 2025-09-22 11:04:13 | 33           | 206.0     | PRODUIT | 3425472103030   | Terrine de porc à la chataigne Minna 140gr                   | 5.02  | 2.0   |
 | 2025-09-22 11:04:13 | 33           | 206.0     | PRODUIT | 3263820001504   | LE BON SEMEUR LENTIL                                         | 2.12  | 4.0   |
 | 2025-09-22 11:04:13 | 33           | 206.0     | VRAC    |                 | topinambour                                                  | 3.79  | 1.23  |
 | 2025-09-22 11:04:13 | 33           | 206.0     | VRAC    |                 | GAL.SOJA TOMAT.CRF SEN                                       | 3.13  | 0.7   |
@@ -728,7 +728,7 @@
 | 2025-09-22 11:23:45 | 40           | 476.0     | PRODUIT | 3760071500355   | Couscous blanc Carret Munos 500g                             | 1.91  | 1.0   |
 | 2025-09-22 11:23:45 | 40           | 476.0     | PRODUIT | 3250393213205   | ST ELOI. VEL. LEGUM&FROM                                     | 2.08  | 4.0   |
 | 2025-09-22 11:23:45 | 40           | 476.0     | VRAC    |                 | PAPAYE                                                       | 2.99  | 1.21  |
-| 2025-09-22 11:23:45 | 40           | 476.0     | PRODUIT | 8015197030039   | Pulpe de tomate épicée Iris 340g                           | 1.83  | 1.0   |
+| 2025-09-22 11:23:45 | 40           | 476.0     | PRODUIT | 8015197030039   | Pulpe de tomate épicée Iris 340g                             | 1.83  | 1.0   |
 | 2025-09-22 11:23:45 | 40           | 476.0     | PRODUIT | 3760077181763   | CHOCOLAT NOIR 70% PEROU                                      | 3.75  | 2.0   |
 | 2025-09-22 11:24:26 | 4            | 156.0     | PRODUIT | 3263827001026   | P.CASSE.VRT PRECUI.10' BS 300G                               | 2.59  | 1.0   |
 | 2025-09-22 11:24:26 | 4            | 156.0     | PRODUIT | 3256225051793   | SCE CURRY FLACON SOUPLE U 245G                               | 1.82  | 5.0   |
@@ -737,7 +737,7 @@
 | 2025-09-22 11:24:26 | 4            | 156.0     | PRODUIT | 3038359003288   | FARFALLE PATE FRAICH                                         | 1.35  | 1.0   |
 | 2025-09-22 11:24:26 | 4            | 156.0     | PRODUIT | 6925281927645   | JBL T160 BLK                                                 | 16.95 | 1.0   |
 | 2025-09-22 11:24:26 | 4            | 156.0     | PRODUIT | 3162050010433   | PIMENT CHIPOTLE FUME                                         | 2.73  | 3.0   |
-| 2025-09-22 11:24:26 | 4            | 156.0     | VRAC    |                 | Sésame complet                                              | 7.29  | 1.35  |
+| 2025-09-22 11:24:26 | 4            | 156.0     | VRAC    |                 | Sésame complet                                               | 7.29  | 1.35  |
 | 2025-09-22 11:24:26 | 4            | 156.0     | PRODUIT | 3517360014105   | SHAMPOING CHEVEUX SOUPLES VERVEINE CITRO                     | 5.34  | 1.0   |
 | 2025-09-22 11:24:26 | 4            | 156.0     | PRODUIT | 8712100325953   | MOUTARDE FORT AMORA                                          | 0.65  | 5.0   |
 | 2025-09-22 11:24:26 | 4            | 156.0     | VRAC    |                 | RUTABAGA VRAC                                                | 1.99  | 2.35  |
@@ -763,9 +763,9 @@
 | 2025-09-22 11:24:48 | 41           |           | PRODUIT | 3661945240028   | JRRY VERT                                                    | 2.3   | 3.0   |
 | 2025-09-22 11:24:48 | 41           |           | PRODUIT | 3396411248535   | CHOC NOIR CARAMEL BR SALE 85G                                | 5.15  | 5.0   |
 | 2025-09-22 11:24:48 | 41           |           | PRODUIT | 3256224310303   | EDAN PAST.TRANCH.U 24%NG 200G                                | 2.09  | 5.0   |
-| 2025-09-22 11:24:48 | 41           |           | PRODUIT | 3029330011040   | JACQUET Pain Canapés ronds nature 250g                      | 1.45  | 2.0   |
+| 2025-09-22 11:24:48 | 41           |           | PRODUIT | 3029330011040   | JACQUET Pain Canapés ronds nature 250g                       | 1.45  | 2.0   |
 | 2025-09-22 11:24:48 | 41           |           | VRAC    |                 | MELANGE DE FRUITS                                            | 3.59  | 0.96  |
-| 2025-09-22 11:24:48 | 41           |           | PRODUIT | 3329486241125   | Farine de blé bise T80 bio                                  | 2.35  | 5.0   |
+| 2025-09-22 11:24:48 | 41           |           | PRODUIT | 3329486241125   | Farine de blé bise T80 bio                                   | 2.35  | 5.0   |
 | 2025-09-22 11:24:48 | 41           |           | PRODUIT | 2847638000006   | ANTIGASPI-MADELEINE                                          | 3.34  | 2.0   |
 | 2025-09-22 11:24:48 | 41           |           | PRODUIT | 3248650014047   | 220G HAR.VERT XF                                             | 0.95  | 2.0   |
 | 2025-09-22 11:24:48 | 41           |           | PRODUIT | 3117751055887   | ALBACOR PPR THON NATUREL 1/4 CONS                            | 2.08  | 2.0   |
@@ -783,12 +783,12 @@
 | 2025-09-22 11:25:17 | 24           |           | PRODUIT | 3059945007527   | LESSIVE LAINE                                                | 5.85  | 4.0   |
 | 2025-09-22 11:32:58 | 25           |           | PRODUIT | 2022000017534   | Biere English IPA                                            | 3.39  | 5.0   |
 | 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3760109053730   | RADIS NOIR BIO                                               | 3.38  | 1.0   |
-| 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3029330011040   | JACQUET Pain Canapés ronds nature 250g                      | 1.45  | 3.0   |
+| 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3029330011040   | JACQUET Pain Canapés ronds nature 250g                       | 1.45  | 3.0   |
 | 2025-09-22 11:32:58 | 25           |           | VRAC    |                 | Concombre                                                    | 2.26  | 1.22  |
 | 2025-09-22 11:32:58 | 25           |           | PRODUIT | 4027900566937   | TUBO POIVRE GRIS MOULU                                       | 3.55  | 5.0   |
 | 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3302740067785   | 250g Kg                                                      | 3.79  | 4.0   |
 | 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3760077537324   | Florelli Grissini Torinesi                                   | 2.09  | 2.0   |
-| 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3760238010024   | Bière La Baleine - l'Orée dorée 33cl                      | 2.65  | 1.0   |
+| 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3760238010024   | Bière La Baleine - l'Orée dorée 33cl                         | 2.65  | 1.0   |
 | 2025-09-22 11:32:58 | 25           |           | PRODUIT | 8000063168930   | TROP.PET                                                     | 3.61  | 5.0   |
 | 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3017760000406   | LU BEURRE NANTAIS 130G                                       | 0.97  | 2.0   |
 | 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3660992023134   | AILETT.X10 PXM                                               | 0.69  | 4.0   |
@@ -801,7 +801,7 @@
 | 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3660099201152   | CHOCO. MENAGE LT RIZ PX                                      | 2.84  | 3.0   |
 | 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3240931546223   | LT2 GNOCCHI 650G 1A2E68 L                                    | 2.84  | 2.0   |
 | 2025-09-22 11:32:58 | 25           |           | VRAC    |                 | BLETTE PIED                                                  | 4.29  | 1.95  |
-| 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3273221114260   | Skyr Myrtille Tante Hélène 4x100g                          | 3.44  | 2.0   |
+| 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3273221114260   | Skyr Myrtille Tante Hélène 4x100g                            | 3.44  | 2.0   |
 | 2025-09-22 11:32:58 | 25           |           | VRAC    |                 | Riz Thai blanc                                               | 6.55  | 2.21  |
 | 2025-09-22 11:32:58 | 25           |           | PRODUIT | 3336971110170   | B-CHIPS EXTRA MAXI FORMAT 400G                               | 2.95  | 5.0   |
 | 2025-09-22 11:32:58 | 25           |           | VRAC    |                 | OIGNON ROUGE VRAC                                            | 4.99  | 2.02  |
@@ -899,12 +899,12 @@
 | 2025-09-22 11:40:45 | 37           | 36.0      | VRAC    |                 | TOMATE RONDE                                                 | 4.22  | 0.65  |
 | 2025-09-22 11:40:45 | 37           | 36.0      | PRODUIT | 3046920014335   | LINDT LUC. MONK. LT NOISET                                   | 3.14  | 3.0   |
 | 2025-09-22 11:40:45 | 37           | 36.0      | VRAC    |                 | riz thai 1/2 complet                                         | 3.6   | 2.34  |
-| 2025-09-22 11:40:45 | 37           | 36.0      | PRODUIT | 3660992011544   | CHOC.NOIR À PATISSER PXM 200G                               | 1.58  | 1.0   |
+| 2025-09-22 11:40:45 | 37           | 36.0      | PRODUIT | 3660992011544   | CHOC.NOIR À PATISSER PXM 200G                                | 1.58  | 1.0   |
 | 2025-09-22 11:40:45 | 37           | 36.0      | VRAC    |                 | POMME BICOLORe BIO                                           | 1.99  | 1.03  |
 | 2025-09-22 11:40:45 | 37           | 36.0      | PRODUIT | 0490000001402   | Vin rouge moelleux bio de Grenache Graciès Pech d'André 50 cl | 13.28 | 4.0   |
 | 2025-09-22 11:40:45 | 37           | 36.0      | VRAC    |                 | COURGETTE FILET 1KG                                          | 1.79  | 1.38  |
 | 2025-09-22 11:40:45 | 37           | 36.0      | PRODUIT | 5425031094630   | CONFIT OIGNONS NATURE 90G                                    | 0.99  | 2.0   |
-| 2025-09-22 11:40:45 | 37           | 36.0      | VRAC    |                 | céleri branche                                              | 2.99  | 1.31  |
+| 2025-09-22 11:40:45 | 37           | 36.0      | VRAC    |                 | céleri branche                                               | 2.99  | 1.31  |
 | 2025-09-22 11:40:45 | 37           | 36.0      | VRAC    |                 | CELERI BRANCHE VRAC                                          | 2.99  | 1.84  |
 | 2025-09-22 11:40:45 | 37           | 36.0      | VRAC    |                 | NOIX DU PERIGORD FRANQUETTE                                  | 10.95 | 0.73  |
 | 2025-09-22 11:41:27 | 34           |           | VRAC    |                 | framboise barquette 125g                                     | 22.32 | 0.48  |
@@ -955,7 +955,7 @@
 | 2025-09-22 11:53:09 | 46           | 320.0     | PRODUIT | 3700605931002   | GANT  DE TRAVAIL T11                                         | 1.47  | 1.0   |
 | 2025-09-22 11:53:09 | 46           | 320.0     | PRODUIT | 4260744956254   | "FIT PROTEIN CREME                                           |  CACAO NOISE" | 6.49  |
 | 2025-09-22 11:53:09 | 46           | 320.0     | VRAC    |                 | cerneaux de noix                                             | 27.99 | 1.84  |
-| 2025-09-22 11:53:09 | 46           | 320.0     | VRAC    |                 | Noix de pécan                                               | 36.99 | 2.38  |
+| 2025-09-22 11:53:09 | 46           | 320.0     | VRAC    |                 | Noix de pécan                                                | 36.99 | 2.38  |
 | 2025-09-22 11:53:09 | 46           | 320.0     | VRAC    |                 | "RADIS NOIR                                                  |  BLEU" | 3.3   |
 | 2025-09-22 11:55:29 | 29           | 82.0      | PRODUIT | 8886350068219   | PRIMATASTE NOUILLES INSTANTANEES 178                         | 3.2   | 2.0   |
 | 2025-09-22 11:55:29 | 29           | 82.0      | VRAC    |                 | Batavia                                                      | 1.99  | 0.21  |
@@ -998,7 +998,7 @@
 | 2025-09-22 12:01:10 | 29           |           | PRODUIT | 3232763050504   | FILM ETIRABLE 50X0.30M                                       | 2.02  | 5.0   |
 | 2025-09-22 12:01:10 | 29           |           | PRODUIT | 7300400481595   | WASA AUTHENTIQUE                                             | 1.68  | 1.0   |
 | 2025-09-22 12:01:10 | 29           |           | PRODUIT | 7622210600233   | CHEWINGUM 2FRESH C HOLLYWOOD                                 | 2.07  | 2.0   |
-| 2025-09-22 12:01:10 | 29           |           | PRODUIT | 3259010005018   | Tofou fumé au bois de hêtre                                | 3.4   | 1.0   |
+| 2025-09-22 12:01:10 | 29           |           | PRODUIT | 3259010005018   | Tofou fumé au bois de hêtre                                  | 3.4   | 1.0   |
 | 2025-09-22 12:03:14 | 13           |           | PRODUIT | 4008429694608   | 10L HYGIENE PLUS CATSAN                                      | 4.99  | 3.0   |
 | 2025-09-22 12:03:14 | 13           |           | PRODUIT | 3564700590850   | FRGE FRAIS 0% VANIL.X8 DELILIG                               | 2.41  | 1.0   |
 | 2025-09-22 12:03:14 | 13           |           | PRODUIT | 3182280108557   | FRUITE2.5D3                                                  | 1.69  | 3.0   |
@@ -1010,7 +1010,7 @@
 | 2025-09-22 12:03:14 | 13           |           | PRODUIT | 8429874230214   | Olives Farcies ail                                           | 2.19  | 3.0   |
 | 2025-09-22 12:08:47 | 25           |           | PRODUIT | 3250391334667   | RICOTTA 11%MG                                                | 1.31  | 1.0   |
 | 2025-09-22 12:08:47 | 25           |           | PRODUIT | 3222475242434   | PATE TART                                                    | 2.34  | 5.0   |
-| 2025-09-22 12:08:47 | 25           |           | PRODUIT | 4006259012296   | BLANC DINDE DORE FOUR 4T 180Gqualité supérieure            | 1.35  | 1.0   |
+| 2025-09-22 12:08:47 | 25           |           | PRODUIT | 4006259012296   | BLANC DINDE DORE FOUR 4T 180Gqualité supérieure              | 1.35  | 1.0   |
 | 2025-09-22 12:08:47 | 25           |           | PRODUIT | 3284230006408   | BIO LA BOULANGERE                                            | 2.6   | 5.0   |
 | 2025-09-22 12:08:47 | 25           |           | VRAC    |                 | CONCOMBRE BIO                                                | 2.29  | 2.5   |
 | 2025-09-22 12:08:47 | 25           |           | PRODUIT | 3451790601842   | 3X20CL UHT FL LEG 4% E&V                                     | 2.19  | 3.0   |
@@ -1028,10 +1028,10 @@
 | 2025-09-22 12:08:47 | 25           |           | PRODUIT | 8076809525435   | BARILLA CAPELLINI                                            | 1.94  | 1.0   |
 | 2025-09-22 12:09:30 | 1            | 109.0     | VRAC    |                 | RADIS GREEN MEAT                                             | 3.2   | 0.83  |
 | 2025-09-22 12:09:30 | 1            | 109.0     | PRODUIT | 3292070010936   | BLINI FROMAGE OIGNON CARA                                    | 2.49  | 5.0   |
-| 2025-09-22 12:09:30 | 1            | 109.0     | PRODUIT | 3428460077795   | Emincés en sauce au saumon pour chat Felichef 85g           | 1.1   | 3.0   |
+| 2025-09-22 12:09:30 | 1            | 109.0     | PRODUIT | 3428460077795   | Emincés en sauce au saumon pour chat Felichef 85g            | 1.1   | 3.0   |
 | 2025-09-22 12:09:30 | 1            | 109.0     | PRODUIT | 3168930009238   | DORITOS PAPRIKA 170G                                         | 1.75  | 3.0   |
-| 2025-09-22 12:09:30 | 1            | 109.0     | PRODUIT | 3760121218643   | Velouté légumes variés du potager                         | 1.7   | 2.0   |
-| 2025-09-22 12:09:30 | 1            | 109.0     | PRODUIT | 5000267125503   | SM. S.WH.CARDHU GOLD40°70CL/ET                              | 43.41 | 3.0   |
+| 2025-09-22 12:09:30 | 1            | 109.0     | PRODUIT | 3760121218643   | Velouté légumes variés du potager                            | 1.7   | 2.0   |
+| 2025-09-22 12:09:30 | 1            | 109.0     | PRODUIT | 5000267125503   | SM. S.WH.CARDHU GOLD40°70CL/ET                               | 43.41 | 3.0   |
 | 2025-09-22 12:09:30 | 1            | 109.0     | PRODUIT | 3270160859764   | BILLES DE BRETZEL                                            | 1.6   | 3.0   |
 | 2025-09-22 12:09:30 | 1            | 109.0     | VRAC    |                 | ORANGE NAVEL                                                 | 1.7   | 1.39  |
 | 2025-09-22 12:09:30 | 1            | 109.0     | PRODUIT | 3517360017045   | GEL DOUCHE DOUCEUR ROSE TREMIERE                             | 10.11 | 1.0   |
@@ -1170,7 +1170,7 @@
 | 2025-09-22 12:33:50 | 39           | 275.0     | VRAC    |                 | BIO RAISIN BLANC BQ500G CEE                                  | 9.98  | 0.35  |
 | 2025-09-22 12:33:50 | 39           | 275.0     | PRODUIT | 3413880003257   | CAFE MELANGE YEMAYA MOULU                                    | 3.98  | 4.0   |
 | 2025-09-22 12:33:50 | 39           | 275.0     | PRODUIT | 3256226384296   | PAT TART SS HLE PALM UBIO 350G                               | 3.14  | 5.0   |
-| 2025-09-22 12:33:50 | 39           | 275.0     | VRAC    |                 | Amandes mondées (blanches)                                  | 19.55 | 1.67  |
+| 2025-09-22 12:33:50 | 39           | 275.0     | VRAC    |                 | Amandes mondées (blanches)                                   | 19.55 | 1.67  |
 | 2025-09-22 12:33:50 | 39           | 275.0     | PRODUIT | 3770004940493   | DEODORANT CREME BIO POT DE 50G NEUTRE                        | 9.59  | 4.0   |
 | 2025-09-22 12:33:50 | 39           | 275.0     | PRODUIT | 8711327622289   | MAGNUM EUPHORIA                                              | 3.3   | 2.0   |
 | 2025-09-22 12:33:50 | 39           | 275.0     | PRODUIT | 3445730506489   | MIEL ACACIA FRANCHE-COMTE                                    | 6.99  | 1.0   |
@@ -1184,8 +1184,8 @@
 | 2025-09-22 12:40:13 | 9            | 155.0     | PRODUIT | 3396411236204   | CHOC NOIR SEL R HIMALAYA 80G                                 | 4.15  | 2.0   |
 | 2025-09-22 12:40:13 | 9            | 155.0     | VRAC    |                 | BL.TOMATE ANCIENNE                                           | 5.8   | 1.47  |
 | 2025-09-22 12:40:13 | 9            | 155.0     | VRAC    |                 | CHOU BROCOLI                                                 | 3.99  | 1.06  |
-| 2025-09-22 12:40:13 | 9            | 155.0     | VRAC    |                 | MÛRE                                                        | 28.8  | 1.82  |
-| 2025-09-22 12:40:13 | 9            | 155.0     | VRAC    |                 | TOMATES ALLONGÉES LATINES                                   | 2.49  | 1.55  |
+| 2025-09-22 12:40:13 | 9            | 155.0     | VRAC    |                 | MÛRE                                                         | 28.8  | 1.82  |
+| 2025-09-22 12:40:13 | 9            | 155.0     | VRAC    |                 | TOMATES ALLONGÉES LATINES                                    | 2.49  | 1.55  |
 | 2025-09-22 12:40:13 | 9            | 155.0     | PRODUIT | 3336971806066   | CHIPS LA VICOISE 150                                         | 2.19  | 1.0   |
 | 2025-09-22 12:40:13 | 9            | 155.0     | PRODUIT | 8001841092034   | "SHAMP SENSITIVE                                             | H&S   | 280ML" |
 | 2025-09-22 12:40:13 | 9            | 155.0     | PRODUIT | 3596710417476   | AUCHAN CORNICHONS EXTRA FINS A UX 5 AROMATES                 | 2.24  | 2.0   |
@@ -1242,7 +1242,7 @@
 | 2025-09-22 12:53:34 | 47           |           | VRAC    |                 | POMME JAUNE                                                  | 3.79  | 1.06  |
 | 2025-09-22 12:53:34 | 47           |           | VRAC    |                 | thym de provence                                             | 194.5 | 2.14  |
 | 2025-09-22 12:53:34 | 47           |           | VRAC    |                 | CITRON Vent lime                                             | 6.99  | 1.2   |
-| 2025-09-22 12:53:34 | 47           |           | VRAC    |                 | Poire Conférence                                            | 4.0   | 2.26  |
+| 2025-09-22 12:53:34 | 47           |           | VRAC    |                 | Poire Conférence                                             | 4.0   | 2.26  |
 | 2025-09-22 12:53:34 | 47           |           | VRAC    |                 | CHAMPIGNONS BLONDS                                           | 13.99 | 1.69  |
 | 2025-09-22 12:53:34 | 47           |           | PRODUIT | 3420820392272   | ECHALOTE 500G                                                | 2.49  | 5.0   |
 | 2025-09-22 12:53:34 | 47           |           | PRODUIT | 3250391017577   | ADELIE CONE EXOTIQUE                                         | 2.51  | 4.0   |
@@ -1278,7 +1278,7 @@
 | 2025-09-22 12:57:23 | 5            | 400.0     | PRODUIT | 3478820046428   | HE EUCALYPTUS BIO 15 ML                                      | 4.72  | 2.0   |
 | 2025-09-22 12:57:23 | 5            | 400.0     | PRODUIT | 3292070008476   | HOUMOUS POIV.ATEL.BLINI                                      | 3.55  | 4.0   |
 | 2025-09-22 12:57:23 | 5            | 400.0     | PRODUIT | 3229820792132   | BOIS NAT AVOI CAL BIO BJORG 1L                               | 2.35  | 4.0   |
-| 2025-09-22 12:57:23 | 5            | 400.0     | PRODUIT | 3770012949037   | La Chips française finement salée 45g                      | 0.97  | 3.0   |
+| 2025-09-22 12:57:23 | 5            | 400.0     | PRODUIT | 3770012949037   | La Chips française finement salée 45g                        | 0.97  | 3.0   |
 | 2025-09-22 12:57:23 | 5            | 400.0     | PRODUIT | 3760138837332   | BOUGIE VEILLEUSE BLANCHE X6                                  | 4.28  | 1.0   |
 | 2025-09-22 12:57:23 | 5            | 400.0     | VRAC    |                 | Champignon de Paris                                          | 12.7  | 0.34  |
 | 2025-09-22 12:57:23 | 5            | 400.0     | PRODUIT | 3222473269648   | Sauce Bourguignonne                                          | 1.43  | 1.0   |
@@ -1293,7 +1293,7 @@
 | 2025-09-22 12:58:43 | 34           |           | VRAC    |                 | AMANDE en Coque                                              | 10.99 | 1.91  |
 | 2025-09-22 12:58:43 | 34           |           | PRODUIT | 3175681016590   | 80G GLUCO RECUL CHOC NR GERBLE                               | 2.17  | 1.0   |
 | 2025-09-22 12:58:43 | 34           |           | PRODUIT | 3601020004169   | MR 50POCHETT PERF QUAL SUPERI                                | 1.48  | 2.0   |
-| 2025-09-22 12:58:43 | 34           |           | PRODUIT | 0490000000665   | Jus de raisin Alicante Le Pech d'André 1l RÉEMPLOI du VERRE | 3.38  | 2.0   |
+| 2025-09-22 12:58:43 | 34           |           | PRODUIT | 0490000000665   | Jus de raisin Alicante Le Pech d'André 1l RÉEMPLOI du VERRE  | 3.38  | 2.0   |
 | 2025-09-22 12:58:43 | 34           |           | VRAC    |                 | RAISIN NOIR SANS PEPIN 500G                                  | 7.98  | 0.95  |
 | 2025-09-22 12:58:43 | 34           |           | PRODUIT | 3560071005573   | CHAMPIGNONS                                                  | 3.04  | 2.0   |
 | 2025-09-22 12:58:43 | 34           |           | PRODUIT | 3256226084783   | SIROP PECHE U BIO BTLE                                       | 2.7   | 2.0   |
@@ -1338,13 +1338,13 @@
 | 2025-09-22 13:04:13 | 1            | 16.0      | PRODUIT | 7622300689124   | GOLA 276GR COOK MAXI CH EA.                                  | 1.94  | 1.0   |
 | 2025-09-22 13:04:13 | 1            | 16.0      | PRODUIT | 3664346300841   | CARAMBAR FAMILY 450G                                         | 3.11  | 1.0   |
 | 2025-09-22 13:04:13 | 1            | 16.0      | VRAC    |                 | HARICOT VERT                                                 | 11.95 | 0.84  |
-| 2025-09-22 13:04:13 | 1            | 16.0      | VRAC    |                 | Concombre long pièce                                        | 1.95  | 0.29  |
+| 2025-09-22 13:04:13 | 1            | 16.0      | VRAC    |                 | Concombre long pièce                                         | 1.95  | 0.29  |
 | 2025-09-22 13:04:13 | 1            | 16.0      | PRODUIT | 3325350201202   | AMANDES EN POUDRE 250G                                       | 3.49  | 1.0   |
 | 2025-09-22 13:04:13 | 1            | 16.0      | VRAC    |                 | NECTARINE JAUNE                                              | 4.7   | 0.54  |
 | 2025-09-22 13:04:13 | 1            | 16.0      | PRODUIT | 3760029981052   | 75CL BIERE PRINTEMPS NINKASI                                 | 5.5   | 1.0   |
 | 2025-09-22 13:04:13 | 1            | 16.0      | PRODUIT | 3596710035915   | AUCHAN BEURRE BARQ T                                         | 2.52  | 2.0   |
 | 2025-09-22 13:04:13 | 1            | 16.0      | PRODUIT | 5413149049550   | LAVAGE SOL                                                   | 4.95  | 1.0   |
-| 2025-09-22 13:04:13 | 1            | 16.0      | VRAC    |                 | POMME DE TERRE VAPEUR SALADE RISSOLÉE                       | 1.1   | 2.33  |
+| 2025-09-22 13:04:13 | 1            | 16.0      | VRAC    |                 | POMME DE TERRE VAPEUR SALADE RISSOLÉE                        | 1.1   | 2.33  |
 | 2025-09-22 13:04:13 | 1            | 16.0      | PRODUIT | 3451515154769   | SIROP FRAISE BOUCHE BAIE                                     | 6.07  | 2.0   |
 | 2025-09-22 13:04:13 | 1            | 16.0      | PRODUIT | 3250392055257   | TOMA TE ENTIER PELEE BIO                                     | 1.23  | 4.0   |
 | 2025-09-22 13:04:13 | 1            | 16.0      | VRAC    |                 | AIL SEC                                                      | 12.49 | 1.41  |
@@ -1360,9 +1360,9 @@
 | 2025-09-22 13:07:32 | 12           |           | PRODUIT | 3760091729460   | Nectar mangue bio Ethiquable 1l                              | 2.7   | 4.0   |
 | 2025-09-22 13:07:32 | 12           |           | VRAC    |                 | POMELO ROUGE                                                 | 2.5   | 2.24  |
 | 2025-09-22 13:07:32 | 12           |           | PRODUIT | 3182280091828   | ECUSSON BIO DX FRUIT                                         | 3.18  | 5.0   |
-| 2025-09-22 13:07:32 | 12           |           | VRAC    |                 | TOMATE COTELÉE NOIRE                                        | 7.5   | 0.32  |
+| 2025-09-22 13:07:32 | 12           |           | VRAC    |                 | TOMATE COTELÉE NOIRE                                         | 7.5   | 0.32  |
 | 2025-09-22 13:07:32 | 12           |           | PRODUIT | 3520059916536   | MIEL DE THYM LA COLLECTION 375G                              | 4.95  | 2.0   |
-| 2025-09-22 13:07:32 | 12           |           | VRAC    |                 | Couscous blé dur complet                                    | 3.15  | 0.91  |
+| 2025-09-22 13:07:32 | 12           |           | VRAC    |                 | Couscous blé dur complet                                     | 3.15  | 0.91  |
 | 2025-09-22 13:07:32 | 12           |           | VRAC    |                 | Oignon rouge                                                 | 4.78  | 1.72  |
 | 2025-09-22 13:07:32 | 12           |           | PRODUIT | 3184034269316   | PATATE DOUCE PAYS. BRETON 750G                               | 2.52  | 3.0   |
 | 2025-09-22 13:07:32 | 12           |           | PRODUIT | 3700019520847   | Farine de coco bio 400gr Racines Bio                         | 2.3   | 3.0   |
@@ -1395,10 +1395,10 @@
 | 2025-09-22 13:11:11 | 17           | 455.0     | PRODUIT | 3760207117648   | GEL HYDRO ALCOOL ENE                                         | 1.97  | 1.0   |
 | 2025-09-22 13:11:11 | 17           | 455.0     | VRAC    |                 | MARRON VRAC                                                  | 8.49  | 1.52  |
 | 2025-09-22 13:11:11 | 17           | 455.0     | VRAC    |                 | PDT CONSO MICRONDE 750C                                      | 1.99  | 1.66  |
-| 2025-09-22 13:11:11 | 17           | 455.0     | VRAC    |                 | Pomme à croquer                                             | 3.25  | 0.22  |
+| 2025-09-22 13:11:11 | 17           | 455.0     | VRAC    |                 | Pomme à croquer                                              | 3.25  | 0.22  |
 | 2025-09-22 13:11:11 | 17           | 455.0     | PRODUIT | 3760341007171   | Déodorant baume Peaux sensibles Aloe vera Avec spatule Endro 50g | 8.17  | 3.0   |
 | 2025-09-22 13:11:11 | 17           | 455.0     | VRAC    |                 | Pomme Granny                                                 | 3.69  | 1.89  |
-| 2025-09-22 13:11:11 | 17           | 455.0     | VRAC    |                 | AUBERGINES PROVENÇALE CASS 375G                             | 5.58  | 1.3   |
+| 2025-09-22 13:11:11 | 17           | 455.0     | VRAC    |                 | AUBERGINES PROVENÇALE CASS 375G                              | 5.58  | 1.3   |
 | 2025-09-22 13:11:11 | 17           | 455.0     | PRODUIT | 7613034225795   | PIZZ.FRAICH UP ROYAL                                         | 3.89  | 1.0   |
 | 2025-09-22 13:11:11 | 17           | 455.0     | VRAC    |                 | Poire Comice                                                 | 3.99  | 1.94  |
 | 2025-09-22 13:11:11 | 17           | 455.0     | PRODUIT | 3250391432844   | LABEL RAS SYST.3 LAM                                         | 4.46  | 3.0   |
@@ -1409,7 +1409,7 @@
 | 2025-09-22 13:11:11 | 17           | 455.0     | PRODUIT | 8001841812670   | ORAL-B TOOTHPASTE 75ML PRO EXP                               | 3.04  | 4.0   |
 | 2025-09-22 13:11:11 | 17           | 455.0     | PRODUIT | 3560070953653   | 150G 15TR BACON FUME SIMPL                                   | 1.83  | 4.0   |
 | 2025-09-22 13:11:11 | 17           | 455.0     | VRAC    |                 | MELON CHARENTAIS                                             | 5.49  | 0.99  |
-| 2025-09-22 13:11:11 | 17           | 455.0     | VRAC    |                 | TOMATE Allongée les COEUR                                   | 6.99  | 0.49  |
+| 2025-09-22 13:11:11 | 17           | 455.0     | VRAC    |                 | TOMATE Allongée les COEUR                                    | 6.99  | 0.49  |
 | 2025-09-22 13:11:11 | 17           | 455.0     | PRODUIT | 80052760        | KINDER BUENO CACAO                                           | 0.9   | 3.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3760023241091   | "BIERE BLCH MT BLANC 4                                       | 7% 75CL" | 5.7   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3568312001230   | GEL ALOE VERA 98% - 250ML                                    | 9.87  | 2.0   |
@@ -1417,7 +1417,7 @@
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3033490691899   | FROMAGE FRAIS NATURE GERVITA 8X                              | 3.57  | 1.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | VRAC    |                 | NOISETTE FRAICHE                                             | 10.99 | 0.65  |
 | 2025-09-22 13:11:22 | 25           | 469.0     | VRAC    |                 | NOISETTE VRAC                                                | 7.99  | 0.45  |
-| 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3770006357114   | Recharge brosse à dents pour enfant souple x2 Caliquo       | 2.64  | 3.0   |
+| 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3770006357114   | Recharge brosse à dents pour enfant souple x2 Caliquo        | 2.64  | 3.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3286010031013   | X54 LINGETTES TOILETTE BIOLANE                               | 3.06  | 2.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3517360003215   | CREME HYDRATANTE VISAGE LAIT D ANESSE                        | 10.63 | 5.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 5714820111017   | COTON-TIGE REUTILISABLE OREILLE NOIR                         | 7.16  | 4.0   |
@@ -1434,7 +1434,7 @@
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3250390118022   | CONFIT DE CANARD 4 CUISSES                                   | 16.38 | 5.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3166296300167   | MEL. P/POULET AUX HERBES DUCRO                               | 2.24  | 2.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3417960022664   | ESTRAGON                                                     | 3.75  | 1.0   |
-| 2025-09-22 13:11:22 | 25           | 469.0     | VRAC    |                 | PÊCHE JAUNE                                                 | 7.95  | 1.15  |
+| 2025-09-22 13:11:22 | 25           | 469.0     | VRAC    |                 | PÊCHE JAUNE                                                  | 7.95  | 1.15  |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3596710405589   | AUCHAN CONE RHUM RAISIN X6418                                | 2.59  | 5.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | VRAC    |                 | DATTE                                                        | 2.78  | 0.55  |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 240540000000    | CAROTTE VRAC                                                 | 1.84  | 3.0   |
@@ -1446,7 +1446,7 @@
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3560071085605   | 12X125G YAG NATURE CRF EXTRA                                 | 3.17  | 4.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 8435177000492   | H0 POIVRON PANACHE 500G                                      | 1.59  | 5.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | VRAC    |                 | POIVRON PANACHE                                              | 5.28  | 1.71  |
-| 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 8015197061231   | Pâtes stelline blanches Iris 250g                           | 0.92  | 5.0   |
+| 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 8015197061231   | Pâtes stelline blanches Iris 250g                            | 0.92  | 5.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3220035150007   | SUCRE POUDRE CLASSIQUE BTE VER ST LOUIS                      | 1.84  | 2.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3272030008234   | SIROP M. VALDONNE ANIS 70CL PC                               | 4.48  | 2.0   |
 | 2025-09-22 13:11:22 | 25           | 469.0     | PRODUIT | 3608580135760   | PAT NOISETTES ET CACAO 725G                                  | 6.93  | 5.0   |
@@ -1465,10 +1465,10 @@
 | 2025-09-22 13:13:47 | 26           |           | PRODUIT | 3333040011772   | BRIOCHE TRESSEE PEPI                                         | 4.7   | 3.0   |
 | 2025-09-22 13:25:47 | 36           |           | PRODUIT | 8712566463862   | 300ML SGM POULET VERMIC KNORR                                | 1.5   | 1.0   |
 | 2025-09-22 13:25:47 | 36           |           | VRAC    |                 | BQ 125G SLD MACHE                                            | 10.32 | 0.61  |
-| 2025-09-22 13:25:47 | 36           |           | VRAC    |                 | Olives noires entières                                      | 3.6   | 1.16  |
+| 2025-09-22 13:25:47 | 36           |           | VRAC    |                 | Olives noires entières                                       | 3.6   | 1.16  |
 | 2025-09-22 13:25:47 | 36           |           | PRODUIT | 3033710037117   | MONT BLANC RIZ AU LAIT                                       | 3.6   | 5.0   |
 | 2025-09-22 13:25:47 | 36           |           | PRODUIT | 3574661653594   | PETIT MARSEILLAIS DOUCHE                                     | 4.0   | 5.0   |
-| 2025-09-22 13:25:47 | 36           |           | VRAC    |                 | POMME DE TERRE VAPEUR SALADE RISSOLÉE                       | 1.1   | 0.13  |
+| 2025-09-22 13:25:47 | 36           |           | VRAC    |                 | POMME DE TERRE VAPEUR SALADE RISSOLÉE                        | 1.1   | 0.13  |
 | 2025-09-22 13:25:47 | 36           |           | PRODUIT | 3046920032155   | CHOCOLAT EXCELLENCE NR 85%                                   | 3.53  | 3.0   |
 | 2025-09-22 13:25:47 | 36           |           | VRAC    |                 | Carotte ARC en ciep                                          | 3.29  | 1.04  |
 | 2025-09-22 13:25:47 | 36           |           | PRODUIT | 4260744956483   | "BEURRE DE CACAHUETE                                         |  SMOOTH" | 8.99  |
@@ -1482,7 +1482,7 @@
 | 2025-09-22 13:31:23 | 16           | 250.0     | PRODUIT | 3560071082017   | CRF EMMENTAL RAPE BIO                                        | 2.35  | 5.0   |
 | 2025-09-22 13:31:23 | 16           | 250.0     | VRAC    |                 | NOIX DE CAJOU                                                | 25.5  | 1.96  |
 | 2025-09-22 13:31:23 | 16           | 250.0     | PRODUIT | 3256226387532   | CHOC. NR CARAM. PT. SEL U BIO                                | 3.29  | 1.0   |
-| 2025-09-22 13:31:23 | 16           | 250.0     | VRAC    |                 | Concombre long pièce                                        | 1.95  | 0.19  |
+| 2025-09-22 13:31:23 | 16           | 250.0     | VRAC    |                 | Concombre long pièce                                         | 1.95  | 0.19  |
 | 2025-09-22 13:31:23 | 16           | 250.0     | PRODUIT | 3560071518189   | 435G CONES NATA CARAMEL PECANC                               | 2.69  | 1.0   |
 | 2025-09-22 13:31:23 | 16           | 250.0     | PRODUIT | 3086123696860   | BIC KIDS EVOLUTION 18 OS                                     | 1.62  | 5.0   |
 | 2025-09-22 13:31:23 | 16           | 250.0     | PRODUIT | 3344091105006   | ENDIVES                                                      | 1.0   | 3.0   |
@@ -1494,12 +1494,12 @@
 | 2025-09-22 13:42:01 | 6            | 77.0      | PRODUIT | 3250392784669   | FLOCON D'AVOINE COMPLETE                                     | 0.86  | 5.0   |
 | 2025-09-22 13:42:01 | 6            | 77.0      | VRAC    |                 | CAROTTES                                                     | 2.49  | 1.02  |
 | 2025-09-22 13:42:01 | 6            | 77.0      | PRODUIT | 3265470036257   | HUILE NON FILTREE BIO PUGET75CL                              | 8.2   | 1.0   |
-| 2025-09-22 13:42:01 | 6            | 77.0      | PRODUIT | 0490000000849   | Compotée Pomelo Kumquat La fée dans les bois 225g          | 4.93  | 4.0   |
+| 2025-09-22 13:42:01 | 6            | 77.0      | PRODUIT | 0490000000849   | Compotée Pomelo Kumquat La fée dans les bois 225g            | 4.93  | 4.0   |
 | 2025-09-22 13:42:01 | 6            | 77.0      | PRODUIT | 4004764786633   | RECHARGE SURLIGNEUR JAUNE EDDING                             | 6.02  | 5.0   |
 | 2025-09-22 13:42:01 | 6            | 77.0      | PRODUIT | 3329770082250   | YOPL.FB PAN.DELFSE/FBSE4X100G                                | 2.65  | 4.0   |
 | 2025-09-22 13:42:01 | 6            | 77.0      | PRODUIT | 8710447388846   | OMO LIQ JASMIN 2L 40W                                        | 6.39  | 4.0   |
 | 2025-09-22 13:42:01 | 6            | 77.0      | PRODUIT | 3242273050550   | PIZ CRUST FARM.PLT SCE BBQ 600G                              | 4.68  | 2.0   |
-| 2025-09-22 13:42:01 | 6            | 77.0      | PRODUIT | 5010153872237   | BLONDE HOBGOBLIN IPA 5° 50CL                                | 3.69  | 2.0   |
+| 2025-09-22 13:42:01 | 6            | 77.0      | PRODUIT | 5010153872237   | BLONDE HOBGOBLIN IPA 5° 50CL                                 | 3.69  | 2.0   |
 | 2025-09-22 13:42:01 | 6            | 77.0      | VRAC    |                 | Courge Potimaron                                             | 3.95  | 2.3   |
 | 2025-09-22 13:42:01 | 6            | 77.0      | PRODUIT | 8000500428269   | *KINDER OEUF PRINCES.3X20G BOX                               | 3.52  | 1.0   |
 | 2025-09-22 13:42:01 | 6            | 77.0      | VRAC    |                 | CHAMPIGNON A FARCIR                                          | 4.99  | 1.23  |
@@ -1526,7 +1526,7 @@
 | 2025-09-22 13:42:39 | 35           |           | PRODUIT | 5730800623073   | 200ML DOUBLESHOT ESPRESS STARB                               | 2.87  | 2.0   |
 | 2025-09-22 13:42:39 | 35           |           | VRAC    |                 | champignon paris urac                                        | 11.99 | 2.4   |
 | 2025-09-22 13:42:39 | 35           |           | PRODUIT | 3770030699105   | PATE TARTINE 50% CACAO NOISETT                               | 10.5  | 5.0   |
-| 2025-09-22 13:42:39 | 35           |           | PRODUIT | 0490000001341   | Miel d'aubépine Les Gros Ormes 500g                         | 9.08  | 5.0   |
+| 2025-09-22 13:42:39 | 35           |           | PRODUIT | 0490000001341   | Miel d'aubépine Les Gros Ormes 500g                          | 9.08  | 5.0   |
 | 2025-09-22 13:42:39 | 35           |           | VRAC    |                 | Pistache nature                                              | 24.5  | 2.3   |
 | 2025-09-22 13:42:39 | 35           |           | PRODUIT | 3250392744779   | PAT. BIO BEURRE DOUX PQ 25 PATURAGES                         | 2.9   | 3.0   |
 | 2025-09-22 13:42:39 | 35           |           | PRODUIT | 3038352880404   | PANZANI RAVIOLIS PUR BOEUF                                   | 4.09  | 3.0   |
@@ -1567,7 +1567,7 @@
 | 2025-09-22 13:53:28 | 4            |           | PRODUIT | 3266191012315   | MACARONI COMPLETS                                            | 1.89  | 5.0   |
 | 2025-09-22 13:53:28 | 4            |           | PRODUIT | 3517360022322   | TABLETTES LAVE-VAISSELLE OXYG. ACTIF 30P                     | 6.69  | 4.0   |
 | 2025-09-22 13:53:28 | 4            |           | VRAC    |                 | Amande                                                       | 12.9  | 1.75  |
-| 2025-09-22 13:53:28 | 4            |           | PRODUIT | 3173980033089   | Faisselle de Chèvre Cabraignac Laiterie Verneuil 500g       | 4.22  | 2.0   |
+| 2025-09-22 13:53:28 | 4            |           | PRODUIT | 3173980033089   | Faisselle de Chèvre Cabraignac Laiterie Verneuil 500g        | 4.22  | 2.0   |
 | 2025-09-22 13:53:28 | 4            |           | VRAC    |                 | POIVRON VERT/JAUNE/ROUGE                                     | 5.5   | 0.2   |
 | 2025-09-22 13:53:28 | 4            |           | VRAC    |                 | CITRON VERT                                                  | 7.32  | 1.09  |
 | 2025-09-22 13:53:28 | 4            |           | PRODUIT | 3038359010507   | CARBONARA PANZANI                                            | 3.09  | 1.0   |
@@ -1736,8 +1736,8 @@
 | 2025-09-22 14:28:34 | 46           |           | VRAC    |                 | BETTERAVE ROUGE                                              | 3.99  | 1.14  |
 | 2025-09-22 14:28:34 | 46           |           | PRODUIT | 4001518007662   | P.BEURRE FOURRE LAIT 150G                                    | 1.25  | 3.0   |
 | 2025-09-22 14:28:34 | 46           |           | PRODUIT | 3075301207103   | MOULE A FINANCIERS                                           | 10.05 | 4.0   |
-| 2025-09-22 14:28:34 | 46           |           | VRAC    |                 | Poire Conférence                                            | 4.0   | 2.3   |
-| 2025-09-22 14:28:34 | 46           |           | VRAC    |                 | rutábaga                                                    | 3.49  | 1.28  |
+| 2025-09-22 14:28:34 | 46           |           | VRAC    |                 | Poire Conférence                                             | 4.0   | 2.3   |
+| 2025-09-22 14:28:34 | 46           |           | VRAC    |                 | rutábaga                                                     | 3.49  | 1.28  |
 | 2025-09-22 14:28:34 | 46           |           | PRODUIT | 3230890001475   | 400G WINGS PARTY BBQ MC                                      | 5.0   | 4.0   |
 | 2025-09-22 14:28:34 | 46           |           | PRODUIT | 3248830001188   | 560G NEMS PORC 6+2 OFFERT TDA                                | 4.2   | 1.0   |
 | 2025-09-22 14:28:34 | 46           |           | VRAC    |                 | Champignon de Paris Portobello                               | 14.3  | 1.29  |
@@ -1774,14 +1774,14 @@
 | 2025-09-22 14:29:50 | 3            | 190.0     | PRODUIT | 5010477357335   | JORDANS MUES BIO NOIX&GRAI450G                               | 3.44  | 4.0   |
 | 2025-09-22 14:29:50 | 3            | 190.0     | VRAC    |                 | courgette                                                    | 3.19  | 1.14  |
 | 2025-09-22 14:29:50 | 3            | 190.0     | PRODUIT | 3596710364510   | SCE TOMATE PTI LEGUM                                         | 0.6   | 4.0   |
-| 2025-09-22 14:29:50 | 3            | 190.0     | PRODUIT | 3760294960042   | Spaghetti 1/2 complètes ELIBIO 500g                         | 1.13  | 3.0   |
+| 2025-09-22 14:29:50 | 3            | 190.0     | PRODUIT | 3760294960042   | Spaghetti 1/2 complètes ELIBIO 500g                          | 1.13  | 3.0   |
 | 2025-09-22 14:30:54 | 50           | 176.0     | PRODUIT | 3219512403002   | ARTICLE ELECT PVTTC 3.00                                     | 3.0   | 3.0   |
 | 2025-09-22 14:30:54 | 50           | 176.0     | PRODUIT | 3564700542774   | TUILE CREME OIGNON 170G TOKAPI                               | 1.08  | 5.0   |
 | 2025-09-22 14:30:54 | 50           | 176.0     | PRODUIT | 3250390224259   | PAT LAIT CHOCO BK 6X20CL                                     | 1.82  | 1.0   |
 | 2025-09-22 14:30:54 | 50           | 176.0     | PRODUIT | 3346027796685   | WCN NRJ BLANCH EXTRE AGRU IRIS                               | 1.89  | 2.0   |
 | 2025-09-22 14:30:54 | 50           | 176.0     | PRODUIT | 3250391650231   | ODYSSEE FILET HARENG                                         | 1.79  | 4.0   |
 | 2025-09-22 14:30:54 | 50           | 176.0     | VRAC    |                 | NAVET                                                        | 3.24  | 0.29  |
-| 2025-09-22 14:30:54 | 50           | 176.0     | PRODUIT | 3330720237798   | Pâté à tartiner BIO                                       | 7.26  | 1.0   |
+| 2025-09-22 14:30:54 | 50           | 176.0     | PRODUIT | 3330720237798   | Pâté à tartiner BIO                                          | 7.26  | 1.0   |
 | 2025-09-22 14:30:54 | 50           | 176.0     | PRODUIT | 3445730506489   | MIEL ACACIA FRANCHE-COMTE                                    | 6.99  | 1.0   |
 | 2025-09-22 14:30:54 | 50           | 176.0     | PRODUIT | 7610036000917   | Tab Genepi Savoie Liquide                                    | 6.14  | 2.0   |
 | 2025-09-22 14:30:54 | 50           | 176.0     | PRODUIT | 3660603001742   | BENEDICTA SAUCE PARTY X6 500G                                | 4.48  | 5.0   |
@@ -1806,7 +1806,7 @@
 | 2025-09-22 14:31:19 | 2            |           | PRODUIT | 3327272107259   | BEURRE DE CACAHUETES                                         | 5.08  | 2.0   |
 | 2025-09-22 14:31:19 | 2            |           | PRODUIT | 3281780897814   | RIZ MAYA MEXICAIN 250G                                       | 3.1   | 4.0   |
 | 2025-09-22 14:31:19 | 2            |           | PRODUIT | 3250392404710   | LES CREATIONS CARAMEL TARTINER                               | 3.84  | 1.0   |
-| 2025-09-22 14:31:19 | 2            |           | PRODUIT | 0490000002027   | Chicorée sauvage (pièce)                                   | 1.79  | 2.0   |
+| 2025-09-22 14:31:19 | 2            |           | PRODUIT | 0490000002027   | Chicorée sauvage (pièce)                                     | 1.79  | 2.0   |
 | 2025-09-22 14:39:21 | 20           |           | PRODUIT | 3560071223120   | 4/4 CHAMP PIEDS/MRX PP BLANC                                 | 1.85  | 2.0   |
 | 2025-09-22 14:39:21 | 20           |           | VRAC    |                 | MARRON FILET                                                 | 5.49  | 0.69  |
 | 2025-09-22 14:39:21 | 20           |           | VRAC    |                 | CHOU LISSE ROUGE                                             | 3.27  | 0.39  |
@@ -1822,7 +1822,7 @@
 | 2025-09-22 14:39:21 | 20           |           | PRODUIT | 3250390253105   | PAT PRINTENDRE AFH 150G                                      | 1.31  | 5.0   |
 | 2025-09-22 14:39:21 | 20           |           | PRODUIT | 3760098416486   | HE GAULTHERIE                                                | 6.15  | 5.0   |
 | 2025-09-22 14:39:21 | 20           |           | VRAC    |                 | cerneaux de noix                                             | 27.99 | 0.4   |
-| 2025-09-22 14:39:21 | 20           |           | PRODUIT | 3520832130258   | Câpres au vinaigre Philia 140g - PNE 90g                    | 2.43  | 1.0   |
+| 2025-09-22 14:39:21 | 20           |           | PRODUIT | 3520832130258   | Câpres au vinaigre Philia 140g - PNE 90g                     | 2.43  | 1.0   |
 | 2025-09-22 14:39:21 | 20           |           | PRODUIT | 3456650001206   | 12 OEUFS DE SEYSSEL                                          | 2.99  | 3.0   |
 | 2025-09-22 14:39:21 | 20           |           | VRAC    |                 | OIGNON ROUGE TUBE 500G                                       | 5.98  | 0.14  |
 | 2025-09-22 14:39:21 | 20           |           | VRAC    |                 | aromate bouquet                                              | 1.95  | 0.5   |
@@ -1838,10 +1838,10 @@
 | 2025-09-22 14:39:21 | 20           |           | VRAC    |                 | TOMATE RONDE DE GRAPE                                        | 4.99  | 1.27  |
 | 2025-09-22 14:42:56 | 17           |           | VRAC    |                 | Courgette Ronde Tricolore                                    | 5.49  | 0.47  |
 | 2025-09-22 14:42:56 | 17           |           | PRODUIT | 3564700785652   | SIROP PECHE 0 SUCR 75CL FRUCCI                               | 2.35  | 3.0   |
-| 2025-09-22 14:42:56 | 17           |           | VRAC    |                 | TOMATES ALLONGÉES LATINES                                   | 2.49  | 1.64  |
+| 2025-09-22 14:42:56 | 17           |           | VRAC    |                 | TOMATES ALLONGÉES LATINES                                    | 2.49  | 1.64  |
 | 2025-09-22 14:42:56 | 17           |           | PRODUIT | 3228023080015   | BUCHE FONDANTE PRESI                                         | 2.45  | 3.0   |
 | 2025-09-22 14:42:56 | 17           |           | PRODUIT | 3256229829350   | PM1E PT TRANCH NAT SSA U 280G                                | 1.01  | 3.0   |
-| 2025-09-22 14:42:56 | 17           |           | PRODUIT | 3760340060047   | Vin Rouge AB Indigène Pech d'André Côtes du Brian 75 cl   | 10.19 | 1.0   |
+| 2025-09-22 14:42:56 | 17           |           | PRODUIT | 3760340060047   | Vin Rouge AB Indigène Pech d'André Côtes du Brian 75 cl      | 10.19 | 1.0   |
 | 2025-09-22 14:42:56 | 17           |           | PRODUIT | 3701311402343   | CREME DOUCHE AVOINE ET LIN                                   | 12.01 | 5.0   |
 | 2025-09-22 14:42:56 | 17           |           | PRODUIT | 5000394009769   | DUR CRAVATE ULT POW2                                         | 7.9   | 5.0   |
 | 2025-09-22 14:42:56 | 17           |           | PRODUIT | 3083681127430   | MAIS SANS SUCRE AJOUTE                                       | 2.27  | 2.0   |
@@ -1866,7 +1866,7 @@
 | 2025-09-22 14:49:03 | 14           |           | PRODUIT | 3375220000244   | DIOT SAVOIS NATURE R                                         | 3.95  | 1.0   |
 | 2025-09-22 14:49:03 | 14           |           | PRODUIT | 3560071261146   | POIS CHICHE CRF CLASSIC                                      | 1.59  | 4.0   |
 | 2025-09-22 14:49:03 | 14           |           | VRAC    |                 | BLETTES BOTTE                                                | 2.99  | 1.89  |
-| 2025-09-22 14:49:03 | 14           |           | PRODUIT | 3770013858000   | Bière blanche 33cl Les travailleurs de l'amer               | 2.51  | 1.0   |
+| 2025-09-22 14:49:03 | 14           |           | PRODUIT | 3770013858000   | Bière blanche 33cl Les travailleurs de l'amer                | 2.51  | 1.0   |
 | 2025-09-22 14:49:03 | 14           |           | PRODUIT | 5410041143508   | TUC CRACKERS BACON 1                                         | 0.95  | 5.0   |
 | 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 3159470005071   | KELLOGS CERE EXT PEP NOI                                     | 4.04  | 3.0   |
 | 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 3168930009795   | QUAKER GOLDEN MUESLI NOIX PECA N NOIX DE BRESIL              | 4.78  | 1.0   |
@@ -1884,7 +1884,7 @@
 | 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 3560070824694   | PET 2L COLA REGULA.CRF CLASSIC BOUTEILLE PLASTIQUE 2L        | 1.05  | 1.0   |
 | 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 3281780873597   | ABOULE 250G ES MARTINET                                      | 3.04  | 2.0   |
 | 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 3256226758042   | MASQ.EXF.PUR.THE VRT UBIO 50ML                               | 5.12  | 3.0   |
-| 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 7610400087803   | MINI CARRÉS NOIR LIN                                        | 2.25  | 2.0   |
+| 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 7610400087803   | MINI CARRÉS NOIR LIN                                         | 2.25  | 2.0   |
 | 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 3564700768419   | RACLETTE TRANCHES AU CR124806                                | 5.85  | 2.0   |
 | 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 3547402001138   | EPICEA CONFIT DE POMME POIRE14                               | 2.5   | 2.0   |
 | 2025-09-22 14:53:46 | 38           | 50.0      | VRAC    |                 | FRUIT DE LA PASSION                                          | 12.42 | 1.5   |
@@ -1899,7 +1899,7 @@
 | 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 8711327613683   | 6X55ML MAG MIN COOKIE MIX                                    | 4.28  | 5.0   |
 | 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 3166296552139   | ros                                                          | 2.3   | 1.0   |
 | 2025-09-22 14:53:46 | 38           | 50.0      | PRODUIT | 3770000910490   | CHIPS L AUTHENTIQUE                                          | 2.49  | 4.0   |
-| 2025-09-22 14:57:17 | 8            |           | PRODUIT | 8713576230116   | TOMATES SÉCHÉES                                            | 3.99  | 5.0   |
+| 2025-09-22 14:57:17 | 8            |           | PRODUIT | 8713576230116   | TOMATES SÉCHÉES                                              | 3.99  | 5.0   |
 | 2025-09-22 14:57:17 | 8            |           | PRODUIT | 3760138837356   | CIRE ABEILLE LIQUIDE BIO 500ML                               | 8.12  | 4.0   |
 | 2025-09-22 14:57:17 | 8            |           | PRODUIT | 3179142897988   | ROSE ET FEUILLE EN SUCRE                                     | 3.11  | 1.0   |
 | 2025-09-22 14:57:17 | 8            |           | PRODUIT | 3700527304397   | CABLE USB-C/HDMI 1.8M                                        | 24.99 | 3.0   |
@@ -1912,12 +1912,12 @@
 | 2025-09-22 14:57:17 | 8            |           | PRODUIT | 3222477790452   | MOUTARDE ANCIENNE BOC                                        | 1.74  | 4.0   |
 | 2025-09-22 14:57:17 | 8            |           | VRAC    |                 | TOMATECERISEBIO                                              | 9.16  | 0.56  |
 | 2025-09-22 14:57:17 | 8            |           | PRODUIT | 3256225051793   | SCE CURRY FLACON SOUPLE U 245G                               | 1.82  | 2.0   |
-| 2025-09-22 14:57:17 | 8            |           | PRODUIT | 3272460124368   | "Bière ambrée 4                                            | 5° La Cadette Brasserie Castelain Pack 6x25cl" | 9.24  |
+| 2025-09-22 14:57:17 | 8            |           | PRODUIT | 3272460124368   | "Bière ambrée 4                                              | 5° La Cadette Brasserie Castelain Pack 6x25cl" | 9.24  |
 | 2025-09-22 14:57:17 | 8            |           | PRODUIT | 3265472174001   | HUILE OLIVE PUGET 1 L                                        | 7.96  | 4.0   |
 | 2025-09-22 14:57:17 | 8            |           | PRODUIT | 7613032655495   | RICORE NESTLE 260G                                           | 6.83  | 4.0   |
 | 2025-09-22 14:57:17 | 8            |           | PRODUIT | 3413930300046   | TOMATE RDE GRAPPE                                            | 2.49  | 3.0   |
 | 2025-09-22 14:57:17 | 8            |           | PRODUIT | 3338310001439   | POMME DAUPHINE AUX CAROTTES 500                              | 4.49  | 3.0   |
-| 2025-09-22 15:00:58 | 32           |           | VRAC    |                 | TOMATE COTELÉE NOIRE                                        | 7.5   | 1.64  |
+| 2025-09-22 15:00:58 | 32           |           | VRAC    |                 | TOMATE COTELÉE NOIRE                                         | 7.5   | 1.64  |
 | 2025-09-22 15:00:58 | 32           |           | PRODUIT | 3168930155904   | CHIPS MAX SAUCE BBQ LAY'S120G                                | 1.5   | 4.0   |
 | 2025-09-22 15:00:58 | 32           |           | PRODUIT | 3250390743866   | PATURAGES FROMAGE TRANCHE 200G                               | 2.18  | 4.0   |
 | 2025-09-22 15:00:58 | 32           |           | VRAC    |                 | "ORANGE FILET 1                                              | 5KG"  | 1.53  |
@@ -1936,8 +1936,8 @@
 | 2025-09-22 15:00:58 | 32           |           | PRODUIT | 3596710393398   | AUCHAN BOX FESTONATE FROMAGE                                 | 1.99  | 1.0   |
 | 2025-09-22 15:00:58 | 32           |           | PRODUIT | 3662217007240   | CREME SOLAIRE VISAGE SPF 50                                  | 12.75 | 1.0   |
 | 2025-09-22 15:00:58 | 32           |           | PRODUIT | 4006040488910   | NIRWANA CHOCOLAT VEGAN FOURRE PRALINE RAPUNZEL               | 3.9   | 4.0   |
-| 2025-09-22 15:00:58 | 32           |           | VRAC    |                 | Pomme à croquer                                             | 3.25  | 2.33  |
-| 2025-09-22 15:00:58 | 32           |           | PRODUIT | 3700110005397   | CAFÉ 100% ARABICA AM DU SUD MOULU 250G                      | 4.7   | 5.0   |
+| 2025-09-22 15:00:58 | 32           |           | VRAC    |                 | Pomme à croquer                                              | 3.25  | 2.33  |
+| 2025-09-22 15:00:58 | 32           |           | PRODUIT | 3700110005397   | CAFÉ 100% ARABICA AM DU SUD MOULU 250G                       | 4.7   | 5.0   |
 | 2025-09-22 15:00:58 | 32           |           | PRODUIT | 3596710446247   | PASTIS BELANIS 45% 5                                         | 8.19  | 3.0   |
 | 2025-09-22 15:00:58 | 32           |           | PRODUIT | 3160920641381   | ARTICHAUT RADIS NOIR                                         | 5.3   | 2.0   |
 | 2025-09-22 15:00:58 | 32           |           | PRODUIT | 3520059921943   | SIROP ERABLE                                                 | 10.35 | 4.0   |
@@ -1956,7 +1956,7 @@
 | 2025-09-22 15:03:04 | 23           |           | VRAC    |                 | Kiwi Rouge                                                   | 1.99  | 2.4   |
 | 2025-09-22 15:03:04 | 23           |           | PRODUIT | 3483050001864   | COEUR FARINE FLUIDE CART                                     | 0.87  | 2.0   |
 | 2025-09-22 15:03:04 | 23           |           | PRODUIT | 3250390382850   | PIPE RIGATE ETUI                                             | 0.82  | 4.0   |
-| 2025-09-22 15:03:04 | 23           |           | VRAC    |                 | rutábaga                                                    | 3.49  | 2.05  |
+| 2025-09-22 15:03:04 | 23           |           | VRAC    |                 | rutábaga                                                     | 3.49  | 2.05  |
 | 2025-09-22 15:03:04 | 23           |           | PRODUIT | 4712847094062   | CLE USB 64GO 2.0 HP                                          | 12.99 | 1.0   |
 | 2025-09-22 15:03:04 | 23           |           | PRODUIT | 3266191005072   | FILETS MAQUEREAUX H.OLIVE 151 LA VIE CLAIRE                  | 4.69  | 2.0   |
 | 2025-09-22 15:03:04 | 23           |           | PRODUIT | 3033710073467   | RICORE                                                       | 2.64  | 5.0   |
@@ -1981,7 +1981,7 @@
 | 2025-09-22 15:03:04 | 23           |           | PRODUIT | 3175681278103   | WOK THAI LEGUMES CITRON CORIANDRE                            | 4.39  | 2.0   |
 | 2025-09-22 15:06:27 | 5            | 176.0     | VRAC    |                 | Marron                                                       | 7.5   | 2.27  |
 | 2025-09-22 15:06:27 | 5            | 176.0     | PRODUIT | 4260463970838   | BROSSE A DENTS MEDIUM ECO ENFANT ROSE                        | 2.36  | 5.0   |
-| 2025-09-22 15:06:27 | 5            | 176.0     | PRODUIT | 3507172001363   | Jambon Cruit Supérieur ACS                                  | 6.99  | 3.0   |
+| 2025-09-22 15:06:27 | 5            | 176.0     | PRODUIT | 3507172001363   | Jambon Cruit Supérieur ACS                                   | 6.99  | 3.0   |
 | 2025-09-22 15:06:27 | 5            | 176.0     | PRODUIT | 3095756312016   | 4TR FINES BLC DDE FUME F.MICHO                               | 2.25  | 5.0   |
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 3600550818789   | 150ML DEO ATO EXTRA SOIN MIXA                                | 4.44  | 1.0   |
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 5411788046244   | SHOYU 28% LESS SALT                                          | 5.79  | 4.0   |
@@ -1991,12 +1991,12 @@
 | 2025-09-22 15:09:15 | 17           | 305.0     | VRAC    |                 | AUBERGINE VIOLETTE VRAC                                      | 6.29  | 1.46  |
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 3073781177916   | MINIBABYBEL FILET DE 61326                                   | 2.68  | 3.0   |
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 3222473269631   | SAUCE BEARNAISE                                              | 1.92  | 2.0   |
-| 2025-09-22 15:09:15 | 17           | 305.0     | VRAC    |                 | Sucre de canne non raffiné Bio                              | 7.9   | 1.92  |
+| 2025-09-22 15:09:15 | 17           | 305.0     | VRAC    |                 | Sucre de canne non raffiné Bio                               | 7.9   | 1.92  |
 | 2025-09-22 15:09:15 | 17           | 305.0     | VRAC    |                 | CAROTTE BIO VRAC                                             | 2.49  | 2.15  |
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 515100251172    | SAC MEMO EN COTON BIO 15X20                                  | 1.67  | 5.0   |
 | 2025-09-22 15:09:15 | 17           | 305.0     | VRAC    |                 | POIVRON DE COULEUR BIO MBI                                   | 3.92  | 1.58  |
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 3250391487158   | COUSCOUS FIN ETUI ST ELOI                                    | 2.59  | 4.0   |
-| 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 3770006250057   | Chips à l'Oignon de Roscoff Belsia 150g                     | 2.36  | 4.0   |
+| 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 3770006250057   | Chips à l'Oignon de Roscoff Belsia 150g                      | 2.36  | 4.0   |
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 4260744956483   | "BEURRE DE CACAHUETE                                         |  SMOOTH" | 8.99  |
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 3538722005999   | AUBERGINE RONDE BONICA 0.5L                                  | 1.99  | 1.0   |
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 3700144751161   | DDC CALCIO GROUPE                                            | 11.95 | 1.0   |
@@ -2006,7 +2006,7 @@
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 3377885015229   | DIABLE PLIANT EXPRESS 70KG                                   | 31.45 | 2.0   |
 | 2025-09-22 15:09:15 | 17           | 305.0     | VRAC    |                 | COURGETTE VRAC                                               | 2.69  | 2.36  |
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 3760189170020   | SMOOS COGNAC                                                 | 9.49  | 1.0   |
-| 2025-09-22 15:09:15 | 17           | 305.0     | VRAC    |                 | Betterave Rouge Variété Population                         | 3.25  | 2.26  |
+| 2025-09-22 15:09:15 | 17           | 305.0     | VRAC    |                 | Betterave Rouge Variété Population                           | 3.25  | 2.26  |
 | 2025-09-22 15:09:15 | 17           | 305.0     | PRODUIT | 3023290001998   | 4+2X125G Y. GREC FRAISE YAOS                                 | 2.39  | 2.0   |
 | 2025-09-22 15:11:16 | 19           | 458.0     | PRODUIT | 3270727701260   | GRAINE TOURNESOL GRIL/SAL                                    | 2.76  | 2.0   |
 | 2025-09-22 15:11:16 | 19           | 458.0     | VRAC    |                 | BANANE CAVENDISH                                             | 2.24  | 1.88  |
@@ -2059,8 +2059,8 @@
 | 2025-09-22 15:12:09 | 35           |           | PRODUIT | 3292482520146   | MORTU. 33CL MENTHE CITRON                                    | 1.09  | 2.0   |
 | 2025-09-22 15:12:09 | 35           |           | PRODUIT | 3760156640051   | SOUPE A L ORTIE - 1 LITRE                                    | 4.59  | 2.0   |
 | 2025-09-22 15:12:09 | 35           |           | VRAC    |                 | Jus de pomme                                                 | 1.28  | 1.64  |
-| 2025-09-22 15:12:09 | 35           |           | PRODUIT | 3770013032011   | Kéfir de Fruits Ginger Bio Kef 33cl                         | 3.05  | 4.0   |
-| 2025-09-22 15:12:09 | 35           |           | PRODUIT | 3273220135402   | Yaourt bifidus framboise Tante Hélène 4*125g               | 2.42  | 5.0   |
+| 2025-09-22 15:12:09 | 35           |           | PRODUIT | 3770013032011   | Kéfir de Fruits Ginger Bio Kef 33cl                          | 3.05  | 4.0   |
+| 2025-09-22 15:12:09 | 35           |           | PRODUIT | 3273220135402   | Yaourt bifidus framboise Tante Hélène 4*125g                 | 2.42  | 5.0   |
 | 2025-09-22 15:12:09 | 35           |           | PRODUIT | 3596710531264   | POUCE TRUITE FUMEE 100G                                      | 2.49  | 3.0   |
 | 2025-09-22 15:12:09 | 35           |           | PRODUIT | 3254560034846   | HARICOT E.F. C.MAIN                                          | 1.3   | 5.0   |
 | 2025-09-22 15:12:09 | 35           |           | PRODUIT | 3254569935465   | CORBIERES P.CHANAU B                                         | 10.49 | 1.0   |
@@ -2077,7 +2077,7 @@
 | 2025-09-22 15:18:13 | 44           |           | VRAC    |                 | BLEME                                                        | 4.99  | 1.39  |
 | 2025-09-22 15:18:13 | 44           |           | PRODUIT | 5201004021328   | CIGARETTE PAPADOPOULOS (CAPRIC)                              | 4.5   | 5.0   |
 | 2025-09-22 15:18:13 | 44           |           | VRAC    |                 | Chou rouge                                                   | 2.34  | 0.26  |
-| 2025-09-22 15:18:13 | 44           |           | PRODUIT | 3185370303320   | Champagne Rosé                                              | 99.9  | 5.0   |
+| 2025-09-22 15:18:13 | 44           |           | PRODUIT | 3185370303320   | Champagne Rosé                                               | 99.9  | 5.0   |
 | 2025-09-22 15:18:13 | 44           |           | PRODUIT | 3367651003574   | DAUNAT BE WRAP POULET CAESAR 1                               | 3.61  | 4.0   |
 | 2025-09-22 15:18:13 | 44           |           | PRODUIT | 3760138833105   | VINAIGRE ALCOOL BIO                                          | 1.89  | 4.0   |
 | 2025-09-22 15:18:13 | 44           |           | VRAC    |                 | Tomate ancienne (famille)                                    | 6.25  | 1.02  |
@@ -2099,7 +2099,7 @@
 | 2025-09-22 15:22:13 | 50           |           | PRODUIT | 3564707118118   | HERBE PROVENCE                                               | 0.79  | 1.0   |
 | 2025-09-22 15:22:13 | 50           |           | PRODUIT | 3256220367981   | RIZ BASMATI U BIO                                            | 1.97  | 3.0   |
 | 2025-09-22 15:22:13 | 50           |           | VRAC    |                 | MELOU Jaune-Canari                                           | 5.2   | 1.99  |
-| 2025-09-22 15:22:13 | 50           |           | PRODUIT | 3268350120091   | Pain grillé Moulin Pivert 250g                              | 2.68  | 5.0   |
+| 2025-09-22 15:22:13 | 50           |           | PRODUIT | 3268350120091   | Pain grillé Moulin Pivert 250g                               | 2.68  | 5.0   |
 | 2025-09-22 15:22:13 | 50           |           | VRAC    |                 | RAISIN NOIR VRAC                                             | 3.99  | 0.73  |
 | 2025-09-22 15:22:13 | 50           |           | PRODUIT | 3596710427673   | AUCHAN VENDOME ORANGETTES                                    | 6.14  | 2.0   |
 | 2025-09-22 15:22:13 | 50           |           | PRODUIT | 3061430008407   | 150G FRISEE 100% COEUR CRUDET.                               | 2.29  | 4.0   |
@@ -2131,7 +2131,7 @@
 | 2025-09-22 15:23:13 | 16           |           | PRODUIT | 3701129807385   | BIO PHOTO AQUAFLUID SPF50 40ML                               | 14.5  | 4.0   |
 | 2025-09-22 15:23:13 | 16           |           | PRODUIT | 3564700865644   | MANGUES FRUIT AU SIROP                                       | 5.32  | 1.0   |
 | 2025-09-22 15:23:13 | 16           |           | PRODUIT | 3018930004903   | BRETZELS MOYEN ANCEL                                         | 1.04  | 5.0   |
-| 2025-09-22 15:23:13 | 16           |           | VRAC    |                 | Pastèque                                                    | 3.3   | 0.89  |
+| 2025-09-22 15:23:13 | 16           |           | VRAC    |                 | Pastèque                                                     | 3.3   | 0.89  |
 | 2025-09-22 15:23:13 | 16           |           | PRODUIT | 3538395301107   | ASSOUPLISSANT                                                | 7.6   | 2.0   |
 | 2025-09-22 15:23:13 | 16           |           | PRODUIT | 6923933818310   | AMP.LED A60 E27 60W ENERGETIC                                | 5.49  | 4.0   |
 | 2025-09-22 15:23:13 | 16           |           | PRODUIT | 3250392355463   | FIORINI TAGLIATELLE BIO 2                                    | 1.85  | 1.0   |
@@ -2153,7 +2153,7 @@
 | 2025-09-22 15:23:13 | 16           |           | PRODUIT | 3256222242682   | LT UHT BIO ECREME UBIO                                       | 7.45  | 3.0   |
 | 2025-09-22 15:23:24 | 39           | 172.0     | PRODUIT | 3250540232677   | VINAIGRE VIN GRANDE CUVEE MAILLE                             | 2.72  | 5.0   |
 | 2025-09-22 15:23:24 | 39           | 172.0     | VRAC    |                 | RADIS LONG ROSE DE CHINE                                     | 3.3   | 2.3   |
-| 2025-09-22 15:23:24 | 39           | 172.0     | VRAC    |                 | Poire Conférence                                            | 4.0   | 1.45  |
+| 2025-09-22 15:23:24 | 39           | 172.0     | VRAC    |                 | Poire Conférence                                             | 4.0   | 1.45  |
 | 2025-09-22 15:23:24 | 39           | 172.0     | VRAC    |                 | OIGNON CEBETTE BOTTE                                         | 1.99  | 0.6   |
 | 2025-09-22 15:23:24 | 39           | 172.0     | VRAC    |                 | CHOU LISSE ROUGE                                             | 3.27  | 0.54  |
 | 2025-09-22 15:23:24 | 39           | 172.0     | PRODUIT | 3450971448122   | BANANE ECO+ MAIN X6                                          | 0.89  | 1.0   |
@@ -2163,13 +2163,13 @@
 | 2025-09-22 15:23:24 | 39           | 172.0     | PRODUIT | 3124480002501   | SCHWEPPES AGRUM PET 1L5                                      | 1.39  | 4.0   |
 | 2025-09-22 15:23:24 | 39           | 172.0     | VRAC    |                 | Ail mou                                                      | 3.7   | 1.84  |
 | 2025-09-22 15:23:24 | 39           | 172.0     | PRODUIT | 3031441168193   | G819-CARRES DEMAQUILLANTS GLAMOUR IN                         | 6.55  | 1.0   |
-| 2025-09-22 15:23:24 | 39           | 172.0     | PRODUIT | 3430421053731   | 10 OEUFS BIO ΜΟΥ. ARRADOY                                 | 4.75  | 1.0   |
+| 2025-09-22 15:23:24 | 39           | 172.0     | PRODUIT | 3430421053731   | 10 OEUFS BIO ΜΟΥ. ARRADOY                                    | 4.75  | 1.0   |
 | 2025-09-22 15:23:24 | 39           | 172.0     | PRODUIT | 4970148011472   | 4970148011472 **UONOYA INGREDIENTS                           | 2.1   | 5.0   |
 | 2025-09-22 15:23:24 | 39           | 172.0     | PRODUIT | 3270190020875   | 50 CL SPEC.LAIT.CRE 15%MG CRF                                | 1.58  | 3.0   |
 | 2025-09-22 15:23:24 | 39           | 172.0     | VRAC    |                 |                                                              | 5.19  | 1.33  |
 | 2025-09-22 15:26:30 | 30           |           | PRODUIT | 3350033750371   | BISCOTTES                                                    | 2.85  | 1.0   |
 | 2025-09-22 15:26:30 | 30           |           | PRODUIT | 3154230800729   |                                                              | 2.29  | 2.0   |
-| 2025-09-22 15:26:30 | 30           |           | PRODUIT | 3396411235320   | ROCHERS SALÉS COMTÉ CUMIN                                  | 4.59  | 5.0   |
+| 2025-09-22 15:26:30 | 30           |           | PRODUIT | 3396411235320   | ROCHERS SALÉS COMTÉ CUMIN                                    | 4.59  | 5.0   |
 | 2025-09-22 15:26:30 | 30           |           | VRAC    |                 | KUMQUAT                                                      | 12.99 | 1.18  |
 | 2025-09-22 15:26:30 | 30           |           | PRODUIT | 3560070859429   | 4/4 PT POIS TRES FIN SIMPL                                   | 1.38  | 5.0   |
 | 2025-09-22 15:26:30 | 30           |           | PRODUIT | 3256228956606   | CAFE FORTISSIMO U X20 CAPSULES                               | 4.32  | 5.0   |
@@ -2184,10 +2184,10 @@
 | 2025-09-22 15:26:30 | 30           |           | PRODUIT | 3161710000135   | 125G CAPRICE DES DIEUX 60%MG                                 | 1.92  | 5.0   |
 | 2025-09-22 15:26:30 | 30           |           | PRODUIT | 3560070410897   | RAISIN SULTANINE                                             | 2.1   | 3.0   |
 | 2025-09-22 15:26:30 | 30           |           | VRAC    |                 | POMELO ROUGE                                                 | 2.5   | 2.25  |
-| 2025-09-22 15:26:30 | 30           |           | VRAC    |                 | MÛRE                                                        | 28.8  | 1.08  |
+| 2025-09-22 15:26:30 | 30           |           | VRAC    |                 | MÛRE                                                         | 28.8  | 1.08  |
 | 2025-09-22 15:26:30 | 30           |           | PRODUIT | 3760099533755   | PATE FEUILLETEE PUR BEURRE                                   | 2.63  | 4.0   |
 | 2025-09-22 15:26:30 | 30           |           | VRAC    |                 | courge timarron                                              | 2.75  | 0.66  |
-| 2025-09-22 15:26:30 | 30           |           | VRAC    |                 | chou frisé                                                  | 2.99  | 1.64  |
+| 2025-09-22 15:26:30 | 30           |           | VRAC    |                 | chou frisé                                                   | 2.99  | 1.64  |
 | 2025-09-22 15:26:30 | 30           |           | VRAC    |                 | PAMPLEMOUSSE BIO                                             | 3.7   | 0.12  |
 | 2025-09-22 15:26:30 | 30           |           | PRODUIT | 3242272848554   | SODEBO SDW CHEF CEREAL JB 210G                               | 2.59  | 3.0   |
 | 2025-09-22 15:26:30 | 30           |           | PRODUIT | 4009900469999   | AIRWAVES COOL CASSISMULTIPACK DRAGEES 5X10                   | 2.7   | 5.0   |
@@ -2270,7 +2270,7 @@
 | 2025-09-22 15:42:49 | 17           |           | PRODUIT | 3165950224184   | 4X1/5 DONT 1 OFF THON NAT MSC                                | 6.79  | 3.0   |
 | 2025-09-22 15:42:49 | 17           |           | PRODUIT | 3266140061555   | 250G RAVIOLI BOURSIN STJ                                     | 3.55  | 5.0   |
 | 2025-09-22 15:42:49 | 17           |           | VRAC    |                 | CITRON Vent lime                                             | 6.99  | 2.4   |
-| 2025-09-22 15:42:49 | 17           |           | PRODUIT | 8015197030046   | Pulpe de tomate légumes (Pomodoro con Verdure) Iris 340g    | 1.83  | 5.0   |
+| 2025-09-22 15:42:49 | 17           |           | PRODUIT | 8015197030046   | Pulpe de tomate légumes (Pomodoro con Verdure) Iris 340g     | 1.83  | 5.0   |
 | 2025-09-22 15:42:49 | 17           |           | PRODUIT | 3760109528597   | SAUGISSON CUIT NATUR ECO+                                    | 1.64  | 1.0   |
 | 2025-09-22 15:47:16 | 23           |           | VRAC    |                 | RADIS LONG BLANC                                             | 3.49  | 2.3   |
 | 2025-09-22 15:47:16 | 23           |           | PRODUIT | 3245413913128   | MOUTARDE MI FORTE                                            | 1.95  | 4.0   |
@@ -2282,16 +2282,16 @@
 | 2025-09-22 15:47:16 | 23           |           | PRODUIT | 3560071096069   | miettes thon huile                                           | 2.39  | 3.0   |
 | 2025-09-22 15:47:16 | 23           |           | PRODUIT | 20840815        | Abricot rouge du Rou                                         | 3.13  | 3.0   |
 | 2025-09-22 15:47:28 | 7            | 498.0     | PRODUIT | 5202258025773   | FETA AOP SALAKIS 150                                         | 2.39  | 3.0   |
-| 2025-09-22 15:47:28 | 7            | 498.0     | PRODUIT | 3760138834188   | Allumettes La droguerie écologique *100                     | 0.62  | 4.0   |
+| 2025-09-22 15:47:28 | 7            | 498.0     | PRODUIT | 3760138834188   | Allumettes La droguerie écologique *100                      | 0.62  | 4.0   |
 | 2025-09-22 15:47:28 | 7            | 498.0     | PRODUIT | 3073781213461   | BOURSIN SAL HERBES MEDITERRAN                                | 2.49  | 3.0   |
 | 2025-09-22 15:47:28 | 7            | 498.0     | VRAC    |                 | Echalote Traditionnelle Violette Longue                      | 9.99  | 1.79  |
-| 2025-09-22 15:47:28 | 7            | 498.0     | PRODUIT | 3700971800605   | Friandise chat hygiène bucco dentaire Felichef 80g          | 2.74  | 4.0   |
+| 2025-09-22 15:47:28 | 7            | 498.0     | PRODUIT | 3700971800605   | Friandise chat hygiène bucco dentaire Felichef 80g           | 2.74  | 4.0   |
 | 2025-09-22 15:47:28 | 7            | 498.0     | PRODUIT | 2800634000005   | NECTARINE JAUNE                                              | 2.1   | 4.0   |
 | 2025-09-22 15:47:28 | 7            | 498.0     | PRODUIT | 3596710459070   | AUCHAN PETIT DEJEUNE                                         | 1.74  | 5.0   |
 | 2025-09-22 15:47:28 | 7            | 498.0     | VRAC    |                 | COURGETTE VRAC                                               | 2.69  | 1.54  |
 | 2025-09-22 15:47:28 | 7            | 498.0     | PRODUIT | 5449000138514   | "COCA-COLA SS 6X1                                            | 25L"  | 10.14 |
 | 2025-09-22 15:47:28 | 7            | 498.0     | PRODUIT | 3245415992251   | HACHE AU BOEUF                                               | 2.67  | 5.0   |
-| 2025-09-22 15:47:28 | 7            | 498.0     | VRAC    |                 | Sucre de canne non raffiné Bio                              | 7.9   | 1.88  |
+| 2025-09-22 15:47:28 | 7            | 498.0     | VRAC    |                 | Sucre de canne non raffiné Bio                               | 7.9   | 1.88  |
 | 2025-09-22 15:47:28 | 7            | 498.0     | VRAC    |                 | POIVRON ROUGE                                                | 6.66  | 1.49  |
 | 2025-09-22 15:47:28 | 7            | 498.0     | VRAC    |                 | RADIS ROSE BOTTE                                             | 1.89  | 0.63  |
 | 2025-09-22 15:47:28 | 7            | 498.0     | VRAC    |                 | CITRON Vent lime                                             | 6.99  | 1.32  |
@@ -2360,7 +2360,7 @@
 | 2025-09-22 15:51:10 | 13           | 210.0     | VRAC    |                 | Radis Noir                                                   | 3.3   | 0.73  |
 | 2025-09-22 15:51:10 | 13           | 210.0     | VRAC    |                 | Chou Salade                                                  | 3.49  | 1.01  |
 | 2025-09-22 15:51:10 | 13           | 210.0     | PRODUIT | 3700774301408   | PATE TART.CARAMEL B.SALE 250G                                | 4.41  | 4.0   |
-| 2025-09-22 15:51:10 | 13           | 210.0     | PRODUIT | 3520831330727   | Mangue séchée DOYPACK Philia 100g                          | 3.41  | 5.0   |
+| 2025-09-22 15:51:10 | 13           | 210.0     | PRODUIT | 3520831330727   | Mangue séchée DOYPACK Philia 100g                            | 3.41  | 5.0   |
 | 2025-09-22 15:51:10 | 13           | 210.0     | PRODUIT | 3760255820477   | CARAMEL CHOCOLAT  TI DUDI BREIZH                             | 7.45  | 3.0   |
 | 2025-09-22 15:51:10 | 13           | 210.0     | VRAC    |                 | POTIMARRON                                                   | 2.79  | 2.49  |
 | 2025-09-22 15:51:10 | 13           | 210.0     | PRODUIT | 3660992011506   | CHOC.MENAG.LT PRIX MINI 5X100G                               | 3.56  | 3.0   |
@@ -2369,7 +2369,7 @@
 | 2025-09-22 15:51:10 | 13           | 210.0     | VRAC    |                 | OIGNON BLANC BOTTE                                           | 1.99  | 2.25  |
 | 2025-09-22 15:51:10 | 13           | 210.0     | PRODUIT | 3609060007010   | TOMATES 28% TUBE                                             | 2.05  | 1.0   |
 | 2025-09-22 15:51:10 | 13           | 210.0     | VRAC    |                 | RADIS ROSE BIO                                               | 1.99  | 0.49  |
-| 2025-09-22 15:51:10 | 13           | 210.0     | PRODUIT | 3700971800605   | Friandise chat hygiène bucco dentaire Felichef 80g          | 2.74  | 5.0   |
+| 2025-09-22 15:51:10 | 13           | 210.0     | PRODUIT | 3700971800605   | Friandise chat hygiène bucco dentaire Felichef 80g           | 2.74  | 5.0   |
 | 2025-09-22 15:51:10 | 13           | 210.0     | VRAC    |                 | mangue                                                       | 1.78  | 0.71  |
 | 2025-09-22 15:51:10 | 13           | 210.0     | PRODUIT | 4008400231723   | KINDER MKS CAMPING SHEEP 100G                                | 7.69  | 2.0   |
 | 2025-09-22 15:51:10 | 13           | 210.0     | PRODUIT | 3144550004778   | CAPRES 57G BUR                                               | 2.87  | 3.0   |
@@ -2395,7 +2395,7 @@
 | 2025-09-22 15:51:10 | 28           | 130.0     | VRAC    |                 | GROSEILLE                                                    | 17.8  | 0.99  |
 | 2025-09-22 15:59:30 | 4            |           | PRODUIT | 3256226910600   | EAU DE COCO U BIO BRIQ.1L                                    | 3.72  | 4.0   |
 | 2025-09-22 15:59:30 | 4            |           | PRODUIT | 3350033376083   | PILE AAA X4 MONOR                                            | 3.99  | 5.0   |
-| 2025-09-22 15:59:30 | 4            |           | VRAC    |                 | Carottes Lavées                                             | 2.75  | 1.86  |
+| 2025-09-22 15:59:30 | 4            |           | VRAC    |                 | Carottes Lavées                                              | 2.75  | 1.86  |
 | 2025-09-22 15:59:30 | 4            |           | PRODUIT | 3248830001195   | 560G NEMS POULET 6+2 OFF. TDA                                | 4.2   | 4.0   |
 | 2025-09-22 15:59:30 | 4            |           | PRODUIT | 3760278862423   | LITCHIS DENOYAUTES BOCAL 425G                                | 3.2   | 3.0   |
 | 2025-09-22 15:59:30 | 4            |           | VRAC    |                 | BETTRAVE                                                     | 3.29  | 0.23  |
@@ -2408,10 +2408,10 @@
 | 2025-09-22 15:59:30 | 4            |           | VRAC    |                 | POMME DE TERRE DE CONSOMMATION A CHAIR FERME                 | 3.29  | 0.35  |
 | 2025-09-22 15:59:30 | 4            |           | PRODUIT | 8711000522752   |                                                              | 9.33  | 3.0   |
 | 2025-09-22 16:08:38 | 46           | 480.0     | VRAC    |                 | artichaut violet                                             | 1.5   | 1.9   |
-| 2025-09-22 16:08:38 | 46           | 480.0     | VRAC    |                 | chou frisé                                                  | 2.99  | 2.03  |
+| 2025-09-22 16:08:38 | 46           | 480.0     | VRAC    |                 | chou frisé                                                   | 2.99  | 2.03  |
 | 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 3245412847059   | 6 OEUFS MOYEN LABEL ROUGE CRF                                | 2.15  | 2.0   |
 | 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 3600900020985   | COUSCOUS PARFUME TIPIAK 4X65G                                | 1.76  | 1.0   |
-| 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 0490000000092   | Huile de tournesol du Gâtinais Les Gros Ormes 50cl          | 3.89  | 3.0   |
+| 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 0490000000092   | Huile de tournesol du Gâtinais Les Gros Ormes 50cl           | 3.89  | 3.0   |
 | 2025-09-22 16:08:38 | 46           | 480.0     | VRAC    |                 | TARTINABLE ASPERGE                                           | 3.15  | 0.77  |
 | 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 26033976        | Huile d'olive extra vierge                                   | 9.49  | 5.0   |
 | 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 3250391782819   | CHOCOLAT PATISSIER BIO                                       | 3.24  | 5.0   |
@@ -2420,7 +2420,7 @@
 | 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 3442250000923   | CHOUCROUTE CUISINEE 650G RIEFFEL                             | 2.77  | 5.0   |
 | 2025-09-22 16:08:38 | 46           | 480.0     | VRAC    |                 | Asparce vert                                                 | 7.75  | 1.36  |
 | 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 3017800501818   | DAUCY LASAGNE SAUMON  BQ 300G                                | 3.27  | 4.0   |
-| 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 3396411242502   | Boisson Mais ça j'aime 1L                                   | 1.75  | 1.0   |
+| 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 3396411242502   | Boisson Mais ça j'aime 1L                                    | 1.75  | 1.0   |
 | 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 3251248033702   | 200ML DEMELANT PAMP/JASM LPM                                 | 3.3   | 5.0   |
 | 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 3760138837332   | BOUGIE VEILLEUSE BLANCHE X6                                  | 4.28  | 1.0   |
 | 2025-09-22 16:08:38 | 46           | 480.0     | PRODUIT | 3368953487642   | VINAIGRE BALSAMI                                             | 3.71  | 2.0   |
@@ -2431,12 +2431,12 @@
 | 2025-09-22 16:16:01 | 2            | 436.0     | VRAC    |                 | Pomme Calette                                                | 1.99  | 0.61  |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3760085560604   | Pommeau de Normandie du Père Michel Domaine de la Baudrière 70 cl | 11.95 | 2.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | VRAC    |                 | CITRON LIME                                                  | 9.59  | 0.1   |
-| 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3760341006761   | Crème riche nourrissante Endro 50ml                         | 12.55 | 1.0   |
+| 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3760341006761   | Crème riche nourrissante Endro 50ml                          | 12.55 | 1.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3250391084753   | ASPERGES VERTES PIC NIC VERT                                 | 1.63  | 5.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 8001090899286   | ALWAYS SERVIETTES PLATINUM SERCURE NIGHT X14 PROMO           | 4.38  | 4.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3760081999941   | COEUR DU PETIT ALBERT                                        | 3.88  | 3.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3330620016592   | OLIVADES                                                     | 4.48  | 1.0   |
-| 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3520831330727   | Mangue séchée DOYPACK Philia 100g                          | 3.41  | 4.0   |
+| 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3520831330727   | Mangue séchée DOYPACK Philia 100g                            | 3.41  | 4.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3760078840102   | BLANCHE 75                                                   | 6.7   | 1.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3110846189399   | *REVIL.NOEL FEERIQUE BLC360G                                 | 8.89  | 2.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | VRAC    |                 | POMELO STAR RUBY                                             | 4.59  | 1.0   |
@@ -2450,7 +2450,7 @@
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3080920997335   | RECOLTE DU VERGER MCX                                        | 3.5   | 4.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 250504          | MACARONI VRAC                                                | 3.01  | 5.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | VRAC    |                 | CHOU DE BRUXELLE VRAC                                        | 2.69  | 1.35  |
-| 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3520831330345   | Mélange Superfruits BIO DOYPACK Philia 180g                 | 3.95  | 3.0   |
+| 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3520831330345   | Mélange Superfruits BIO DOYPACK Philia 180g                  | 3.95  | 3.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 8711406022207   | A TRAPPE BIERE QUADRUPEL                                     | 2.89  | 5.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3760089331552   | SALADE DE TENTACULES POUL PES                                | 7.95  | 4.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | VRAC    |                 | CITRON JAUNE VRAC                                            | 2.29  | 0.84  |
@@ -2459,14 +2459,14 @@
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3245413504531   | GALET.RIZ CHO/NOIS.CRFBIO                                    | 3.38  | 5.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | VRAC    |                 | KIWI VERT PIECE                                              | 0.72  | 0.37  |
 | 2025-09-22 16:16:01 | 2            | 436.0     | VRAC    |                 | ENDIVE DE BRETAGNE BIO                                       | 5.29  | 2.45  |
-| 2025-09-22 16:16:01 | 2            | 436.0     | VRAC    |                 | Mâche                                                       | 10.32 | 2.35  |
+| 2025-09-22 16:16:01 | 2            | 436.0     | VRAC    |                 | Mâche                                                        | 10.32 | 2.35  |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3760099539412   | CHEDDAR TRANCHGES                                            | 4.15  | 1.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | VRAC    |                 | POULE PAC                                                    | 2.26  | 1.84  |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3596710386598   | POUGE PETITS POIS CAROTTES TRES FINS BOITE 530G              | 1.3   | 3.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | VRAC    |                 | QUINOA TRICOLORE                                             | 14.9  | 1.19  |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3329489900517   | POIS CHICHES                                                 | 1.55  | 3.0   |
 | 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3462452002143   | BUCHE GLACEE - LEMON CURD 6 PARTS                            | 26.72 | 1.0   |
-| 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3270190023135   | Crème dessert au chocolat                                   | 0.89  | 4.0   |
+| 2025-09-22 16:16:01 | 2            | 436.0     | PRODUIT | 3270190023135   | Crème dessert au chocolat                                    | 0.89  | 4.0   |
 | 2025-09-22 16:19:23 | 20           |           | PRODUIT | 3162050041321   | 5 baies ste lucie pot                                        | 11.65 | 2.0   |
 | 2025-09-22 16:19:23 | 20           |           | PRODUIT | 3596710363636   | AUCHAN PLAISIR FRUIT                                         | 1.12  | 1.0   |
 | 2025-09-22 16:19:23 | 20           |           | PRODUIT | 3229820785752   | PUREE DE TOMATES 3X200G BIO                                  | 1.79  | 4.0   |
@@ -2496,7 +2496,7 @@
 | 2025-09-22 16:26:47 | 24           | 181.0     | PRODUIT | 8034063246169   | Pesto rosso Bio au tofu Bionaturae                           | 2.44  | 5.0   |
 | 2025-09-22 16:26:47 | 24           | 181.0     | PRODUIT | 3560071455729   | CHOCO CROUSTI                                                | 2.06  | 4.0   |
 | 2025-09-22 16:26:47 | 24           | 181.0     | PRODUIT | 3596710330874   | PAST JAVEL EUCAL X44                                         | 2.49  | 2.0   |
-| 2025-09-22 16:26:47 | 24           | 181.0     | VRAC    |                 | Graine de lin doré                                          | 6.5   | 1.87  |
+| 2025-09-22 16:26:47 | 24           | 181.0     | VRAC    |                 | Graine de lin doré                                           | 6.5   | 1.87  |
 | 2025-09-22 16:26:47 | 24           | 181.0     | PRODUIT | 2000000086415   | #DC CHILI SIN CARNE BI0 280G HA                              | 2.62  | 5.0   |
 | 2025-09-22 16:26:47 | 24           | 181.0     | PRODUIT | 0206035000000   | BOEUF VIANDE HACHEE                                          | 4.43  | 5.0   |
 | 2025-09-22 16:26:47 | 24           | 181.0     | PRODUIT | 3760209549027   | "SPR MOUSTIQ TIGR                                            |  PICSOL" | 6.75  |
@@ -2505,7 +2505,7 @@
 | 2025-09-22 16:26:47 | 24           | 181.0     | PRODUIT | 3760172100133   | Galibier Matchut IPA - 33cl                                  | 3.58  | 4.0   |
 | 2025-09-22 16:29:46 | 47           | 12.0      | PRODUIT | 3661945250393   | SAUCE SOJA CHAMPIGNON                                        | 1.36  | 5.0   |
 | 2025-09-22 16:29:46 | 47           | 12.0      | PRODUIT | 3250392133566   | LABELL BOUCHONS OREIL.8 PAIRES                               | 4.01  | 4.0   |
-| 2025-09-22 16:29:46 | 47           | 12.0      | PRODUIT | 3520831330147   | Amande effilée DOYPACK Philia 150g                          | 4.0   | 5.0   |
+| 2025-09-22 16:29:46 | 47           | 12.0      | PRODUIT | 3520831330147   | Amande effilée DOYPACK Philia 150g                           | 4.0   | 5.0   |
 | 2025-09-22 16:29:46 | 47           | 12.0      | VRAC    |                 | POMME DE TERRE A CHAIR FERME DE CONSOMMATION Variété ALLIANS | 2.49  | 1.52  |
 | 2025-09-22 16:29:46 | 47           | 12.0      | PRODUIT | 3266191066936   | VEGETALBURGER ECLAT NOISETTE                                 | 3.69  | 3.0   |
 | 2025-09-22 16:29:46 | 47           | 12.0      | VRAC    |                 | Chou Chinois                                                 | 5.19  | 1.55  |
@@ -2537,7 +2537,7 @@
 | 2025-09-22 16:29:53 | 24           |           | VRAC    |                 | NOISETTE                                                     | 12.55 | 0.31  |
 | 2025-09-22 16:29:53 | 24           |           | PRODUIT | 3083681096880   | HARICOTS VERTS BIO                                           | 2.75  | 5.0   |
 | 2025-09-22 16:29:53 | 24           |           | PRODUIT | 3256224352471   | Crackers emg graines UBIO                                    | 2.77  | 3.0   |
-| 2025-09-22 16:29:53 | 24           |           | PRODUIT | 3760091721051   | Chips épicées banane plantin Ethiquable 85g                | 1.56  | 1.0   |
+| 2025-09-22 16:29:53 | 24           |           | PRODUIT | 3760091721051   | Chips épicées banane plantin Ethiquable 85g                  | 1.56  | 1.0   |
 | 2025-09-22 16:29:53 | 24           |           | PRODUIT | 3700323802882   | TOMATE BQ                                                    | 0.99  | 5.0   |
 | 2025-09-22 16:29:53 | 24           |           | PRODUIT | 3071900005102   | ERSTEIN SUCRE CRISTALLISE SACH ET 1 KG                       | 1.89  | 4.0   |
 | 2025-09-22 16:29:53 | 24           |           | PRODUIT | 5601255110138   | ACAROLA H. BLANC                                             | 3.04  | 1.0   |
@@ -2549,7 +2549,7 @@
 | 2025-09-22 16:40:22 | 42           |           | PRODUIT | 3616479277774   | 15 sacs 10l cx compostables                                  | 3.05  | 5.0   |
 | 2025-09-22 16:40:22 | 42           |           | PRODUIT | 8691216014909   | HARIBO CHAMALLOW 70GR                                        | 1.29  | 1.0   |
 | 2025-09-22 16:40:22 | 42           |           | PRODUIT | 8000368202605   | DOC PROSECCO RICADON                                         | 6.48  | 1.0   |
-| 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 3438860003010   | Flan vanille nappé de caramel Gaborit 100g                  | 3.06  | 1.0   |
+| 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 3438860003010   | Flan vanille nappé de caramel Gaborit 100g                   | 3.06  | 1.0   |
 | 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 3270160742424   | 8 AIGUIL.KBIO PANEES MSC                                     | 8.5   | 4.0   |
 | 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 8435177069994   | POUCE NOIX CAJOU GRILLEES NON SALEES                         | 4.99  | 5.0   |
 | 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 3261342004690   | MED CAPS HOME COMPOST DECA X20                               | 7.49  | 1.0   |
@@ -2565,11 +2565,11 @@
 | 2025-09-22 16:44:58 | 9            | 490.0     | VRAC    |                 | NAVET JAUNE VRAC                                             | 3.69  | 1.76  |
 | 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 3564700655566   | EAU MINERALE NAT GAZEUSE 1.25L                               | 0.36  | 4.0   |
 | 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 8445291051379   | PTIT CEREAL COMP VANI 12M                                    | 3.45  | 3.0   |
-| 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 3760308960556   | Tisane Verveine citronnée x20 Biodyssée 30g                | 2.11  | 1.0   |
+| 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 3760308960556   | Tisane Verveine citronnée x20 Biodyssée 30g                  | 2.11  | 1.0   |
 | 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 3272030007237   | MOULIN DE VALDONNE SIROP ORGEA                               | 3.5   | 5.0   |
 | 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 3245413921857   | BRUT ROSE COURANCES                                          | 20.8  | 3.0   |
 | 2025-09-22 16:44:58 | 9            | 490.0     | VRAC    |                 | PRUNE Rouge                                                  | 6.5   | 1.01  |
-| 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 3278584930052   | Levure boulangère                                           | 3.95  | 3.0   |
+| 2025-09-22 16:44:58 | 9            | 490.0     | PRODUIT | 3278584930052   | Levure boulangère                                            | 3.95  | 3.0   |
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | MACARONIS BLANCS                                             | 2.79  | 0.26  |
 | 2025-09-22 16:53:18 | 22           | 338.0     | PRODUIT | 3124480193582   | PET 1.5L OASIS TROPICAL                                      | 1.99  | 4.0   |
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | COURGE                                                       | 2.56  | 0.5   |
@@ -2577,7 +2577,7 @@
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | POMME JAZZ                                                   | 2.99  | 1.81  |
 | 2025-09-22 16:53:18 | 22           | 338.0     | PRODUIT | 3600550809329   | 200ML DEO ATO VANILLE USHUAIA                                | 3.22  | 4.0   |
 | 2025-09-22 16:53:18 | 22           | 338.0     | PRODUIT | 9002490200381   | RED BULL SANS SUCRE                                          | 4.4   | 1.0   |
-| 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | Olives noires entières                                      | 3.6   | 1.99  |
+| 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | Olives noires entières                                       | 3.6   | 1.99  |
 | 2025-09-22 16:53:18 | 22           | 338.0     | PRODUIT | 3038359003202   | QUINOA FACILE LUSTUCRU 300G                                  | 2.4   | 3.0   |
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | POMELO ROUGE                                                 | 2.5   | 0.5   |
 | 2025-09-22 16:53:18 | 22           | 338.0     | PRODUIT | 7610036002706   | TAB BLOND PUR VILLARS                                        | 2.54  | 3.0   |
@@ -2587,7 +2587,7 @@
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | PAPAYE AVION                                                 | 3.49  | 0.59  |
 | 2025-09-22 16:53:18 | 22           | 338.0     | PRODUIT | 3379140501331   | CHAMPIGNON HUITRE                                            | 2.2   | 5.0   |
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | Clementine                                                   | 3.15  | 1.56  |
-| 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | Betterave Rouge Variété Population                         | 3.25  | 0.62  |
+| 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | Betterave Rouge Variété Population                           | 3.25  | 0.62  |
 | 2025-09-22 16:53:18 | 22           | 338.0     | PRODUIT | 3275760000417   | WEI MING NOUILLES RIZ 3 MM                                   | 2.82  | 5.0   |
 | 2025-09-22 16:53:18 | 22           | 338.0     | PRODUIT | 3664320911513   | EAU MINE. GAZ. QUEZAC                                        | 3.48  | 1.0   |
 | 2025-09-22 16:53:18 | 22           | 338.0     | PRODUIT | 3270190129639   | HLE SESAME CRF SELECTION                                     | 5.39  | 4.0   |
@@ -2604,7 +2604,7 @@
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | POMME CHANTELCLERC                                           | 3.79  | 2.06  |
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | CAROTTE                                                      | 2.21  | 2.06  |
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | fruit de la passion                                          | 18.5  | 2.24  |
-| 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | TOMATE COTELÉE NOIRE                                        | 7.5   | 0.46  |
+| 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | TOMATE COTELÉE NOIRE                                         | 7.5   | 0.46  |
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | courge butternut                                             | 2.94  | 0.51  |
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | CHAMP BLANC GEANT                                            | 6.99  | 2.1   |
 | 2025-09-22 16:53:18 | 22           | 338.0     | VRAC    |                 | BATAVIA VERTE PIECE                                          | 1.09  | 0.28  |
@@ -2626,7 +2626,7 @@
 | 2025-09-22 16:55:40 | 24           |           | VRAC    |                 | BROCOLI VRAC                                                 | 3.79  | 1.14  |
 | 2025-09-22 16:55:40 | 24           |           | PRODUIT | 3250392152055   | CRUSTY NUTS PAPRIKA                                          | 0.87  | 5.0   |
 | 2025-09-22 16:55:40 | 24           |           | PRODUIT | 3250392551407   | PAT.BUCHE DE CHEVRE 400G                                     | 3.28  | 1.0   |
-| 2025-09-22 16:55:40 | 24           |           | PRODUIT | 3273220107454   | Crème fraîche légère 15% MG Tante Hélène 3x20cl        | 4.11  | 4.0   |
+| 2025-09-22 16:55:40 | 24           |           | PRODUIT | 3273220107454   | Crème fraîche légère 15% MG Tante Hélène 3x20cl              | 4.11  | 4.0   |
 | 2025-09-22 16:55:40 | 24           |           | PRODUIT | 3560071018085   | P.CHICHE BIO CARREFOUR                                       | 2.34  | 2.0   |
 | 2025-09-22 16:55:40 | 24           |           | PRODUIT | 5410188013085   | Jus Reveil Fruits Tropi                                      | 3.52  | 4.0   |
 | 2025-09-22 16:55:40 | 24           |           | VRAC    |                 | Courgette Ronde Tricolore                                    | 5.49  | 1.98  |
@@ -2653,7 +2653,7 @@
 | 2025-09-22 17:00:25 | 22           | 126.0     | PRODUIT | 3585810106847   | KT THE RITUEL MINCEUR                                        | 9.99  | 3.0   |
 | 2025-09-22 17:00:25 | 22           | 126.0     | PRODUIT | 3263820002402   | LENTILLES BLONDES ETUI                                       | 1.52  | 5.0   |
 | 2025-09-22 17:00:25 | 22           | 126.0     | PRODUIT | 3250390600657   | *ECR/ ADEL BAC PISTACHE 532G                                 | 2.51  | 3.0   |
-| 2025-09-22 17:00:25 | 22           | 126.0     | PRODUIT | 3417960029502   | Sucre vanillé bio                                           | 5.49  | 3.0   |
+| 2025-09-22 17:00:25 | 22           | 126.0     | PRODUIT | 3417960029502   | Sucre vanillé bio                                            | 5.49  | 3.0   |
 | 2025-09-22 17:00:25 | 22           | 126.0     | PRODUIT | 3254690670709   | PRESSADE NECTAR BIO MULTIFRUNT BRICK 6X20CL                  | 3.04  | 5.0   |
 | 2025-09-22 17:00:25 | 22           | 126.0     | VRAC    |                 | CHAMPIGNON DE PARIS                                          | 5.8   | 1.86  |
 | 2025-09-22 17:00:25 | 22           | 126.0     | VRAC    |                 | FEVES                                                        | 3.99  | 0.26  |
@@ -2716,7 +2716,7 @@
 | 2025-09-22 17:05:53 | 25           | 101.0     | VRAC    |                 | AVOCAT                                                       | 4.27  | 0.39  |
 | 2025-09-22 17:05:53 | 25           | 101.0     | PRODUIT | 7638900381795   | PILES BOUTON LITHIUM 2450 X2 ENERGIZER                       | 6.0   | 2.0   |
 | 2025-09-22 17:05:53 | 25           | 101.0     | PRODUIT | 3567890182201   | LANG.CUIT.2DEMI.PESCANOVA                                    | 17.99 | 3.0   |
-| 2025-09-22 17:05:53 | 25           | 101.0     | PRODUIT | 3489940014808   | Séquestrant machine anti-calcaire - 700 g - Lerutan         | 7.85  | 2.0   |
+| 2025-09-22 17:05:53 | 25           | 101.0     | PRODUIT | 3489940014808   | Séquestrant machine anti-calcaire - 700 g - Lerutan          | 7.85  | 2.0   |
 | 2025-09-22 17:05:53 | 25           | 101.0     | PRODUIT | 3596710102723   | JAVEL                                                        | 0.52  | 1.0   |
 | 2025-09-22 17:05:53 | 25           | 101.0     | PRODUIT | 3560071418199   | ANANAS                                                       | 2.41  | 3.0   |
 | 2025-09-22 17:05:53 | 25           | 101.0     | PRODUIT | 3587220002368   | BRIOCH' BURGER X 4 +2 OFFERTS                                | 1.49  | 5.0   |
@@ -2754,7 +2754,7 @@
 | 2025-09-22 17:09:38 | 35           | 347.0     | PRODUIT | 3700531211537   | CALENDRIER DE L AVENT - NOEL                                 | 8.52  | 1.0   |
 | 2025-09-22 17:09:38 | 35           | 347.0     | VRAC    |                 | Chou-Frise                                                   | 2.75  | 0.73  |
 | 2025-09-22 17:09:38 | 35           | 347.0     | VRAC    |                 | framboise barquette 125g                                     | 22.32 | 0.83  |
-| 2025-09-22 17:09:38 | 35           | 347.0     | PRODUIT | 3501940138459   | Chocolat noir pâte à tartiner                              | 5.8   | 1.0   |
+| 2025-09-22 17:09:38 | 35           | 347.0     | PRODUIT | 3501940138459   | Chocolat noir pâte à tartiner                                | 5.8   | 1.0   |
 | 2025-09-22 17:09:38 | 35           | 347.0     | PRODUIT | 3600551054285   | "DCH SURGRAS AMAND                                           | CADUM | 400ML" |
 | 2025-09-22 17:09:38 | 35           | 347.0     | VRAC    |                 | Cosommation Grenaille                                        | 2.99  | 2.41  |
 | 2025-09-22 17:09:38 | 35           | 347.0     | VRAC    |                 | HARICOT VERT FIN VRAC                                        | 6.99  | 0.52  |
@@ -2772,8 +2772,8 @@
 | 2025-09-22 17:13:12 | 15           |           | PRODUIT | 3524130005553   | OLIVE VRTE DENOY PIMENTS 150G                                | 2.99  | 1.0   |
 | 2025-09-22 17:13:12 | 15           |           | PRODUIT | 3564706569423   | BOISSON LACT VANILLE 6X20CL MR                               | 2.02  | 4.0   |
 | 2025-09-22 17:13:12 | 15           |           | VRAC    |                 | Graine de tournesol                                          | 9.5   | 1.44  |
-| 2025-09-22 17:13:12 | 15           |           | VRAC    |                 | POMME DE TERRE DE CONSOMMATION A CHAIR FERME Variété Acians | 2.99  | 1.33  |
-| 2025-09-22 17:13:12 | 15           |           | VRAC    |                 | POMME ZÉLI                                                  | 1.99  | 1.31  |
+| 2025-09-22 17:13:12 | 15           |           | VRAC    |                 | POMME DE TERRE DE CONSOMMATION A CHAIR FERME Variété Acians  | 2.99  | 1.33  |
+| 2025-09-22 17:13:12 | 15           |           | VRAC    |                 | POMME ZÉLI                                                   | 1.99  | 1.31  |
 | 2025-09-22 17:13:12 | 15           |           | PRODUIT | 3267110007047   | PATE D'AMANDE ROSE                                           | 6.45  | 4.0   |
 | 2025-09-22 17:13:12 | 15           |           | PRODUIT | 3760056260496   | CAzzurra Mascarpone                                          | 3.45  | 1.0   |
 | 2025-09-22 17:13:12 | 15           |           | VRAC    |                 | RADIS Blue meat                                              | 3.49  | 0.62  |
@@ -2792,11 +2792,11 @@
 | 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 3266980034627   | GESIER CAN CONFIT                                            | 5.23  | 4.0   |
 | 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 3760099533694   | PELARDON AOP LAIT CRU CAISSE                                 | 2.66  | 3.0   |
 | 2025-09-22 17:20:00 | 7            | 15.0      | VRAC    |                 | CHOU-FLEUR                                                   | 3.06  | 2.38  |
-| 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 3267031640019   | Petit Pont l'Evêque au lait cru 220g Gillot Bio             | 4.66  | 5.0   |
+| 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 3267031640019   | Petit Pont l'Evêque au lait cru 220g Gillot Bio              | 4.66  | 5.0   |
 | 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 3564707124973   | MOUTARDE ANCIENNE BIO 200G BV                                | 0.99  | 2.0   |
 | 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 3565840901407   | SALADE D ALGUES                                              | 3.39  | 1.0   |
 | 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 3166291529600   | CUMIN EN GRAINES DUCROS FLACON                               | 2.21  | 2.0   |
-| 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 3428420060485   | GOUGÈRES FROMAGES ERHARD                                    | 4.99  | 5.0   |
+| 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 3428420060485   | GOUGÈRES FROMAGES ERHARD                                     | 4.99  | 5.0   |
 | 2025-09-22 17:20:00 | 7            | 15.0      | VRAC    |                 | RIZ BASMATI 1/2 COMPLET VRAC                                 | 6.65  | 0.24  |
 | 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 8713815203581   | 50 GOB CARTON BLANCS                                         | 2.01  | 5.0   |
 | 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 8053178940038   | CREME GLACEE A LA CACAHUETE                                  | 5.69  | 2.0   |
@@ -2811,9 +2811,9 @@
 | 2025-09-22 17:20:00 | 7            | 15.0      | VRAC    |                 | LAITUE BATAVIA                                               | 1.6   | 0.87  |
 | 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 3256224255055   | OEUFS CAL.MIXTE U BIO BTE X6                                 | 2.74  | 2.0   |
 | 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 3222476606938   | TABOULE ETUI 73CG CO                                         | 3.64  | 1.0   |
-| 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 0490000000436   | Notre Yaourt Bio Aromatisé Fruits La Fromentellerie 125g    | 0.96  | 5.0   |
+| 2025-09-22 17:20:00 | 7            | 15.0      | PRODUIT | 0490000000436   | Notre Yaourt Bio Aromatisé Fruits La Fromentellerie 125g     | 0.96  | 5.0   |
 | 2025-09-22 17:23:04 | 50           |           | VRAC    |                 | CITRON FILET                                                 | 1.99  | 2.47  |
-| 2025-09-22 17:23:04 | 50           |           | PRODUIT | 3067140037560   | Chicorée torréfiée Goût Doux Avec Plaisir !              | 3.65  | 3.0   |
+| 2025-09-22 17:23:04 | 50           |           | PRODUIT | 3067140037560   | Chicorée torréfiée Goût Doux Avec Plaisir !                  | 3.65  | 3.0   |
 | 2025-09-22 17:23:04 | 50           |           | PRODUIT | 3086361002003   | CHAMP PIEDS&MCX BLANCH                                       | 5.57  | 3.0   |
 | 2025-09-22 17:23:04 | 50           |           | PRODUIT | 3250392702472   | NETTO PAT A TART18.5XS H.                                    | 2.5   | 1.0   |
 | 2025-09-22 17:23:04 | 50           |           | VRAC    |                 | KAKI AOP                                                     | 1.09  | 0.16  |
@@ -2842,12 +2842,12 @@
 | 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3094901304302   | BAD PRECIS EXT SPL SENSO                                     | 3.29  | 3.0   |
 | 2025-09-22 17:23:46 | 19           |           | VRAC    |                 | POIVRONS VERT                                                | 5.78  | 2.17  |
 | 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3601029974012   | LIQUID REFROID - 30 5L TECH9                                 | 13.59 | 5.0   |
-| 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3760294960264   | Sablés chocolat noir Elibio 200g                            | 2.09  | 1.0   |
+| 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3760294960264   | Sablés chocolat noir Elibio 200g                             | 2.09  | 1.0   |
 | 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3033610086192   | SF TR CREATIVES SESAME                                       | 5.49  | 5.0   |
 | 2025-09-22 17:23:46 | 19           |           | VRAC    |                 | AVOCAT hass                                                  | 5.99  | 1.65  |
 | 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3250392065676   | ADOU CONC JASM/ROSE                                          | 2.15  | 3.0   |
-| 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3760226261346   | Père Noël Chocolat Lait 37% Grain de Sail 120g PROMO       | 4.28  | 3.0   |
-| 2025-09-22 17:23:46 | 19           |           | PRODUIT | 0493112000004   | Biscuit toast sarrasin multigraines les P'tits Vénètes VRAC | 25.31 | 5.0   |
+| 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3760226261346   | Père Noël Chocolat Lait 37% Grain de Sail 120g PROMO         | 4.28  | 3.0   |
+| 2025-09-22 17:23:46 | 19           |           | PRODUIT | 0493112000004   | Biscuit toast sarrasin multigraines les P'tits Vénètes VRAC  | 25.31 | 5.0   |
 | 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3250392870546   | FLAGEOLETS BIO BOCAL                                         | 2.78  | 4.0   |
 | 2025-09-22 17:23:46 | 19           |           | VRAC    |                 | Pomme pink lady vrac                                         | 2.99  | 1.26  |
 | 2025-09-22 17:23:46 | 19           |           | PRODUIT | 2860001023945   | emmental                                                     | 3.65  | 4.0   |
@@ -2855,8 +2855,8 @@
 | 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3245679531531   | AUC CHEVILLE METAL EXPANS+VIS4X20MM 30PCS                    | 3.5   | 4.0   |
 | 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3701184013783   | Wakame de Hokkaido                                           | 6.0   | 5.0   |
 | 2025-09-22 17:23:46 | 19           |           | PRODUIT | 3760109260206   | PINOT NOIR FUT DE CHENE                                      | 13.95 | 4.0   |
-| 2025-09-22 17:23:46 | 19           |           | PRODUIT | 0493267000003   | Arachides décortiquées grillées nature VRAC               | 9.02  | 3.0   |
-| 2025-09-22 17:41:41 | 36           | 457.0     | VRAC    |                 | Celéri Branche                                              | 4.78  | 1.02  |
+| 2025-09-22 17:23:46 | 19           |           | PRODUIT | 0493267000003   | Arachides décortiquées grillées nature VRAC                  | 9.02  | 3.0   |
+| 2025-09-22 17:41:41 | 36           | 457.0     | VRAC    |                 | Celéri Branche                                               | 4.78  | 1.02  |
 | 2025-09-22 17:41:41 | 36           | 457.0     | PRODUIT | 3228857002344   | HAR.AMS.COMPLET.SS.ADDITIF600G                               | 1.82  | 4.0   |
 | 2025-09-22 17:41:41 | 36           | 457.0     | VRAC    |                 | CAROTTE                                                      | 2.21  | 1.89  |
 | 2025-09-22 17:41:41 | 36           | 457.0     | PRODUIT | 3256224200000   | P.JUS ORAN.A/PULPE ZRP U                                     | 2.54  | 5.0   |
@@ -2874,7 +2874,7 @@
 | 2025-09-22 17:41:41 | 36           | 457.0     | PRODUIT | 3033491314827   | ACTIVIA FRUITS ANANA                                         | 1.49  | 5.0   |
 | 2025-09-22 17:41:41 | 36           | 457.0     | VRAC    |                 | PECHE/NECTARINE BIO AGRUMBIO                                 | 7.25  | 2.15  |
 | 2025-09-22 17:41:41 | 36           | 457.0     | PRODUIT | 3493832060385   | LENTILLES VERTES AU NATUREL                                  | 3.35  | 5.0   |
-| 2025-09-22 17:41:41 | 36           | 457.0     | PRODUIT | 3770024052008   | Bocal Lentilles & Lég. La Petite Cantine 450g               | 6.61  | 5.0   |
+| 2025-09-22 17:41:41 | 36           | 457.0     | PRODUIT | 3770024052008   | Bocal Lentilles & Lég. La Petite Cantine 450g                | 6.61  | 5.0   |
 | 2025-09-22 17:41:41 | 36           | 457.0     | VRAC    |                 | AUBERGINE AFRICAINE VRAC                                     | 6.99  | 0.28  |
 | 2025-09-22 17:41:41 | 36           | 457.0     | PRODUIT | 0204439000000   | PORC ESCALOPE CAISSETTE                                      | 3.3   | 5.0   |
 | 2025-09-22 17:41:41 | 36           | 457.0     | VRAC    |                 | champignon blond                                             | 10.95 | 0.97  |
@@ -2888,12 +2888,12 @@
 | 2025-09-22 17:41:55 | 50           |           | PRODUIT | 3179142725007   | VAHINE SWEETY CHOCOLAT 35                                    | 3.19  | 1.0   |
 | 2025-09-22 17:41:55 | 50           |           | PRODUIT | 3560071174385   | 355ML C ARTICH ENTIER CRF BIO                                | 5.09  | 1.0   |
 | 2025-09-22 17:41:55 | 50           |           | PRODUIT | 3263856093016   | PROTEG.SLIP NORM.ALOE X30 MFP                                | 1.8   | 4.0   |
-| 2025-09-22 17:41:55 | 50           |           | VRAC    |                 | MÉLANGE GÉNÉROSITÉ                                       | 24.9  | 2.32  |
+| 2025-09-22 17:41:55 | 50           |           | VRAC    |                 | MÉLANGE GÉNÉROSITÉ                                           | 24.9  | 2.32  |
 | 2025-09-22 17:41:55 | 50           |           | PRODUIT | 3760209541816   | PARASOL GELEE APRES SOLEIL ULTRA HYDRATANT 200 ML            | 5.72  | 2.0   |
 | 2025-09-22 17:41:55 | 50           |           | VRAC    |                 | AVOCAT PIECE                                                 | 1.02  | 0.11  |
 | 2025-09-22 17:41:55 | 50           |           | VRAC    |                 | OIGNON JAUNE VRAC                                            | 3.04  | 1.34  |
 | 2025-09-22 17:41:55 | 50           |           | PRODUIT | 3027030012961   | ALSA GELIFIANT CONFITURE VITPR IS 5 SACHETS 188G             | 5.05  | 2.0   |
-| 2025-09-22 17:41:55 | 50           |           | PRODUIT | 26005102        | Farine de blé Type 45                                       | 0.85  | 5.0   |
+| 2025-09-22 17:41:55 | 50           |           | PRODUIT | 26005102        | Farine de blé Type 45                                        | 0.85  | 5.0   |
 | 2025-09-22 17:41:55 | 50           |           | PRODUIT | 3422150005112   | THE VERT A LA MENTHE 2MARMOTTES                              | 5.52  | 2.0   |
 | 2025-09-22 17:41:55 | 50           |           | PRODUIT | 3242273012459   | PULLED PORK BQ                                               | 3.95  | 3.0   |
 | 2025-09-22 17:41:55 | 50           |           | PRODUIT | 3073781055979   | "APERIC CARRE TOQUES 22                                      | 5% 250G" | 4.39  |
@@ -2912,10 +2912,10 @@
 | 2025-09-22 17:41:55 | 50           |           | VRAC    |                 | TOMATE RONDE EN GR                                           | 1.79  | 2.33  |
 | 2025-09-22 17:41:55 | 50           |           | PRODUIT | 3335880005614   | HARICOTS VERTS EXTRA-FINS                                    | 4.55  | 3.0   |
 | 2025-09-22 17:41:55 | 50           |           | PRODUIT | 3174550476879   | 606689 MB ELASTIVOILE BEIGE TU                               | 4.25  | 5.0   |
-| 2025-09-22 17:44:22 | 36           | 13.0      | PRODUIT | 3363790000504   | Thé noir breakfast bio                                      | 6.39  | 4.0   |
+| 2025-09-22 17:44:22 | 36           | 13.0      | PRODUIT | 3363790000504   | Thé noir breakfast bio                                       | 6.39  | 4.0   |
 | 2025-09-22 17:44:22 | 36           | 13.0      | PRODUIT | 3175681213951   | GALET RIZ CHOC NR S/SUCRE                                    | 2.91  | 2.0   |
 | 2025-09-22 17:44:22 | 36           | 13.0      | PRODUIT | 8712857981112   | BOISSON CERISE CHUPA CHUPS 345ML                             | 1.75  | 3.0   |
-| 2025-09-22 17:44:22 | 36           | 13.0      | PRODUIT | 4006040070078   | Sucre vanillé Bourbon au sucre de canne Cristallino         | 3.4   | 5.0   |
+| 2025-09-22 17:44:22 | 36           | 13.0      | PRODUIT | 4006040070078   | Sucre vanillé Bourbon au sucre de canne Cristallino          | 3.4   | 5.0   |
 | 2025-09-22 17:44:22 | 36           | 13.0      | VRAC    |                 | CITRON PRINO FIORE                                           | 2.49  | 1.33  |
 | 2025-09-22 17:44:22 | 36           | 13.0      | PRODUIT | 3770004868261   | HUILE PIK NIK                                                | 9.59  | 2.0   |
 | 2025-09-22 17:44:22 | 36           | 13.0      | VRAC    |                 | ARTICHAUT BLANC PIECE                                        | 1.89  | 0.29  |
@@ -2963,19 +2963,19 @@
 | 2025-09-22 17:46:13 | 47           | 237.0     | PRODUIT | 3276553368004   | ST 250G ECHALOTE BIO CRF FR                                  | 1.86  | 3.0   |
 | 2025-09-22 17:46:13 | 47           | 237.0     | PRODUIT | 3250391831500   | *PAQUITO CRANBER/FRAMB. 1L                                   | 2.04  | 5.0   |
 | 2025-09-22 17:46:13 | 47           | 237.0     | PRODUIT | 3468080130104   | SELS DE BAIN VANILLE CDF.1.3KG                               | 3.49  | 2.0   |
-| 2025-09-22 17:46:13 | 47           | 237.0     | PRODUIT | 3760004870012   | Sucre de canne brun poudre Brésil sachet Loiret 1kg         | 3.08  | 3.0   |
+| 2025-09-22 17:46:13 | 47           | 237.0     | PRODUIT | 3760004870012   | Sucre de canne brun poudre Brésil sachet Loiret 1kg          | 3.08  | 3.0   |
 | 2025-09-22 17:49:58 | 47           | 58.0      | VRAC    |                 | Chanterelles                                                 | 3.49  | 1.19  |
 | 2025-09-22 17:49:58 | 47           | 58.0      | VRAC    |                 | RIZ THAI ROUGE COMPLET                                       | 6.2   | 2.06  |
 | 2025-09-22 17:49:58 | 47           | 58.0      | PRODUIT | 8801005308816   | SEMPIO FEUILLES D'AIL SAUVAGE A LA SAUCE DE SOJA 70G         | 4.2   | 4.0   |
 | 2025-09-22 17:49:58 | 47           | 58.0      | VRAC    |                 | Noix de Macadamia                                            | 37.5  | 1.75  |
 | 2025-09-22 17:49:58 | 47           | 58.0      | PRODUIT | 5400164110518   | BUGNE AU KG                                                  | 32.98 | 2.0   |
 | 2025-09-22 17:49:58 | 47           | 58.0      | VRAC    |                 | CHOU FLEURS                                                  | 2.9   | 2.29  |
-| 2025-09-22 17:49:58 | 47           | 58.0      | VRAC    |                 | Celéri Branche                                              | 4.78  | 0.35  |
+| 2025-09-22 17:49:58 | 47           | 58.0      | VRAC    |                 | Celéri Branche                                               | 4.78  | 0.35  |
 | 2025-09-22 17:49:58 | 47           | 58.0      | PRODUIT | 3700482705055   | PILE AA LR6 WONDER                                           | 7.45  | 3.0   |
 | 2025-09-22 17:49:58 | 47           | 58.0      | PRODUIT | 7613036249935   | "VITTEL EAU MINERALE NATURELLE6X1                            | 5L"   | 2.46  |
 | 2025-09-22 17:49:58 | 47           | 58.0      | PRODUIT | 3564700443934   | MYSTERE DU PRIEUR L CROIS                                    | 2.65  | 5.0   |
 | 2025-09-22 17:49:58 | 47           | 58.0      | VRAC    |                 | Oi Grow                                                      | 3.99  | 2.36  |
-| 2025-09-22 17:49:58 | 47           | 58.0      | PRODUIT | 3256227744174   | U Snack pois saveur crème oignon                            | 1.43  | 5.0   |
+| 2025-09-22 17:49:58 | 47           | 58.0      | PRODUIT | 3256227744174   | U Snack pois saveur crème oignon                             | 1.43  | 5.0   |
 | 2025-09-22 17:53:57 | 5            |           | PRODUIT | 4015533050688   | OMBUCHA CITRON VERT INGEMBRE 75CL                            | 4.3   | 5.0   |
 | 2025-09-22 17:53:57 | 5            |           | PRODUIT | 3033710075270   | NESCAFE SELECTION 100G                                       | 4.34  | 4.0   |
 | 2025-09-22 17:53:57 | 5            |           | VRAC    |                 | CHOU VERT LISSE                                              | 2.99  | 1.22  |
@@ -3004,7 +3004,7 @@
 | 2025-09-22 17:54:26 | 42           | 343.0     | PRODUIT | 54050051        | KWAK BIERE                                                   | 2.19  | 5.0   |
 | 2025-09-22 17:54:26 | 42           | 343.0     | PRODUIT | 3560071500788   | boisson vegetale noisette                                    | 2.19  | 5.0   |
 | 2025-09-22 17:54:26 | 42           | 343.0     | VRAC    |                 | BIO RAISIN BLANC BQ500G CEE                                  | 9.98  | 1.74  |
-| 2025-09-22 17:54:26 | 42           | 343.0     | VRAC    |                 | CAROTTE LAVÉE BIO                                           | 1.49  | 1.46  |
+| 2025-09-22 17:54:26 | 42           | 343.0     | VRAC    |                 | CAROTTE LAVÉE BIO                                            | 1.49  | 1.46  |
 | 2025-09-22 17:54:26 | 42           | 343.0     | VRAC    |                 | Echalote Traditionnelle Violette Longue                      | 9.99  | 2.02  |
 | 2025-09-22 17:54:26 | 42           | 343.0     | VRAC    |                 | TOMATE                                                       | 6.99  | 1.27  |
 | 2025-09-22 17:54:26 | 42           | 343.0     | VRAC    |                 | Raisin Blanc                                                 | 9.0   | 2.31  |
@@ -3027,7 +3027,7 @@
 | 2025-09-22 17:57:36 | 17           | 76.0      | PRODUIT | 3250390111467   | CHOUX DE BRUXELLES                                           | 1.34  | 5.0   |
 | 2025-09-22 17:57:36 | 17           | 76.0      | PRODUIT | 8410843105152   | FUETEC IBERIQUE                                              | 5.15  | 3.0   |
 | 2025-09-22 18:00:57 | 20           |           | PRODUIT | 3384123092706   | SPONTEX X2                                                   | 2.1   | 4.0   |
-| 2025-09-22 18:00:57 | 20           |           | PRODUIT | 8002352300007   | Purée d'amande blanche non toastée                         | 9.99  | 3.0   |
+| 2025-09-22 18:00:57 | 20           |           | PRODUIT | 8002352300007   | Purée d'amande blanche non toastée                           | 9.99  | 3.0   |
 | 2025-09-22 18:00:57 | 20           |           | PRODUIT | 3336972211067   | MELNOIX NOBLES NON SALEES                                    | 3.44  | 4.0   |
 | 2025-09-22 18:00:57 | 20           |           | PRODUIT | 8076809500289   | BARILLA TORTELLINI FROMAGE                                   | 3.19  | 5.0   |
 | 2025-09-22 18:00:57 | 20           |           | VRAC    |                 | HARICOTS BLANCS LING                                         | 6.9   | 0.38  |
@@ -3050,7 +3050,7 @@
 | 2025-09-22 18:00:57 | 20           |           | PRODUIT | 5000159557702   | TWIX CHOCOLAT BARRES X5 250G                                 | 2.28  | 3.0   |
 | 2025-09-22 18:00:57 | 20           |           | VRAC    |                 | POMME CHANTECLER MOD VRAC                                    | 2.99  | 2.15  |
 | 2025-09-22 18:00:57 | 20           |           | PRODUIT | 3256221674040   | MOZZARELLA PAST                                              | 1.66  | 3.0   |
-| 2025-09-22 18:00:57 | 20           |           | VRAC    |                 | Noix de pécan                                               | 36.99 | 0.26  |
+| 2025-09-22 18:00:57 | 20           |           | VRAC    |                 | Noix de pécan                                                | 36.99 | 0.26  |
 | 2025-09-22 18:00:57 | 20           |           | VRAC    |                 | avocat hass                                                  | 1.67  | 1.43  |
 | 2025-09-22 18:00:57 | 20           |           | VRAC    |                 | Noisette Coque                                               | 9.99  | 1.34  |
 | 2025-09-22 18:00:57 | 20           |           | PRODUIT | 9002490214951   | "BOIS.ENERGY DRINK R.BULL47                                  | 3CL"  | 2.17  |
@@ -3101,14 +3101,14 @@
 | 2025-09-22 18:05:24 | 31           | 55.0      | PRODUIT | 8000070032866   | 4X250G CAFE ML IL                                            | 8.19  | 3.0   |
 | 2025-09-22 18:05:24 | 31           | 55.0      | PRODUIT | 4044889004625   | CHOCO VEG SUPERNUT                                           | 2.65  | 1.0   |
 | 2025-09-22 18:05:24 | 31           | 55.0      | PRODUIT | 3123930612505   | EMENTAL FRA PORTI ENTREMON                                   | 2.57  | 3.0   |
-| 2025-09-22 18:05:24 | 31           | 55.0      | PRODUIT | 3291960010292   | Moutarde à l'ancienne 350g Emile Noël                      | 3.66  | 3.0   |
+| 2025-09-22 18:05:24 | 31           | 55.0      | PRODUIT | 3291960010292   | Moutarde à l'ancienne 350g Emile Noël                        | 3.66  | 3.0   |
 | 2025-09-22 18:05:24 | 31           | 55.0      | VRAC    |                 | POMME CHANTECLER MSC                                         | 3.29  | 0.24  |
 | 2025-09-22 18:07:59 | 39           |           | PRODUIT | 3560070859429   | 4/4 PT POIS TRES FIN SIMPL                                   | 1.38  | 4.0   |
 | 2025-09-22 18:07:59 | 39           |           | PRODUIT | 3266191106274   | TAB CHOC NOIR 66% FEVES CACAO                                | 3.49  | 4.0   |
 | 2025-09-22 18:07:59 | 39           |           | PRODUIT | 3240930514025   | LUST GNOCCHI 380G                                            | 1.18  | 1.0   |
 | 2025-09-22 18:07:59 | 39           |           | PRODUIT | 3350033976757   | MERLOT BIO LCV                                               | 4.5   | 5.0   |
 | 2025-09-22 18:07:59 | 39           |           | PRODUIT | 3451080150456   | LE RAMEAU D ARGENT H OLIVE 1L                                | 6.95  | 3.0   |
-| 2025-09-22 18:07:59 | 39           |           | PRODUIT | 8002352207054   | Pâte à tartiner Chocobella                                 | 7.3   | 1.0   |
+| 2025-09-22 18:07:59 | 39           |           | PRODUIT | 8002352207054   | Pâte à tartiner Chocobella                                   | 7.3   | 1.0   |
 | 2025-09-22 18:07:59 | 39           |           | VRAC    |                 | Chou Vert Frise                                              | 2.49  | 1.53  |
 | 2025-09-22 18:07:59 | 39           |           | VRAC    |                 | GESIER POULET U EN POT                                       | 3.75  | 0.74  |
 | 2025-09-22 18:07:59 | 39           |           | PRODUIT | 3423720002463   | FINANCIERS PUR BEURRE AUX AMANDES                            | 3.91  | 3.0   |
@@ -3141,13 +3141,13 @@
 | 2025-09-22 18:15:46 | 26           | 422.0     | PRODUIT | 7310790088731   | LIBRESSE ULTRA PADS W. WINGS 10PCS                           | 1.0   | 2.0   |
 | 2025-09-22 18:15:46 | 26           | 422.0     | VRAC    |                 | NAVET BOTTE                                                  | 2.92  | 1.04  |
 | 2025-09-22 18:15:46 | 26           | 422.0     | PRODUIT | 3179142064311   | NAPPAGE POUR TARTES                                          | 2.36  | 2.0   |
-| 2025-09-22 18:15:46 | 26           | 422.0     | PRODUIT | 8009004901414   | Tarallini à l'huile d'olive Alce Nero 250g                  | 3.51  | 3.0   |
+| 2025-09-22 18:15:46 | 26           | 422.0     | PRODUIT | 8009004901414   | Tarallini à l'huile d'olive Alce Nero 250g                   | 3.51  | 3.0   |
 | 2025-09-22 18:15:46 | 26           | 422.0     | PRODUIT | 8001310812026   | POLLI ARRABBIATA                                             | 2.26  | 1.0   |
 | 2025-09-22 18:15:46 | 26           | 422.0     | PRODUIT | 3050070007468   | VUR BLANC HOFPLANT                                           | 1.85  | 5.0   |
 | 2025-09-22 18:15:46 | 26           | 422.0     | VRAC    |                 | AIL 3 TETES                                                  | 25.0  | 0.69  |
 | 2025-09-22 18:15:46 | 26           | 422.0     | PRODUIT | 3263670124514   | SARD H.O&CITRON135G                                          | 2.74  | 1.0   |
 | 2025-09-22 18:15:46 | 26           | 422.0     | PRODUIT | 3336971502036   | VICO CURLY PAT CRUNCHY                                       | 3.09  | 3.0   |
-| 2025-09-22 18:17:13 | 18           | 358.0     | VRAC    |                 | Pomélo blanco                                               | 4.49  | 0.32  |
+| 2025-09-22 18:17:13 | 18           | 358.0     | VRAC    |                 | Pomélo blanco                                                | 4.49  | 0.32  |
 | 2025-09-22 18:17:13 | 18           | 358.0     | VRAC    |                 | BLETTES                                                      | 3.74  | 1.13  |
 | 2025-09-22 18:17:13 | 18           | 358.0     | PRODUIT | 3564700098899   | PATE BRISEE MG                                               | 1.06  | 3.0   |
 | 2025-09-22 18:17:13 | 18           | 358.0     | VRAC    |                 | DATTE RAVIER                                                 | 5.46  | 1.69  |
@@ -3203,7 +3203,7 @@
 | 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 45496512613     | *NINT J SW SP MARIO P JAMBOREE                               | 47.9  | 1.0   |
 | 2025-09-22 18:36:44 | 36           | 219.0     | VRAC    |                 | CLEMENTINE CORSE FINE                                        | 7.49  | 1.55  |
 | 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 3160920645563   | KERATINE SELENIUM. Beaute JUVAMINE                           | 6.9   | 2.0   |
-| 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 0070942124492   | GUM ACTIVITAL Br dents méd                                  | 2.95  | 4.0   |
+| 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 0070942124492   | GUM ACTIVITAL Br dents méd                                   | 2.95  | 4.0   |
 | 2025-09-22 18:36:44 | 36           | 219.0     | VRAC    |                 | CHAMPIGNON BIANC                                             | 13.49 | 0.67  |
 | 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 3760085560109   | CIDRE PERE MICHEL                                            | 3.1   | 1.0   |
 | 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 3123349011227   | JOKER PJ ORANGE S/PULPE P                                    | 2.03  | 4.0   |
@@ -3221,10 +3221,10 @@
 | 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 3250391062126   | IVORIA PATE TARTINER DUO                                     | 2.64  | 5.0   |
 | 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 5711474014817   | TO OL SIPA BOITE 4                                           | 2.39  | 5.0   |
 | 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 3329480001398   | FLAGEOLETS                                                   | 4.65  | 1.0   |
-| 2025-09-22 18:36:44 | 36           | 219.0     | VRAC    |                 | TOMATE Allongée les COEUR                                   | 6.99  | 1.49  |
+| 2025-09-22 18:36:44 | 36           | 219.0     | VRAC    |                 | TOMATE Allongée les COEUR                                    | 6.99  | 1.49  |
 | 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 3760098407552   | CREME HYDRATANTE NEUTRE                                      | 7.98  | 2.0   |
 | 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 3250390778776   | BOUTON D'OR MAT.GR.                                          | 1.29  | 3.0   |
-| 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 3760278865660   | Chocolat noir 100% cacao Pérou Bio Ethiquable 100g          | 2.76  | 5.0   |
+| 2025-09-22 18:36:44 | 36           | 219.0     | PRODUIT | 3760278865660   | Chocolat noir 100% cacao Pérou Bio Ethiquable 100g           | 2.76  | 5.0   |
 | 2025-09-22 18:36:44 | 36           | 219.0     | VRAC    |                 | NOIX DE CAJOU                                                | 25.5  | 0.78  |
 | 2025-09-22 18:36:44 | 36           | 219.0     | VRAC    |                 | Pommes                                                       | 3.2   | 0.95  |
 | 2025-09-22 18:36:44 | 36           | 219.0     | VRAC    |                 | CHAMPIGNONS                                                  | 12.99 | 1.92  |
@@ -3239,7 +3239,7 @@
 | 2025-09-22 18:45:44 | 34           |           | PRODUIT | 8997212610405   | CREME DE COCO BIO (BRIQUE)                                   | 2.01  | 5.0   |
 | 2025-09-22 18:45:44 | 34           |           | VRAC    |                 | Pomme Gala                                                   | 3.22  | 0.11  |
 | 2025-09-22 18:45:44 | 34           |           | PRODUIT | 3760308960402   | AIL GRANULES                                                 | 3.19  | 3.0   |
-| 2025-09-22 18:45:44 | 34           |           | VRAC    |                 | FÈVE                                                        | 6.5   | 1.11  |
+| 2025-09-22 18:45:44 | 34           |           | VRAC    |                 | FÈVE                                                         | 6.5   | 1.11  |
 | 2025-09-22 18:45:44 | 34           |           | VRAC    |                 | Spirales blanches                                            | 2.79  | 0.94  |
 | 2025-09-22 18:45:44 | 34           |           | VRAC    |                 | PECHES CHAIR JAUNE                                           | 7.99  | 2.04  |
 | 2025-09-22 18:45:44 | 34           |           | PRODUIT | 8445290503206   | NESQUIK POCHE 800G                                           | 4.38  | 5.0   |
@@ -3327,7 +3327,7 @@
 | 2025-09-22 19:00:28 | 7            |           | PRODUIT | 3245390065926   | CROZETS                                                      | 3.04  | 3.0   |
 | 2025-09-22 19:00:28 | 7            |           | PRODUIT | 3596710542871   | AUC MINI FONDUE 150G                                         | 2.36  | 5.0   |
 | 2025-09-22 19:00:28 | 7            |           | VRAC    |                 | Oignon Roscoff Filet 500g                                    | 2.19  | 1.63  |
-| 2025-09-22 19:01:18 | 50           |           | PRODUIT | 3396411221460   | Le Petit Feuilleté aux pépite                              | 4.29  | 4.0   |
+| 2025-09-22 19:01:18 | 50           |           | PRODUIT | 3396411221460   | Le Petit Feuilleté aux pépite                                | 4.29  | 4.0   |
 | 2025-09-22 19:01:18 | 50           |           | PRODUIT | 3256221409352   | ANNEAUX D ENCORNET U 500G                                    | 6.68  | 2.0   |
 | 2025-09-22 19:01:18 | 50           |           | PRODUIT | 3700157500701   | 182G MAD NOISET COQ CHOC LAIT                                | 4.59  | 3.0   |
 | 2025-09-22 19:01:18 | 50           |           | PRODUIT | 4039521313289   | CHEMISE CARTON BLEUE                                         | 1.88  | 5.0   |
@@ -3347,7 +3347,7 @@
 | 2025-09-22 19:07:08 | 1            |           | PRODUIT | 3700311865660   | TLJ Gaufrettes Vanille 200G                                  | 1.0   | 5.0   |
 | 2025-09-22 19:07:08 | 1            |           | PRODUIT | 3770002381274   | LOOFAH 20/30 CM                                              | 2.44  | 1.0   |
 | 2025-09-22 19:07:08 | 1            |           | PRODUIT | 3245414192508   | LAIT 1/2EC CRF                                               | 0.9   | 3.0   |
-| 2025-09-22 19:07:08 | 1            |           | VRAC    |                 | Noix de pécan                                               | 36.99 | 1.14  |
+| 2025-09-22 19:07:08 | 1            |           | VRAC    |                 | Noix de pécan                                                | 36.99 | 1.14  |
 | 2025-09-22 19:07:08 | 1            |           | PRODUIT | 3255693000463   | ANANAS TRANCHES AU JUS                                       | 2.55  | 5.0   |
 | 2025-09-22 19:07:08 | 1            |           | PRODUIT | 3560071411688   | PUREE DE SESAME                                              | 5.71  | 2.0   |
 | 2025-09-22 19:07:08 | 1            |           | VRAC    |                 | Champignon Blanc                                             | 10.99 | 1.58  |
@@ -3370,7 +3370,7 @@
 | 2025-09-22 19:27:03 | 44           |           | VRAC    |                 | Kiwis jaunes Jingold                                         | 6.4   | 2.34  |
 | 2025-09-22 19:27:03 | 44           |           | PRODUIT | 3017800078846   | HAR.RGES GR COURGE                                           | 1.28  | 3.0   |
 | 2025-09-22 19:27:03 | 44           |           | VRAC    |                 | Orange                                                       | 1.9   | 0.63  |
-| 2025-09-22 19:27:03 | 44           |           | VRAC    |                 | Penne demi-complète                                         | 2.99  | 1.78  |
+| 2025-09-22 19:27:03 | 44           |           | VRAC    |                 | Penne demi-complète                                          | 2.99  | 1.78  |
 | 2025-09-22 19:27:03 | 44           |           | PRODUIT | 3574661350639   |                                                              | 3.48  | 4.0   |
 | 2025-09-22 19:27:03 | 44           |           | PRODUIT | 3229820796857   | BJORG FLOCONS D'AVOINE                                       | 3.14  | 1.0   |
 | 2025-09-22 19:27:03 | 44           |           | VRAC    |                 | FRAISE CLERY                                                 | 21.16 | 1.81  |
@@ -3399,7 +3399,7 @@
 | 2025-09-22 19:27:13 | 5            |           | PRODUIT | 3011610056377   | SUN SEL REGENERANT 1KG                                       | 1.07  | 3.0   |
 | 2025-09-22 19:27:13 | 5            |           | VRAC    |                 | PANAIS                                                       | 3.95  | 0.19  |
 | 2025-09-22 19:27:13 | 5            |           | PRODUIT | 3760056410716   | RILLETTES DE THON BLANC GERMON                               | 3.71  | 4.0   |
-| 2025-09-22 19:27:13 | 5            |           | VRAC    |                 | POMME DE TERRE VAPEUR SALADE RISSOLÉE                       | 1.1   | 2.21  |
+| 2025-09-22 19:27:13 | 5            |           | VRAC    |                 | POMME DE TERRE VAPEUR SALADE RISSOLÉE                        | 1.1   | 2.21  |
 | 2025-09-22 19:27:13 | 5            |           | VRAC    |                 | CHAMP PLEUROTE                                               | 11.99 | 1.19  |
 | 2025-09-22 19:27:13 | 5            |           | VRAC    |                 | POMME CHANTELCLERC                                           | 3.79  | 0.9   |
 | 2025-09-22 19:27:13 | 5            |           | PRODUIT | 3154230801054   | HERTA BLC PLT TSR CS                                         | 3.3   | 1.0   |
@@ -3408,7 +3408,7 @@
 | 2025-09-22 19:30:42 | 27           | 348.0     | PRODUIT | 3760078840133   | SACREBLEU IPA MYRTILLE 75CL                                  | 7.95  | 2.0   |
 | 2025-09-22 19:30:42 | 27           | 348.0     | VRAC    |                 | AVOCAT                                                       | 4.27  | 1.95  |
 | 2025-09-22 19:30:42 | 27           | 348.0     | PRODUIT | 8004920003310   | CREME DE PISTACHE 200G                                       | 10.9  | 5.0   |
-| 2025-09-22 19:30:42 | 27           | 348.0     | PRODUIT | 3531150222020   | "Pâte feuilletée pur beurre                                |  aux céréales complètes |  ronde prête à dérouler Biobleud Bio 250g" |
+| 2025-09-22 19:30:42 | 27           | 348.0     | PRODUIT | 3531150222020   | "Pâte feuilletée pur beurre                                  |  aux céréales complètes |  ronde prête à dérouler Biobleud Bio 250g" |
 | 2025-09-22 19:30:42 | 27           | 348.0     | PRODUIT | 3256220851121   | MARMELADE ORANGE ALLEGE.U 3                                  | 1.53  | 2.0   |
 | 2025-09-22 19:30:42 | 27           | 348.0     | PRODUIT | 3250392053680   | S.ELOI HARICOT V.T.FIN BIO600G                               | 1.35  | 5.0   |
 | 2025-09-22 19:30:42 | 27           | 348.0     | PRODUIT | 5410076030705   | PRINGLES ORIGINAL                                            | 1.95  | 5.0   |
@@ -3543,15 +3543,15 @@
 | 2025-09-22 19:57:26 | 12           | 19.0      | PRODUIT | 3237058000929   | TENTAT.CHEV.FRAIS 25%MG 180G                                 | 4.17  | 2.0   |
 | 2025-09-22 19:57:26 | 12           | 19.0      | PRODUIT | 3380380058578   | FLEUR DE SHAMPOOING CHEVEUX SECS                             | 6.5   | 2.0   |
 | 2025-09-22 19:57:26 | 12           | 19.0      | PRODUIT | 3700225602191   | PEDIAKID NEZ GORG SPRAY                                      | 9.95  | 2.0   |
-| 2025-09-22 19:57:26 | 12           | 19.0      | VRAC    |                 | Celéri Branche                                              | 4.78  | 0.29  |
+| 2025-09-22 19:57:26 | 12           | 19.0      | VRAC    |                 | Celéri Branche                                               | 4.78  | 0.29  |
 | 2025-09-22 19:57:26 | 12           | 19.0      | PRODUIT | 3545450883720   | TSUKUDANI KOMBU                                              | 6.49  | 4.0   |
 | 2025-09-22 19:57:26 | 12           | 19.0      | PRODUIT | 3596710471898   | AUCHAN CONE VANILLE CHOCOLAT                                 | 1.89  | 2.0   |
 | 2025-09-22 19:57:26 | 12           | 19.0      | VRAC    |                 | Echalote                                                     | 5.64  | 0.42  |
 | 2025-09-22 19:57:26 | 12           | 19.0      | VRAC    |                 | sucrine                                                      | 1.9   | 1.28  |
-| 2025-09-22 19:57:26 | 12           | 19.0      | PRODUIT | 3520836130599   | Huile Olive Vierge Extra Grèce Philia 75cl                  | 11.13 | 1.0   |
+| 2025-09-22 19:57:26 | 12           | 19.0      | PRODUIT | 3520836130599   | Huile Olive Vierge Extra Grèce Philia 75cl                   | 11.13 | 1.0   |
 | 2025-09-22 19:57:26 | 12           | 19.0      | PRODUIT | 3417960042013   | MUSCADE POUDRE                                               | 4.5   | 5.0   |
 | 2025-09-22 19:58:32 | 22           | 448.0     | VRAC    |                 | DATTE FRAICHE                                                | 15.9  | 1.89  |
-| 2025-09-22 19:58:32 | 22           | 448.0     | PRODUIT | 3760224120461   | Bière Experimental IPA Craft Series Playground Ox 33cl      | 2.69  | 1.0   |
+| 2025-09-22 19:58:32 | 22           | 448.0     | PRODUIT | 3760224120461   | Bière Experimental IPA Craft Series Playground Ox 33cl       | 2.69  | 1.0   |
 | 2025-09-22 19:58:32 | 22           | 448.0     | VRAC    |                 | AVOCAT                                                       | 4.27  | 2.44  |
 | 2025-09-22 19:58:32 | 22           | 448.0     | VRAC    |                 | "courgettes a l'indienne"                                    | 5.5   | 1.27  |
 | 2025-09-22 19:58:32 | 22           | 448.0     | PRODUIT | 3229820004334   | 200G COOKIE CHOC.NOIS.BIO BJOR                               | 2.56  | 1.0   |

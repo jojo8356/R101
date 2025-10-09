@@ -117,9 +117,12 @@ void print_day_csv()
     while ((c = getchar()) != '\n' && c != EOF)
     {
     }
+    int i = 0;
+    int count = 0;
 
     while (1)
     {
+
         if (scanf("%127[^,\n]", buffer) != 1)
             buffer[0] = '\0';
 
@@ -141,8 +144,24 @@ void print_day_csv()
             printf(" %-15s |", buffer);
             break;
         case 5:
-            printf(" %-60s |", buffer);
+            printf(" ");
+            i = 0;
+            count = 0;
+            while (buffer[i])
+            {
+                unsigned char c = buffer[i];
+
+                for (int k = 0; k < len; k++)
+                    printf("%c", buffer[i + k]);
+                i += len;
+                count++;
+            }
+            if (count < 60)
+                for (int j = 0; j < 60 - count; j++)
+                    printf(" ");
+            printf(" |");
             break;
+
         case 6:
             printf(" %-5s |", buffer);
             break;

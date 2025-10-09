@@ -51,3 +51,21 @@ int include_char(char **list, int taille, char *str)
   }
   return 0;
 }
+
+int len_utf8_chars(unsigned char c)
+{
+  /*
+  Octets UTF-8:
+  1 = 0x80: ASCII pur (a, A, etc.)
+  2 = 0xE0 → compare à 0xC0: é (caractères à accent) (0xC3 0xA9)
+  3 = 0xF0 → compare à 0xE0: € (caractères spécieux) (0xE2 0x82 0xAC)
+  4 = 0xF8 → compare à 0xF0: emoji (0xF0 0x9F 0x98 0x80)
+  */
+  if ((c & 0xE0) == 0xC0)
+    return 2;
+  else if ((c & 0xF0) == 0xE0)
+    len = 3;
+  else if ((c & 0xF8) == 0xF0)
+    len = 4;
+  return 1;
+}

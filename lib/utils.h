@@ -11,3 +11,4 @@ void get_moyenne_client(int target_client_id);
 void get_nb_ticket();
 void get_nb_ticket_client(int target_client_id);
 void get_CA_day();
+int len_utf8_chars(unsigned char c);

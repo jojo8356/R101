@@ -64,7 +64,7 @@ int main(int argc, char *argv[]) {
   else if (include_char(argv, argc, "-pca") || include_char(argv, argc, "--print-caissieres")) {
       print_caissieres_csv();
   }
-  else if (include_char(argv, argc, "-pd") || include_char(argv, argc, "--print-day")) {
+  else if (include_char(argv, argc, "-pj") || include_char(argv, argc, "--print-jour")) {
       print_day_csv();
   }
   else {
