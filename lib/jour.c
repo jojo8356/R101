@@ -100,31 +100,53 @@ void print_CA_day()
 
 void print_day_csv()
 {
+    printf("Liste des tickets du jour\n\n");
     char buffer[128];
+    int taille = 128;
     int col = 0;
     char enTete[8][20];
-    int spaces = 157;
+    char str[512];
 
     scanf("%19[^,],%19[^,],%19[^,],%19[^,],%19[^,],%19[^,],%19[^,],%19[^\n]\n",
           enTete[0], enTete[1], enTete[2], enTete[3],
           enTete[4], enTete[5], enTete[6], enTete[7]);
 
+    int spaces = sprintf(str, "| %-19s | %-12s | %-9s | %-7s | %-15s | %-127s | %-5s | %-5s |",
+                         enTete[0], enTete[1], enTete[2], enTete[3],
+                         enTete[4], enTete[5], enTete[6], enTete[7]); // sprintf: printf dans une string et return len string
     afficherLigneSeparation(spaces);
-    printf("| %-19s | %-12s | %-9s | %-7s | %-15s | %-60s | %-5s | %-5s |\n", enTete[0], enTete[1], enTete[2], enTete[3], enTete[4], enTete[5], enTete[6], enTete[7]);
+    printf("%s\n", str);
     afficherLigneSeparation(spaces);
 
     int c;
     while ((c = getchar()) != '\n' && c != EOF)
     {
     }
-    int i = 0;
-    int count = 0;
-
     while (1)
     {
-        if (scanf("%127[^,\n]", buffer) != 1)
-            buffer[0] = '\0';
+        int i = 0;
+        int c = getchar();
+        int is_quote = 0;
 
+        if (c == EOF)
+            break;
+
+        while (c != EOF && i < taille - 1)
+        {
+            if (c == '"')
+                is_quote = !is_quote;
+            else if (c == ',' && !is_quote)
+                break;
+            else if (c == '\n' && !is_quote)
+                break;
+            else
+                buffer[i++] = c;
+
+            c = getchar();
+        }
+        buffer[i] = '\0';
+
+        // Affichage selon la colonne
         switch (col)
         {
         case 0:
@@ -143,43 +165,21 @@ void print_day_csv()
             printf(" %-15s |", buffer);
             break;
         case 5:
-            printf(" ");
-            i = 0;
-            count = 0;
-            while (buffer[i])
-            {
-                unsigned char c = buffer[i];
-                int len = len_utf8_chars(c);
-                for (int k = 0; k < len; k++)
-                    printf("%c", buffer[i + k]);
-                i += len;
-                count++;
-            }
-            if (count < 60)
-                for (int j = 0; j < 60 - count; j++)
-                    printf(" ");
-            printf(" |");
+            print_char_with_special_char(buffer);
             break;
-
         case 6:
             printf(" %-5s |", buffer);
             break;
         case 7:
             printf(" %-5s |\n", buffer);
             break;
-        default:
-            break;
         }
 
-        int c = getchar();
-        if (c == ',')
+        // Incrémenter col si ce n’est pas la fin de ligne
+        if (c == ',' && !is_quote)
             col++;
-        else if (c == '\n')
-        {
+        if (c == '\n' || c == EOF)
             col = 0;
-        }
-        else if (c == EOF)
-            break;
     }
     afficherLigneSeparation(spaces);
 }

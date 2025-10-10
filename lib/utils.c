@@ -69,3 +69,24 @@ int len_utf8_chars(unsigned char c)
     return 4;
   return 1;
 }
+
+void print_char_with_special_char(char *buffer)
+{
+  printf(" ");
+  int i = 0;
+  int count = 0;
+  int total = 127;
+  while (buffer[i])
+  {
+    unsigned char c = buffer[i];
+    int len = len_utf8_chars(c);
+    for (int k = 0; k < len; k++)
+      printf("%c", buffer[i + k]);
+    i += len;
+    count++;
+  }
+  if (count < total)
+    for (int j = 0; j < total - count; j++)
+      printf(" ");
+  printf(" |");
+}

@@ -9,7 +9,8 @@
   "files.associations": {
     "*.c": "c",
     "*.h": "c",
-    "main.C": "cpp"
+    "main.C": "cpp",
+    "initializer_list": "cpp"
   },
   "ltex.language": "fr",
   "workbench.colorTheme": "Default Light Modern",

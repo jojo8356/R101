@@ -65,25 +65,22 @@ void print_person_csv(char person_type[])
 {
     printf("Liste des %s\n\n", person_type);
 
-    int id = 0;
-    char nom[128];
-    char prenom[128];
-    char sexe;
-    int numero;
-    char voie[128];
-    int code_postal;
-    char ville[128];
-
-    char buffer[127];
+    char buffer[128];
+    int taille = 128;
     int col = 0;
+    char enTete[8][20];
+    char str[512];
 
-    char enTete[8][16];
-    scanf("%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n]\n", enTete[0], enTete[1], enTete[2],
-          enTete[3], enTete[4], enTete[5], enTete[6], enTete[7]);
+    scanf("%19[^;];%19[^;];%19[^;];%19[^;];%19[^;];%19[^;];%19[^;];%15[^\n]\n",
+          enTete[0], enTete[1], enTete[2], enTete[3],
+          enTete[4], enTete[5], enTete[6], enTete[7]);
 
-    afficherLigneSeparation(120);
-    printf("| %-2s | %-16s | %-16s | %-4s | %-6s | %-25s | %-11s | %-8s |\n", enTete[0], enTete[1], enTete[2], enTete[3], enTete[4], enTete[5], enTete[6], enTete[7]);
-    afficherLigneSeparation(120);
+    int spaces = sprintf(str, "| %-2s | %-20s | %-20s | %-4s | %-6s | %-50s | %-11s | %-20s |",
+                         enTete[0], enTete[1], enTete[2], enTete[3],
+                         enTete[4], enTete[5], enTete[6], enTete[7]); // sprintf: printf dans une string et return len string
+    afficherLigneSeparation(spaces);
+    printf("%s\n", str);
+    afficherLigneSeparation(spaces);
 
     int c;
     while ((c = getchar()) != '\n' && c != EOF)
@@ -92,49 +89,60 @@ void print_person_csv(char person_type[])
 
     while (1)
     {
-        if (scanf("%127[^;\n]", buffer) != 1)
-            buffer[0] = '\0';
+        int i = 0;
+        int c = getchar();
+        int is_quote = 0;
+
+        if (c == EOF)
+            break;
+
+        while (c != EOF && i < taille - 1)
+        {
+            if (c == '"')
+                is_quote = !is_quote;
+            else if (c == ';' && !is_quote)
+                break;
+            else if (c == '\n' && !is_quote)
+                break;
+            else
+                buffer[i++] = c;
+
+            c = getchar();
+        }
+        buffer[i] = '\0';
 
         switch (col)
         {
         case 0:
-            id = atoi(buffer);
+            printf("| %-2s |", buffer);
             break;
         case 1:
-            ft_strcpy(nom, buffer);
+            printf(" %-20s |", buffer);
             break;
         case 2:
-            ft_strcpy(prenom, buffer);
+            printf(" %-20s |", buffer);
             break;
         case 3:
-            sexe = buffer[0];
+            printf(" %-4s |", buffer);
             break;
         case 4:
-            numero = atoi(buffer);
+            printf(" %-6s |", buffer);
             break;
         case 5:
-            ft_strcpy(voie, buffer);
+            printf(" %-50s |", buffer);
             break;
         case 6:
-            code_postal = atoi(buffer);
+            printf(" %-11s |", buffer);
             break;
         case 7:
-            ft_strcpy(ville, buffer);
-            break;
-        default:
+            printf(" %-50s |\n", buffer);
             break;
         }
-
-        int c = getchar();
-        if (c == ';')
+        if (c == ';' && !is_quote)
             col++;
-        else if (c == '\n')
-        {
-            printf("| %-2d | %-16s | %-16s | %-4c | %-6d | %-25s | %-11d | %-8s |\n", id, nom, prenom, sexe, numero, voie, code_postal, ville);
+        if (c == '\n' || c == EOF)
             col = 0;
-        }
-        else if (c == EOF)
-            break;
     }
-    afficherLigneSeparation(120);
+
+    afficherLigneSeparation(spaces);
 }

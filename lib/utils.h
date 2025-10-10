@@ -12,3 +12,4 @@ void get_nb_ticket();
 void get_nb_ticket_client(int target_client_id);
 void get_CA_day();
 int len_utf8_chars(unsigned char c);
+void print_char_with_special_char(char *str);
