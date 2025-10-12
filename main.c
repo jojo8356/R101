@@ -10,7 +10,6 @@ int main(int argc, char *argv[]) {
     if (argc <= 1)
         return 1;
 
-    // 🧠 Récupère tous les arguments sans '-'
     char *args[argc];
     int args_count = 0;
 
@@ -19,7 +18,7 @@ int main(int argc, char *argv[]) {
             args[args_count++] = argv[i];
         }
     }
-    args[args_count] = NULL; // fin du tableau (sécurité)
+    args[args_count] = NULL;
 
     if (include_char(argv, argc, "-h") || include_char(argv, argc, "--help")) {
         print_help();
