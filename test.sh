@@ -11,6 +11,7 @@ BIN="./bin/log2report"
 
 # === COMPILATION ===
 echo "🔧 Compilation..."
+make test
 make all
 
 mkdir -p "$OUTPUT_DIR"
