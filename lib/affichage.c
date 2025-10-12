@@ -144,7 +144,7 @@ void print_help() {
     printf("Usage : ./bin/log2report [OPTION] [ARGS]\n\n");
     printf("Options disponibles :\n");
     printf("  -caj, --CA-jour                 : Affiche le chiffre d'affaire du jour\n");
-    printf("  -cac, --CA-caissiere [ID]       : Affiche CA d'une caissière\n");
+    printf("  -iac, --infos-caissiere [ID]       : Affiche infos d'une caissière\n");
     printf("      -p, --print                 : Affiche directement au lieu de renvoyer la chaîne\n");
     printf("  -idca, --ID-Caissiere NOM PRENOM: Récupère l'ID d'une caissière\n");
     printf("  -lt, --len-ticket                : Nombre total de tickets\n");

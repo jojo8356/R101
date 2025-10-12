@@ -27,8 +27,8 @@ int main(int argc, char *argv[]) {
     else if (include_char(argv, argc, "-caj") ||
             include_char(argv, argc, "--CA-jour")) {
         print_CA_day();
-    } else if (include_char(argv, argc, "-cac") ||
-               include_char(argv, argc, "--CA-caissiere")) {
+    } else if (include_char(argv, argc, "-iac") ||
+               include_char(argv, argc, "--infos-caissiere")) {
         if (argc > 2) {
             if (argc > 3 && (include_char(argv, argc, "-p") ||
                              include_char(argv, argc, "--print"))) {
@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
                 printf("%s\n", get_infos_caissiere(atoi(args[0])));
             }
         } else {
-			print_error_missing_args("--CA-caissiere");
+			print_error_missing_args("--infos-caissiere");
         }
     } else if (include_char(argv, argc, "-idca") ||
                include_char(argv, argc, "--ID-Caissiere")) {
