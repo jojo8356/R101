@@ -1,4 +1,4 @@
-# Mon Projet en C
+# R101
 
 Suite à une panne informatique du système de base de données de la grande surface «E.Carrechan», l’équipe informatique ne dispose plus que de fichiers journaliers de tickets de caisse.
 
@@ -142,20 +142,3 @@ Exemple : de 9h à 17h
 * MM : mois (ex: 09)
 * DD : jour (ex: 22)
 * Les options `-p` ou `--print` permettent un affichage plus lisible directement dans le terminal.
-
-Usage : ./bin/log2report [OPTION] [ARGS]
-
-Options disponibles :
-  -caj, --CA-jour                 : Affiche le chiffre d'affaire du jour
-  -cac, --CA-caissiere [ID]       : Affiche CA d'une caissière
-      -p, --print                 : Affiche directement au lieu de renvoyer la chaîne
-  -idca, --ID-Caissiere NOM PRENOM: Récupère l'ID d'une caissière
-  -lt, --len-ticket                : Nombre total de tickets
-  -mcl, --moyenne-client [ID]     : Moyenne par client
-  -ltc, --len-ticket-client [ID]  : Nombre de tickets par client
-  -idcl, --ID-client NOM PRENOM    : Récupère l'ID d'un client
-  -cath, --CA-tranche START END    : Caissières travaillant entre heures données
-  -pcl, --print-clients            : Affiche tous les clients
-  -pca, --print-caissieres         : Affiche toutes les caissières
-  -pj, --print-jour                : Affiche tous les tickets du jour
-  -h, --help                       : Affiche ce message d'aide
