@@ -33,7 +33,7 @@ char *get_CA_day()
 
         if (c == EOF)
             break;
-		get_element(buffer, &c, &i, &is_quote, 128);
+		get_element(buffer, &c, &i, &is_quote, 128, ',');
 
         switch (col)
         {
@@ -105,7 +105,7 @@ void print_day_csv()
         if (c == EOF)
             break;
 
-		get_element(buffer, &c, &i, &is_quote, taille);
+		get_element(buffer, &c, &i, &is_quote, taille, ',');
 
         switch (col)
         {

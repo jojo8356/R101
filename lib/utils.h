@@ -108,7 +108,7 @@ size_t ft_strlen(const char *s);
  * @param is_quote Pointeur sur l’état de guillemet (0 ou 1).
  * @param taille Taille maximale de buffer.
  */
-void get_element(char *buffer, int *c, int *i, int *is_quote, int taille);
+void get_element(char *buffer, int *c, int *i, int *is_quote, int taille, char separator);
 
 /**
  * @brief Ignore les caractères jusqu’à la fin de la ligne ou EOF.

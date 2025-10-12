@@ -76,7 +76,7 @@ void print_person_csv(char person_type[]) {
         if (c == EOF)
             break;
 
-        get_element(buffer, &c, &i, &is_quote, taille);
+        get_element(buffer, &c, &i, &is_quote, taille, ';');
 
         switch (col) {
         case 0:

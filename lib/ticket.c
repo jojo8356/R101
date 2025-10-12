@@ -27,7 +27,7 @@ char *get_nb_ticket() {
         if (c == EOF)
             break;
 
-        get_element(buffer, &c, &i, &is_quote, 128);
+        get_element(buffer, &c, &i, &is_quote, 128, ',');
 
         if (c == ';' && !is_quote)
             col++;

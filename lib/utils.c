@@ -91,22 +91,24 @@ int len_utf8_chars(unsigned char c) {
     return 1;
 }
 
-void get_element(char *buffer, int *c, int *i, int *is_quote, int taille) {
-    while (*c != EOF && *i < taille - 1) {
-        if (*c == '"')
-            *is_quote = !(*is_quote);
-        else if (*c == ';' && !(*is_quote))
-            break;
-        else if (*c == '\n' && !(*is_quote))
-            break;
-        else
-            buffer[(*i)++] = *c;
+void get_element(char *buffer, int *c, int *i, int *is_quote, int taille, char separator) {
+    *i = 0;
+    *is_quote = 0;
 
+    while (*c != EOF && *i < taille - 1) {
+        if (*c == '"') {
+            *is_quote = !(*is_quote);
+        } else if ((*c == separator || *c == '\n') && !(*is_quote)) {
+            break;
+        } else {
+            buffer[(*i)++] = *c;
+        }
         *c = getchar();
     }
-    buffer[(*i)] = '\0';
-    if ((*i) > 0 && buffer[(*i) - 1] == '\r')
-        buffer[(*i) - 1] = '\0';
+
+    buffer[*i] = '\0';
+    if (*i > 0 && buffer[*i - 1] == '\r')
+        buffer[*i - 1] = '\0';
 }
 
 void verif_file() {

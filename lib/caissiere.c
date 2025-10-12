@@ -31,7 +31,7 @@ char *get_ID_caissiere(char *target_nom, char *target_prenom) {
         if (c == EOF)
             break;
 
-        get_element(buffer, &c, &i, &is_quote, 128);
+        get_element(buffer, &c, &i, &is_quote, 128, ';');
 
         switch (col) {
         case 0:
@@ -87,7 +87,7 @@ char *get_infos_caissiere(int target_caissiere_id) {
         if (c == EOF)
             break;
 
-        get_element(buffer, &c, &i, &is_quote, 128);
+        get_element(buffer, &c, &i, &is_quote, 128, ',');
 
         switch (col) {
         case 0:
@@ -104,7 +104,7 @@ char *get_infos_caissiere(int target_caissiere_id) {
             break;
         }
 
-        if (c == ';' && !is_quote)
+        if (c == ',' && !is_quote)
             col++;
         else if (c == '\n') {
             if (caissiere_id == target_caissiere_id) {
@@ -113,7 +113,7 @@ char *get_infos_caissiere(int target_caissiere_id) {
 
                 if (ft_strcmp(datetime, last_datetime) != 0) {
                     int diff = 0;
-                    if (last_datetime[0] != '\0')
+                    if (last_datetime[0] != '\0' && datetime[0] != '\0')
                         diff = diff_seconds(last_datetime, datetime);
                     ft_strcpy(last_datetime, datetime);
                     time += diff;
@@ -128,7 +128,7 @@ char *get_infos_caissiere(int target_caissiere_id) {
         snprintf(result, sizeof(result), "%.2lf %d %s", somme, nb_ticket,
                  formatted);
     } else {
-        snprintf(result, sizeof(result), "0.00 0 00:00");
+        snprintf(result, sizeof(result), "0.00,0,00:00");
     }
 
     return result;
@@ -152,7 +152,7 @@ char *get_caissieres_by_time(int start_hour, int end_hour) {
         if (c == EOF)
             break;
 
-        get_element(buffer, &c, &i, &is_quote, 128);
+        get_element(buffer, &c, &i, &is_quote, 128, ',');
 
         switch (col) {
         case 0:
@@ -163,7 +163,7 @@ char *get_caissieres_by_time(int start_hour, int end_hour) {
             break;
         }
 
-        if (c == ';' && !is_quote)
+        if (c == ',' && !is_quote)
             col++;
         else if (c == '\n') {
             int hour;
@@ -192,7 +192,7 @@ void print_infos_caissiere(int target_caissiere_id) {
     double somme;
     int nb_ticket;
     char formatted[16];
-    sscanf(result, "%lf %d %s", &somme, &nb_ticket, formatted);
+    sscanf(result, "%lf %d %[^\n]", &somme, &nb_ticket, formatted);
 
     printf("📊 Bilan journalier - Informations caissière n°%d\n",
            target_caissiere_id);

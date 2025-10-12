@@ -34,7 +34,7 @@ char *get_moyenne_client(int target_client_id) {
         if (c == EOF)
             break;
 
-        get_element(buffer, &c, &i, &is_quote, 128);
+        get_element(buffer, &c, &i, &is_quote, 128, ',');
 
         switch (col) {
         case 2:
@@ -50,7 +50,7 @@ char *get_moyenne_client(int target_client_id) {
             break;
         }
 
-        if (c == ';' && !is_quote)
+        if (c == ',' && !is_quote)
             col++;
         else if (c == '\n') {
             if ((int)client_id == target_client_id) {
@@ -87,12 +87,12 @@ char *get_nb_ticket_client(int target_client_id) {
         if (c == EOF)
             break;
 
-        get_element(buffer, &c, &i, &is_quote, 128);
+        get_element(buffer, &c, &i, &is_quote, 128, ',');
 
         if (col == 2)
             client_id = atof(buffer);
 
-        if (c == ';' && !is_quote)
+        if (c == ',' && !is_quote)
             col++;
         else if (c == '\n') {
             if ((int)client_id == target_client_id)
@@ -124,7 +124,7 @@ char *get_ID_client(char *target_nom, char *target_prenom) {
         if (c == EOF)
             break;
 
-        get_element(buffer, &c, &i, &is_quote, 128);
+        get_element(buffer, &c, &i, &is_quote, 128, ';');
 
         switch (col) {
         case 0:

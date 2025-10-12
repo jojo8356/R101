@@ -10,6 +10,17 @@ int main(int argc, char *argv[]) {
     if (argc <= 1)
         return 1;
 
+    // 🧠 Récupère tous les arguments sans '-'
+    char *args[argc];
+    int args_count = 0;
+
+    for (int i = 1; i < argc; i++) {
+        if (argv[i][0] != '-') {
+            args[args_count++] = argv[i];
+        }
+    }
+    args[args_count] = NULL; // fin du tableau (sécurité)
+
     if (include_char(argv, argc, "-h") || include_char(argv, argc, "--help")) {
         print_help();
     }
@@ -21,9 +32,9 @@ int main(int argc, char *argv[]) {
         if (argc > 2) {
             if (argc > 3 && (include_char(argv, argc, "-p") ||
                              include_char(argv, argc, "--print"))) {
-                print_infos_caissiere(atoi(argv[3]));
+                print_infos_caissiere(atoi(args[0]));
             } else {
-                printf("%s\n", get_infos_caissiere(atoi(argv[2])));
+                printf("%s\n", get_infos_caissiere(atoi(args[0])));
             }
         } else {
 			print_error_missing_args("--CA-caissiere");
@@ -33,9 +44,9 @@ int main(int argc, char *argv[]) {
         if (argc > 3) {
             if (argc > 4 && (include_char(argv, argc, "-p") ||
                              include_char(argv, argc, "--print")))
-                print_ID_caissiere(argv[3], argv[4]);
+                print_ID_caissiere(args[0], args[1]);
             else
-                printf("%s\n", get_ID_caissiere(argv[3], argv[4]));
+                printf("%s\n", get_ID_caissiere(args[0], args[1]));
         } else
 			print_error_missing_args("--ID-Caissiere");
     } else if (include_char(argv, argc, "-lt") ||
@@ -51,9 +62,9 @@ int main(int argc, char *argv[]) {
         if (argc > 2) {
             if (argc > 3 && (include_char(argv, argc, "-p") ||
                              include_char(argv, argc, "--print")))
-                print_moyenne_client(atoi(argv[3]));
+                print_moyenne_client(atoi(args[0]));
             else
-                printf("%s\n", get_moyenne_client(atoi(argv[2])));
+                printf("%s\n", get_moyenne_client(atoi(args[0])));
         } else {
 			print_error_missing_args("--moyenne-client");
         }
@@ -62,9 +73,9 @@ int main(int argc, char *argv[]) {
         if (argc > 2) {
             if (argc > 3 && (include_char(argv, argc, "-p") ||
                              include_char(argv, argc, "--print")))
-                print_nb_ticket_client(atoi(argv[3]));
+                print_nb_ticket_client(atoi(args[0]));
             else
-                printf("%s\n", get_nb_ticket_client(atoi(argv[2])));
+                printf("%s\n", get_nb_ticket_client(atoi(args[0])));
         } else
 			print_error_missing_args("--len-ticket-client");
     } else if (include_char(argv, argc, "-idcl") ||
@@ -73,10 +84,10 @@ int main(int argc, char *argv[]) {
             if (argc > 4 && (include_char(argv, argc, "-p") ||
                              include_char(argv, argc, "--print"))) {
                 
-                print_ID_client(argv[3], argv[4]);
+                print_ID_client(args[0], args[1]);
             } else {
                 
-                printf("%s\n", get_ID_client(argv[3], argv[4]));
+                printf("%s\n", get_ID_client(args[0], args[1]));
             }
         } else {
             print_error_missing_args("--ID-client");
@@ -84,13 +95,11 @@ int main(int argc, char *argv[]) {
     } else if (include_char(argv, argc, "-cath") ||
                include_char(argv, argc, "--CA-tranche")) {
         if (argc > 3) { 
-            int start_hour = atoi(argv[2]);
-            int end_hour = atoi(argv[3]);
 			if (argc > 4 && (include_char(argv, argc, "-p") ||
                              include_char(argv, argc, "--print"))) {
-				printf("%s\n", get_caissieres_by_time(start_hour, end_hour));
+				printf("%s\n", get_caissieres_by_time(atoi(args[0]), atoi(args[1])));
 			} else
-				printf("%s\n", get_ID_client(argv[3], argv[4]));
+				print_caissieres_by_time(atoi(args[0]), atoi(args[1]));
         } else {
 			print_error_missing_args("--CA-tranche (ex: 9 17)");
         }
