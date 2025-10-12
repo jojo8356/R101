@@ -1,3 +1,8 @@
+/**
+ * @file clients.c
+ * @brief Gestion et affichage des informations liées aux clients.
+ */
+
 #include <ctype.h>
 #include <stdbool.h>
 #include <stdio.h>
@@ -6,9 +11,9 @@
 #include "affichage.h"
 #include "utils.h"
 
-// GET
-void get_moyenne_client(int target_client_id)
-{
+
+char *get_moyenne_client(int target_client_id) {
+    static char result[32];
     float client_id = 0;
     float pu = 0;
     float qte = 0;
@@ -17,15 +22,21 @@ void get_moyenne_client(int target_client_id)
 
     double somme = 0;
     int nb_ticket = 0;
-    scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n]\n");
 
-    while (1)
-    {
-        if (scanf("%127[^,\n]", buffer) != 1)
-            buffer[0] = '\0';
+    scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,"
+          "\n]\n");
 
-        switch (col)
-        {
+    while (1) {
+        int i = 0;
+        int c = getchar();
+        int is_quote = 0;
+
+        if (c == EOF)
+            break;
+
+        get_element(buffer, &c, &i, &is_quote, 128);
+
+        switch (col) {
         case 2:
             client_id = atof(buffer);
             break;
@@ -39,158 +50,136 @@ void get_moyenne_client(int target_client_id)
             break;
         }
 
-        int c = getchar();
-        if (c == ',')
+        if (c == ';' && !is_quote)
             col++;
-        else if (c == '\n')
-        {
-            if (client_id == target_client_id)
-            {
+        else if (c == '\n') {
+            if ((int)client_id == target_client_id) {
                 somme += pu * qte;
                 nb_ticket++;
             }
             col = 0;
         }
-        else if (c == EOF)
-            break;
     }
-    printf("%.2lf", (double)somme / nb_ticket);
+
+    if (nb_ticket > 0)
+        snprintf(result, sizeof(result), "%.2lf", somme / nb_ticket);
+    else
+        snprintf(result, sizeof(result), "0.00");
+
+    return result;
 }
 
-void get_nb_ticket_client(int target_client_id)
-{
+char *get_nb_ticket_client(int target_client_id) {
+    static char result[16];
     float client_id = 0;
     char buffer[128];
     int col = 0;
     int nb_ticket = 0;
-    scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n]\n");
 
-    while (1)
-    {
-        if (scanf("%127[^,\n]", buffer) != 1)
-            buffer[0] = '\0';
+    scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,"
+          "\n]\n");
 
-        switch (col)
-        {
-        case 2:
-            client_id = atof(buffer);
+    while (1) {
+        int i = 0;
+        int c = getchar();
+        int is_quote = 0;
+
+        if (c == EOF)
             break;
-        default:
+
+        get_element(buffer, &c, &i, &is_quote, 128);
+
+        if (col == 2)
+            client_id = atof(buffer);
+
+        if (c == ';' && !is_quote)
+            col++;
+        else if (c == '\n') {
+            if ((int)client_id == target_client_id)
+                nb_ticket++;
+            col = 0;
+        }
+    }
+
+    snprintf(result, sizeof(result), "%d", nb_ticket);
+    return result;
+}
+
+char *get_ID_client(char *target_nom, char *target_prenom) {
+    static char result[16];
+    char nom[128];
+    char prenom[128];
+    char buffer[128];
+    int col = 0;
+    int client_id = 0;
+
+    scanf("%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;"
+          "\n]\n");
+
+    while (1) {
+        int i = 0;
+        int c = getchar();
+        int is_quote = 0;
+
+        if (c == EOF)
+            break;
+
+        get_element(buffer, &c, &i, &is_quote, 128);
+
+        switch (col) {
+        case 0:
+            client_id = atoi(buffer);
+            break;
+        case 1:
+            ft_strcpy(nom, buffer);
+            break;
+        case 2:
+            ft_strcpy(prenom, buffer);
             break;
         }
 
-        int c = getchar();
-        if (c == ',')
+        if (c == ';' && !is_quote)
             col++;
-        else if (c == '\n')
-        {
-            if (client_id == target_client_id)
-            {
-                nb_ticket++;
+        else if (c == '\n') {
+            if (ft_strcmp(nom, target_nom) == 0 &&
+                    ft_strcmp(prenom, target_prenom) == 0) {
+                snprintf(result, sizeof(result), "%d", client_id);
+                return result;
             }
             col = 0;
         }
-        else if (c == EOF)
-            break;
     }
-    printf("%d", nb_ticket);
+
+    snprintf(result, sizeof(result), "0");
+    return result;
 }
 
-// PRINT
-void print_moyenne_client(int target_client_id)
-{
-    float client_id = 0;
-    float pu = 0;
-    float qte = 0;
-    char buffer[128];
-    int col = 0;
 
-    double somme = 0;
-    int nb_ticket = 0;
-    scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n]\n");
-
+void print_moyenne_client(int target_client_id) {
     printf("📊 Moyenne du client n°%d\n", target_client_id);
     printf("--------------------------------\n");
-
-    while (1)
-    {
-        if (scanf("%127[^,\n]", buffer) != 1)
-            buffer[0] = '\0';
-
-        switch (col)
-        {
-        case 2:
-            client_id = atof(buffer);
-            break;
-        case 6:
-            pu = atof(buffer);
-            break;
-        case 7:
-            qte = atof(buffer);
-            break;
-        default:
-            break;
-        }
-
-        int c = getchar();
-        if (c == ',')
-            col++;
-        else if (c == '\n')
-        {
-            if (client_id == target_client_id)
-            {
-                somme += pu * qte;
-                nb_ticket++;
-            }
-            col = 0;
-        }
-        else if (c == EOF)
-            break;
-    }
-    printf("Moyenne: %.2lf euros\n", (double)somme / nb_ticket);
+    printf("Moyenne: %s euros\n", get_moyenne_client(target_client_id));
 }
 
-void print_nb_ticket_client(int target_client_id)
-{
-    float client_id = 0;
-    char buffer[128];
-    int col = 0;
-    int nb_ticket = 0;
-    scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n]\n");
-
-    while (1)
-    {
-        if (scanf("%127[^,\n]", buffer) != 1)
-            buffer[0] = '\0';
-
-        switch (col)
-        {
-        case 2:
-            client_id = atof(buffer);
-            break;
-        default:
-            break;
-        }
-
-        int c = getchar();
-        if (c == ',')
-            col++;
-        else if (c == '\n')
-        {
-            if (client_id == target_client_id)
-            {
-                nb_ticket++;
-            }
-            col = 0;
-        }
-        else if (c == EOF)
-            break;
-    }
+void print_nb_ticket_client(int target_client_id) {
     printf("Nombre de tickets du client n°%d: ", target_client_id);
-    printf("%d\n", nb_ticket);
+    printf("%s\n", get_nb_ticket_client(target_client_id));
 }
 
-void print_clients_csv()
-{
+void print_clients_csv() {
     print_person_csv("clients");
+}
+
+void print_ID_client(char *target_nom, char *target_prenom) {
+    char *result = get_ID_client(target_nom, target_prenom);
+    int client_id;
+    sscanf(result, "%d", &client_id);
+
+    if (client_id > 0) {
+        printf("ID du client %s %s\n", target_prenom, target_nom);
+        printf("------------------------\n");
+        printf("ID : %d\n", client_id);
+    } else {
+        printf("Client %s %s non trouvée\n", target_prenom, target_nom);
+    }
 }

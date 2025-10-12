@@ -1,58 +1,161 @@
 # Mon Projet en C
 
-Ce projet démontre une structure multi-fichier en C avec un dossier de modules `lib` et une documentation générée avec [Doxygen](https://www.doxygen.nl/).
+Suite à une panne informatique du système de base de données de la grande surface «E.Carrechan», l’équipe informatique ne dispose plus que de fichiers journaliers de tickets de caisse.
+
+Vous devez aider les équipes différentes équipes du magasin à gérer au mieux les comptes, stocks, clients etc. en attendant que la base de données soit rétablie.
 
 ## Structure du Projet
 
-Le dossier sae a la structure suivante:
-
 ```bash
+.
+├── bin
+│   └── test
 ├── data
-│   └── exemple.csv
+│   ├── exemple.csv
+│   ├── G1C-caissieres.csv
+│   ├── G1C-clients.csv
+│   ├── G1C-log-2025-09-22.csv
+│   ├── G1C-log-2025-09-23.csv
+│   ├── G1C-log-2025-09-24.csv
+│   ├── G1C-log-2025-09-25.csv
+│   ├── G1C-log-2025-09-26.csv
+│   └── G1C-log-2025-09-27.csv
+├── Doxyfile
 ├── lib
-│   └── exemple.h
-│   └── exemple.h
-├── lit_csv
-├── lit_csv.c
+│   ├── affichage.c
+│   ├── affichage.h
+│   ├── caissiere.c
+│   ├── client.c
+│   ├── jour.c
+│   ├── ticket.c
+│   ├── utils.c
+│   └── utils.h
+├── LICENCE
+├── LICENCE-CONTENT
+├── main.c
+├── Makefile
+├── output
+│   └── Caissières.txt
 ├── README.md
+└── tests
+    └── utils.c
 ```
-
-## Lecture de fichiers csv
-
-Les fichiers `csv` sont un format de fichier texte qui permet de stocker des données tabulaires.
-
-`csv` signifie _comma separated values_, données séparées par des virgules.
-
-Ils sont très utilisés pour échanger des données entre différents logiciels car le format est facile à lire et à écrire.
 
 ## Compilation
 
-Pour compiler le projet, utilisez les commandes suivantes:
+- Compiler l'entiereté des fichiers
 
 ```bash
-# Compiler le fichier main en incluant les fichiers sources dans lib
-gcc lit_csv.c lib/exemple.c -o lit_csv
+make all
+```
 
-# Exécuter en utilisant le fichier exemple.csv comme entrée
-./lit_csv < data/exemple.csv 
-
-# Voux pouvez également écrire dans un fichier la sortie de votre programme
-# pour la partager avec les autres membres du magasin
-./lit_csv < data/exemple.csv > output/table.txt
+- Tester les fonctions utilitaires
+```bash
+make test
 ```
 
 ## Documentation
 
-La documentation est générée avec [Doxygen](https://www.doxygen.nl/). Pour générer la documentation, utilisez:
+### Options principales
+
+* **Récupérer le nombre de tickets**
 
 ```bash
-doxygen
+./bin/log2report -lt < data/G1C-log-YYYY-MM-DD.csv
+./bin/log2report -lt -p < data/G1C-log-YYYY-MM-DD.csv
 ```
 
-La documentation sera générée dans le dossier `html`, lancez un serveur web pour la visualiser avec un navigateur web.
+* **Récupérer les infos d’une caissière à partir de son ID**
 
 ```bash
-python3 -m http.server -d html
+./bin/log2report -cac {id} < data/G1C-log-YYYY-MM-DD.csv
+./bin/log2report -cac {id} -p < data/G1C-log-YYYY-MM-DD.csv
 ```
 
-Vous pouvez éditer le fichier `Doxyfile` pour personnaliser la documentation.
+* **Récupérer l’ID d’une caissière**
+
+```bash
+./bin/log2report -idca {nom} {prenom} < data/G1C-caissieres.csv
+./bin/log2report -idca {nom} {prenom} -p < data/G1C-caissieres.csv
+```
+
+* **Récupérer l’ID d’un client**
+
+```bash
+./bin/log2report -idcl {nom} {prenom} < data/G1C-clients.csv
+./bin/log2report -idcl {nom} {prenom} -p < data/G1C-clients.csv
+```
+
+* **Récupérer la moyenne d’un client à partir de son ID**
+
+```bash
+./bin/log2report -mcl {id} < data/G1C-log-YYYY-MM-DD.csv
+./bin/log2report -mcl {id} -p < data/G1C-log-YYYY-MM-DD.csv
+```
+
+* **Récupérer le nombre de tickets d’un client**
+
+```bash
+./bin/log2report -ltc {id} < data/G1C-log-YYYY-MM-DD.csv
+./bin/log2report -ltc {id} -p < data/G1C-log-YYYY-MM-DD.csv
+```
+
+* **Afficher les caissières travaillant dans une tranche horaire**
+
+```bash
+./bin/log2report -cath {start_hour} {end_hour} < data/G1C-log-YYYY-MM-DD.csv
+./bin/log2report -cath {start_hour} {end_hour} -p < data/G1C-log-YYYY-MM-DD.csv
+```
+
+Exemple : de 9h à 17h
+
+```bash
+./bin/log2report -cath 9 17 < data/G1C-log-2025-09-22.csv
+./bin/log2report -cath -p 9 17 < data/G1C-log-2025-09-22.csv
+```
+
+* **Afficher tous les clients ou caissières**
+
+```bash
+./bin/log2report -pcl < data/G1C-clients.csv
+./bin/log2report -pca < data/G1C-caissieres.csv
+```
+
+* **Afficher les tickets d’un jour précis**
+
+```bash
+./bin/log2report -pj < data/G1C-log-YYYY-MM-DD.csv
+```
+
+* **Afficher l’aide**
+
+```bash
+./bin/log2report -h
+./bin/log2report --help
+```
+
+---
+
+### Remarques
+
+* YYYY : année (ex: 2025)
+* MM : mois (ex: 09)
+* DD : jour (ex: 22)
+* Les options `-p` ou `--print` permettent un affichage plus lisible directement dans le terminal.
+
+Usage : ./bin/log2report [OPTION] [ARGS]
+
+Options disponibles :
+  -caj, --CA-jour                 : Affiche le chiffre d'affaire du jour
+  -cac, --CA-caissiere [ID]       : Affiche CA d'une caissière
+      -p, --print                 : Affiche directement au lieu de renvoyer la chaîne
+  -idca, --ID-Caissiere NOM PRENOM: Récupère l'ID d'une caissière
+  -lt, --len-ticket                : Nombre total de tickets
+  -mcl, --moyenne-client [ID]     : Moyenne par client
+  -ltc, --len-ticket-client [ID]  : Nombre de tickets par client
+  -idcl, --ID-client NOM PRENOM    : Récupère l'ID d'un client
+  -cath, --CA-tranche START END    : Caissières travaillant entre heures données
+  -pcl, --print-clients            : Affiche tous les clients
+  -pca, --print-caissieres         : Affiche toutes les caissières
+  -pj, --print-jour                : Affiche tous les tickets du jour
+  -h, --help                       : Affiche ce message d'aide

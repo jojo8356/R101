@@ -1,3 +1,8 @@
+/**
+ * @file journee.c
+ * @brief Gestion et affichage du chiffre d’affaires journalier et des ventes du jour.
+*/
+
 #include <ctype.h>
 #include <stdbool.h>
 #include <stdio.h>
@@ -6,22 +11,29 @@
 #include "affichage.h"
 #include "utils.h"
 
-// GET
-void get_CA_day()
+
+char *get_CA_day()
 {
     float pu = 0;
     float qte = 0;
     char buffer[128];
     int col = 0;
+    static char result[64];
 
     double somme = 0;
     int nb_ticket = 0;
     scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n]\n");
 
+	verif_file();
     while (1)
     {
-        if (scanf("%127[^,\n]", buffer) != 1)
-            buffer[0] = '\0';
+        int i = 0;
+        int c = getchar();
+        int is_quote = 0;
+
+        if (c == EOF)
+            break;
+		get_element(buffer, &c, &i, &is_quote, 128);
 
         switch (col)
         {
@@ -35,8 +47,7 @@ void get_CA_day()
             break;
         }
 
-        int c = getchar();
-        if (c == ',')
+        if (c == ',' && !is_quote)
             col++;
         else if (c == '\n')
         {
@@ -47,55 +58,21 @@ void get_CA_day()
         else if (c == EOF)
             break;
     }
-    printf("%.2lf %d", somme, nb_ticket);
+    snprintf(result, sizeof(result), "%.2lf %d", somme, nb_ticket);
+    return result;
 }
 
-// PRINT
+
 void print_CA_day()
 {
-    float pu = 0;
-    float qte = 0;
-    char buffer[128];
-    int col = 0;
-
-    double somme = 0;
-    int nb_ticket = 0;
-    scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n]\n");
-
+    char somme[32];
+	char nb_ticket[16];
+	char *result = get_CA_day();
     printf("📊 Bilan journalier - CA du jour\n");
     printf("--------------------------------\n");
-
-    while (1)
-    {
-        if (scanf("%127[^,\n]", buffer) != 1)
-            buffer[0] = '\0';
-
-        switch (col)
-        {
-        case 6:
-            pu = atof(buffer);
-            break;
-        case 7:
-            qte = atof(buffer);
-            break;
-        default:
-            break;
-        }
-
-        int c = getchar();
-        if (c == ',')
-            col++;
-        else if (c == '\n')
-        {
-            somme += pu * qte;
-            nb_ticket++;
-            col = 0;
-        }
-        else if (c == EOF)
-            break;
-    }
-    printf("Total CA : %.2lf €\n", somme);
-    printf("Nombre total de tickets : %d\n", nb_ticket);
+    sscanf(result, "%s %s", somme, nb_ticket);
+    printf("Total CA : %s €\n", somme);
+    printf("Nombre total de tickets : %s\n", nb_ticket);
 }
 
 void print_day_csv()
@@ -113,15 +90,12 @@ void print_day_csv()
 
     int spaces = sprintf(str, "| %-19s | %-12s | %-9s | %-7s | %-15s | %-127s | %-5s | %-5s |",
                          enTete[0], enTete[1], enTete[2], enTete[3],
-                         enTete[4], enTete[5], enTete[6], enTete[7]); // sprintf: printf dans une string et return len string
+                         enTete[4], enTete[5], enTete[6], enTete[7]);
     afficherLigneSeparation(spaces);
     printf("%s\n", str);
     afficherLigneSeparation(spaces);
 
-    int c;
-    while ((c = getchar()) != '\n' && c != EOF)
-    {
-    }
+	verif_file();
     while (1)
     {
         int i = 0;
@@ -131,22 +105,8 @@ void print_day_csv()
         if (c == EOF)
             break;
 
-        while (c != EOF && i < taille - 1)
-        {
-            if (c == '"')
-                is_quote = !is_quote;
-            else if (c == ',' && !is_quote)
-                break;
-            else if (c == '\n' && !is_quote)
-                break;
-            else
-                buffer[i++] = c;
+		get_element(buffer, &c, &i, &is_quote, taille);
 
-            c = getchar();
-        }
-        buffer[i] = '\0';
-
-        // Affichage selon la colonne
         switch (col)
         {
         case 0:
@@ -165,7 +125,7 @@ void print_day_csv()
             printf(" %-15s |", buffer);
             break;
         case 5:
-            print_char_with_special_char(buffer);
+            print_char_with_special_char(buffer, 127);
             break;
         case 6:
             printf(" %-5s |", buffer);
@@ -175,7 +135,6 @@ void print_day_csv()
             break;
         }
 
-        // Incrémenter col si ce n’est pas la fin de ligne
         if (c == ',' && !is_quote)
             col++;
         if (c == '\n' || c == EOF)

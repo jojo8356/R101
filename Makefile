@@ -41,6 +41,18 @@ $(BIN_DIR) $(OBJ_DIR):
 	mkdir -p $@
 # Crée les répertoires bin et obj
 
+# Tests unitaires
+TEST_SRC := tests/utils.c
+TEST_BIN := $(BIN_DIR)/test
+
+test: $(TEST_BIN)
+	@echo "🧪 Exécution des tests unitaires..."
+	@./$(TEST_BIN)
+	@echo "✅ Tests terminés avec succès !"
+
+$(TEST_BIN): $(TEST_SRC) $(SRC_LIBS) | $(BIN_DIR)
+	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)
+
 # Nettoyage
 clean:
 	rm -rf $(OBJ_DIR)
