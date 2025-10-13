@@ -50,6 +50,7 @@ make all
 ```
 
 - Tester les fonctions utilitaires
+
 ```bash
 make test
 ```
@@ -58,49 +59,49 @@ make test
 
 ### Options principales
 
-* **Récupérer le nombre de tickets**
+- **Récupérer le nombre de tickets**
 
 ```bash
 ./bin/log2report -lt < data/G1C-log-YYYY-MM-DD.csv
 ./bin/log2report -lt -p < data/G1C-log-YYYY-MM-DD.csv
 ```
 
-* **Récupérer les infos d’une caissière à partir de son ID**
+- **Récupérer les infos d’une caissière à partir de son ID**
 
 ```bash
-./bin/log2report -cac {id} < data/G1C-log-YYYY-MM-DD.csv
-./bin/log2report -cac {id} -p < data/G1C-log-YYYY-MM-DD.csv
+./bin/log2report -ic {id} < data/G1C-log-YYYY-MM-DD.csv
+./bin/log2report -ic {id} -p < data/G1C-log-YYYY-MM-DD.csv
 ```
 
-* **Récupérer l’ID d’une caissière**
+- **Récupérer l’ID d’une caissière**
 
 ```bash
 ./bin/log2report -idca {nom} {prenom} < data/G1C-caissieres.csv
 ./bin/log2report -idca {nom} {prenom} -p < data/G1C-caissieres.csv
 ```
 
-* **Récupérer l’ID d’un client**
+- **Récupérer l’ID d’un client**
 
 ```bash
 ./bin/log2report -idcl {nom} {prenom} < data/G1C-clients.csv
 ./bin/log2report -idcl {nom} {prenom} -p < data/G1C-clients.csv
 ```
 
-* **Récupérer la moyenne d’un client à partir de son ID**
+- **Récupérer la moyenne d’un client à partir de son ID**
 
 ```bash
 ./bin/log2report -mcl {id} < data/G1C-log-YYYY-MM-DD.csv
 ./bin/log2report -mcl {id} -p < data/G1C-log-YYYY-MM-DD.csv
 ```
 
-* **Récupérer le nombre de tickets d’un client**
+- **Récupérer le nombre de tickets d’un client**
 
 ```bash
 ./bin/log2report -ltc {id} < data/G1C-log-YYYY-MM-DD.csv
 ./bin/log2report -ltc {id} -p < data/G1C-log-YYYY-MM-DD.csv
 ```
 
-* **Afficher les caissières travaillant dans une tranche horaire**
+- **Afficher les caissières travaillant dans une tranche horaire**
 
 ```bash
 ./bin/log2report -cath {start_hour} {end_hour} < data/G1C-log-YYYY-MM-DD.csv
@@ -114,20 +115,20 @@ Exemple : de 9h à 17h
 ./bin/log2report -cath -p 9 17 < data/G1C-log-2025-09-22.csv
 ```
 
-* **Afficher tous les clients ou caissières**
+- **Afficher tous les clients ou caissières**
 
 ```bash
 ./bin/log2report -pcl < data/G1C-clients.csv
 ./bin/log2report -pca < data/G1C-caissieres.csv
 ```
 
-* **Afficher les tickets d’un jour précis**
+- **Afficher les tickets d’un jour précis**
 
 ```bash
 ./bin/log2report -pj < data/G1C-log-YYYY-MM-DD.csv
 ```
 
-* **Afficher l’aide**
+- **Afficher l’aide**
 
 ```bash
 ./bin/log2report -h
@@ -138,7 +139,7 @@ Exemple : de 9h à 17h
 
 ### Remarques
 
-* YYYY : année (ex: 2025)
-* MM : mois (ex: 09)
-* DD : jour (ex: 22)
-* Les options `-p` ou `--print` permettent un affichage plus lisible directement dans le terminal.
+- YYYY : année (ex: 2025)
+- MM : mois (ex: 09)
+- DD : jour (ex: 22)
+- Les options `-p` ou `--print` permettent un affichage plus lisible directement dans le terminal.
