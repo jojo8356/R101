@@ -1,5 +1,5 @@
 /**
- * @file caissieres.c
+ * @file caissiere.c
  * @brief Gestion et affichage des informations relatives aux caissières.
  */
 
