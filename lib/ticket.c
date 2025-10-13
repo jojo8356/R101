@@ -1,5 +1,5 @@
 /**
- * @file tickets.c
+ * @file ticket.c
  * @brief Gestion du comptage et de l’affichage du nombre total de tickets.
  */
 
