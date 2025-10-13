@@ -1,5 +1,5 @@
 /**
- * @file journee.c
+ * @file jour.c
  * @brief Gestion et affichage du chiffre d’affaires journalier et des ventes du jour.
  */
 
