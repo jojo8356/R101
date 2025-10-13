@@ -7,21 +7,6 @@
 #include <stddef.h>
 
 /**
- * @brief Compare deux chaînes de caractères.
- * @param s1 Première chaîne.
- * @param s2 Deuxième chaîne.
- * @return 0 si égales, positif si s1 > s2, négatif si s1 < s2.
- */
-int ft_strcmp(char *s1, char *s2);
-
-/**
- * @brief Copie une chaîne source vers une chaîne destination.
- * @param dest Chaîne destination.
- * @param src Chaîne source.
- */
-void ft_strcpy(char *dest, char *src);
-
-/**
  * @brief Calcule la différence en secondes entre deux timestamps.
  * @param t1 Premier timestamp (format "YYYY-MM-DD HH:MM:SS").
  * @param t2 Deuxième timestamp (format "YYYY-MM-DD HH:MM:SS").
@@ -98,7 +83,7 @@ int len_utf8_chars(unsigned char c);
  * @param s Chaîne à mesurer.
  * @return Nombre de caractères.
  */
-size_t ft_strlen(const char *s);
+size_t strlen(const char *s);
 
 /**
  * @brief Lit un élément d’un CSV en gérant les guillemets et délimiteurs.
@@ -117,7 +102,7 @@ void verif_file();
 
 /**
  * @brief Récupère l’ID d’un client à partir de son nom et prénom.
- * 
+ *
  * @param target_nom Nom du client recherché.
  * @param target_prenom Prénom du client recherché.
  * @return char* Chaîne contenant l’ID du client. La mémoire peut être statique.
@@ -126,7 +111,7 @@ char *get_ID_client(char *target_nom, char *target_prenom);
 
 /**
  * @brief Récupère les caissières travaillant dans une tranche horaire donnée.
- * 
+ *
  * @param start_hour Heure de début (ex: 9 pour 9h00).
  * @param end_hour Heure de fin (ex: 17 pour 17h00).
  * @return char* Chaîne contenant les IDs des caissières séparés par des virgules.
@@ -146,4 +131,4 @@ char *get_caissieres_by_time(int start_hour, int end_hour);
  * @param n Nombre maximum de caractères à prendre dans s2.
  * @return char* Pointeur vers la chaîne s1.
  */
-char *ft_strncat(char *s1, const char *s2, size_t n);
+char *strncat(char *s1, const char *s2, size_t n);

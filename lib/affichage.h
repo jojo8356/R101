@@ -83,10 +83,10 @@ void print_char_with_special_char(char *buffer, int total);
 
 /**
  * @brief Affiche l’ID d’un client à partir de son nom et prénom.
- * 
+ *
  * Cette fonction recherche le client correspondant aux informations fournies
  * et affiche directement son ID sur la sortie standard (stdout).
- * 
+ *
  * @param target_nom Nom du client recherché.
  * @param target_prenom Prénom du client recherché.
  */
@@ -94,7 +94,7 @@ void print_ID_client(char *target_nom, char *target_prenom);
 
 /**
  * @brief Affiche les caissières travaillant dans une tranche horaire donnée.
- * 
+ *
  * @param start_hour Heure de début (ex: 9 pour 9h00).
  * @param end_hour Heure de fin (ex: 17 pour 17h00).
  */

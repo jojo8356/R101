@@ -8,36 +8,46 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void print_test_csv() {
+void print_test_csv()
+{
     char buffer[128];
     int col = 0;
 
-    while (1) {
+    while (1)
+    {
         if (scanf("%127[^,\n]", buffer) != 1)
             buffer[0] = '\0';
 
         printf("%s |", buffer);
 
         int c = getchar();
-        if (c == ',') {
+        if (c == ',')
+        {
             col++;
-        } else if (c == '\n') {
+        }
+        else if (c == '\n')
+        {
             printf("%c", c);
             col = 0;
-        } else if (c == EOF) {
+        }
+        else if (c == EOF)
+        {
             break;
         }
     }
 }
 
-void afficherLigneSeparation(int len) {
-    for (int i = 0; i < len; i++) {
+void afficherLigneSeparation(int len)
+{
+    for (int i = 0; i < len; i++)
+    {
         printf("-");
     }
     printf("\n");
 }
 
-void print_person_csv(char person_type[]) {
+void print_person_csv(char person_type[])
+{
     printf("Liste des %s\n\n", person_type);
 
     char buffer[128];
@@ -50,23 +60,25 @@ void print_person_csv(char person_type[]) {
           enTete[0], enTete[1], enTete[2], enTete[3], enTete[4], enTete[5],
           enTete[6], enTete[7]);
 
-    for (int j = 0; j < 8; j++) {
-        int len = ft_strlen(enTete[j]);
+    for (int j = 0; j < 8; j++)
+    {
+        int len = strlen(enTete[j]);
         if (len > 0 && enTete[j][len - 1] == '\r')
             enTete[j][len - 1] = '\0';
     }
 
     int spaces = sprintf(
-                     str, "| %-3s | %-15s | %-15s | %-4s | %-6s | %-40s | %-11s | %-30s |",
-                     enTete[0], enTete[1], enTete[2], enTete[3], enTete[4], enTete[5],
-                     enTete[6], enTete[7]);
+        str, "| %-3s | %-15s | %-15s | %-4s | %-6s | %-40s | %-11s | %-30s |",
+        enTete[0], enTete[1], enTete[2], enTete[3], enTete[4], enTete[5],
+        enTete[6], enTete[7]);
     afficherLigneSeparation(spaces);
     printf("%s\n", str);
     afficherLigneSeparation(spaces);
 
     verif_file();
 
-    while (1) {
+    while (1)
+    {
         int i = 0;
         int c = getchar();
         int is_quote = 0;
@@ -76,7 +88,8 @@ void print_person_csv(char person_type[]) {
 
         get_element(buffer, &c, &i, &is_quote, taille, ';');
 
-        switch (col) {
+        switch (col)
+        {
         case 0:
             printf("| %-3s |", buffer);
             break;
@@ -112,11 +125,13 @@ void print_person_csv(char person_type[]) {
     afficherLigneSeparation(spaces);
 }
 
-void print_char_with_special_char(char *buffer, int total) {
+void print_char_with_special_char(char *buffer, int total)
+{
     printf(" ");
     int i = 0;
     int count = 0;
-    while (buffer[i]) {
+    while (buffer[i])
+    {
         unsigned char c = buffer[i];
         int len = len_utf8_chars(c);
         for (int k = 0; k < len; k++)
@@ -130,15 +145,18 @@ void print_char_with_special_char(char *buffer, int total) {
     printf(" |");
 }
 
-void print_error_missing_args(const char *option) {
+void print_error_missing_args(const char *option)
+{
     fprintf(stderr, "Erreur: arguments manquants pour %s\n", option);
 }
 
-void print_error_unknown_option(const char *option) {
+void print_error_unknown_option(const char *option)
+{
     fprintf(stderr, "Erreur: option inconnue: %s\n", option);
 }
 
-void print_help() {
+void print_help()
+{
     printf("Usage : ./bin/log2report [OPTION] [ARGS]\n\n");
     printf("Options disponibles :\n");
     printf("  -caj, --CA-jour                 : Affiche le chiffre d'affaire du jour\n");

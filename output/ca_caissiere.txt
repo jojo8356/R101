@@ -1,0 +1,6 @@
+1529.55 117 5 min 29 sec
+📊 Bilan journalier - Informations caissière n°35
+--------------------------------
+Total CA : 1529.55 €
+Nombre total de tickets : 117
+Temps moyen : 5 min 29 sec

@@ -21,7 +21,6 @@ echo "🚀 Lancement des tests..."
 
 # Aide
 $BIN -h > "$OUTPUT_DIR/help.txt"
-$BIN --help >> "$OUTPUT_DIR/help.txt"
 
 # CA du jour
 $BIN -caj < "data/G1C-log-$LOG_DATE.csv" > "$OUTPUT_DIR/ca_jour.txt"
@@ -30,17 +29,17 @@ $BIN -caj < "data/G1C-log-$LOG_DATE.csv" > "$OUTPUT_DIR/ca_jour.txt"
 $BIN -lt < "data/G1C-log-$LOG_DATE.csv" > "$OUTPUT_DIR/nb_tickets.txt"
 $BIN -lt -p < "data/G1C-log-$LOG_DATE.csv" >> "$OUTPUT_DIR/nb_tickets.txt"
 
-# CA d'une caissière
-$BIN -cac 35 < "data/G1C-log-$LOG_DATE.csv" > "$OUTPUT_DIR/ca_caissiere.txt"
-$BIN -cac 35 -p < "data/G1C-log-$LOG_DATE.csv" >> "$OUTPUT_DIR/ca_caissiere.txt"
+# infos caissière
+$BIN -ic 35 < "data/G1C-log-$LOG_DATE.csv" > "$OUTPUT_DIR/ca_caissiere.txt"
+$BIN -ic 35 -p < "data/G1C-log-$LOG_DATE.csv" >> "$OUTPUT_DIR/ca_caissiere.txt"
 
 # ID caissière
-$BIN -idca LAPOUGE IOSIF < data/G1C-caissieres.csv > "$OUTPUT_DIR/id_caissiere.txt"
-$BIN -idca LAPOUGE IOSIF -p < data/G1C-caissieres.csv >> "$OUTPUT_DIR/id_caissiere.txt"
+$BIN -idca LAVENANT JASON < data/G1C-caissieres.csv > "$OUTPUT_DIR/id_caissiere.txt"
+$BIN -idca LAVENANT JASON -p < data/G1C-caissieres.csv >> "$OUTPUT_DIR/id_caissiere.txt"
 
 # ID client
-$BIN -idcl LATASTE JAY < data/G1C-clients.csv > "$OUTPUT_DIR/id_client.txt"
-$BIN -idcl LATASTE JAY -p < data/G1C-clients.csv >> "$OUTPUT_DIR/id_client.txt"
+$BIN -idcl 'PEREIRA DA SILVA' RAQUEL < data/G1C-clients.csv > "$OUTPUT_DIR/id_client.txt"
+$BIN -idcl 'PEREIRA DA SILVA' RAQUEL -p < data/G1C-clients.csv >> "$OUTPUT_DIR/id_client.txt"
 
 # Moyenne client
 $BIN -mcl 12 < "data/G1C-log-$LOG_DATE.csv" > "$OUTPUT_DIR/moyenne_client.txt"

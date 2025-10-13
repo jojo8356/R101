@@ -7,49 +7,10 @@
 #include <stdio.h>
 #include <utils.h>
 #include <stddef.h>
+#include <string.h>
 
-char *ft_strncat(char *s1, const char *s2, size_t n) {
-    size_t dst_len;
-    size_t i;
-
-    dst_len = ft_strlen(s1);
-    i = 0;
-    while (s2[i] != '\0' && i < n) {
-        s1[dst_len + i] = s2[i];
-        i++;
-    }
-    s1[dst_len + i] = '\0';
-    return (s1);
-}
-
-int ft_strcmp(char *s1, char *s2) {
-    int c;
-
-    c = 0;
-    while (s1[c] == s2[c] && s1[c] && s2[c])
-        c++;
-    return (s1[c] - s2[c]);
-}
-
-void ft_strcpy(char *dest, char *src) {
-    int i = 0;
-    while (src[i]) {
-        dest[i] = src[i];
-        i++;
-    }
-    dest[i] = '\0';
-}
-
-size_t ft_strlen(const char *s) {
-    size_t i;
-
-    i = 0;
-    while (s[i] != '\0')
-        i++;
-    return (i);
-}
-
-int diff_seconds(const char *t1, const char *t2) {
+int diff_seconds(const char *t1, const char *t2)
+{
     int y1, m1, d1, h1, min1, s1;
     int y2, m2, d2, h2, min2, s2;
     sscanf(t1, "%4d-%2d-%2d %2d:%2d:%2d", &y1, &m1, &d1, &h1, &min1, &s1);
@@ -60,21 +21,25 @@ int diff_seconds(const char *t1, const char *t2) {
     return total2 - total1;
 }
 
-void format_time(int total_sec, char *out) {
+void format_time(int total_sec, char *out)
+{
     int minutes = total_sec / 60;
     int seconds = total_sec % 60;
     sprintf(out, "%d min %d sec", minutes, seconds);
 }
 
-int include_char(char **list, int taille, char *str) {
-    for (int i = 0; i < taille; i++) {
-        if (ft_strcmp(list[i], str) == 0)
+int include_char(char **list, int taille, char *str)
+{
+    for (int i = 0; i < taille; i++)
+    {
+        if (strcmp(list[i], str) == 0)
             return 1;
     }
     return 0;
 }
 
-int len_utf8_chars(unsigned char c) {
+int len_utf8_chars(unsigned char c)
+{
     /*
     Octets UTF-8:
     1 = 0x80: ASCII pur (a, A, etc.)
@@ -91,16 +56,23 @@ int len_utf8_chars(unsigned char c) {
     return 1;
 }
 
-void get_element(char *buffer, int *c, int *i, int *is_quote, int taille, char separator) {
+void get_element(char *buffer, int *c, int *i, int *is_quote, int taille, char separator)
+{
     *i = 0;
     *is_quote = 0;
 
-    while (*c != EOF && *i < taille - 1) {
-        if (*c == '"') {
+    while (*c != EOF && *i < taille - 1)
+    {
+        if (*c == '"')
+        {
             *is_quote = !(*is_quote);
-        } else if ((*c == separator || *c == '\n') && !(*is_quote)) {
+        }
+        else if ((*c == separator || *c == '\n') && !(*is_quote))
+        {
             break;
-        } else {
+        }
+        else
+        {
             buffer[(*i)++] = *c;
         }
         *c = getchar();
@@ -111,8 +83,10 @@ void get_element(char *buffer, int *c, int *i, int *is_quote, int taille, char s
         buffer[*i - 1] = '\0';
 }
 
-void verif_file() {
+void verif_file()
+{
     int c;
-    while ((c = getchar()) != '\n' && c != EOF) {
+    while ((c = getchar()) != '\n' && c != EOF)
+    {
     }
 }

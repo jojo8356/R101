@@ -10,18 +10,20 @@
 
 #include "affichage.h"
 #include "utils.h"
+#include <string.h>
 
-
-char *get_nb_ticket() {
+char *get_nb_ticket()
+{
     char buffer[127];
     int col = 0;
     int nb_ticket = 0;
     static char result[16];
     scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,"
           "\n]\n");
-    
+
     verif_file();
-    while (1) {
+    while (1)
+    {
         int i = 0;
         int c = getchar();
         int is_quote = 0;
@@ -33,7 +35,8 @@ char *get_nb_ticket() {
 
         if (c == ';' && !is_quote)
             col++;
-        else if (c == '\n' && !is_quote) {
+        else if (c == '\n' && !is_quote)
+        {
             col = 0;
             nb_ticket++;
         }
@@ -42,8 +45,8 @@ char *get_nb_ticket() {
     return result;
 }
 
-
-void print_nb_ticket() {
+void print_nb_ticket()
+{
     printf("Nombre de tickets dans le CSV: ");
     printf("%s\n", get_nb_ticket());
 }

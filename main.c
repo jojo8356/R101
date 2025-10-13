@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
     else if (include_char(argv, argc, "-caj") ||
             include_char(argv, argc, "--CA-jour")) {
         print_CA_day();
-    } else if (include_char(argv, argc, "-iac") ||
+    } else if (include_char(argv, argc, "-ic") ||
                include_char(argv, argc, "--infos-caissiere")) {
         if (argc > 2) {
             int arg1 = atoi(args[0]) < 0 ? 0 : atoi(args[0]);

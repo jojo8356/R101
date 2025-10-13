@@ -1,7 +1,7 @@
 /**
  * @file journee.c
  * @brief Gestion et affichage du chiffre d’affaires journalier et des ventes du jour.
-*/
+ */
 
 #include <ctype.h>
 #include <stdbool.h>
@@ -10,7 +10,7 @@
 
 #include "affichage.h"
 #include "utils.h"
-
+#include <string.h>
 
 char *get_CA_day()
 {
@@ -24,7 +24,7 @@ char *get_CA_day()
     int nb_ticket = 0;
     scanf("%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n],%*[^,\n]\n");
 
-	verif_file();
+    verif_file();
     while (1)
     {
         int i = 0;
@@ -33,7 +33,7 @@ char *get_CA_day()
 
         if (c == EOF)
             break;
-		get_element(buffer, &c, &i, &is_quote, 128, ',');
+        get_element(buffer, &c, &i, &is_quote, 128, ',');
 
         switch (col)
         {
@@ -62,12 +62,11 @@ char *get_CA_day()
     return result;
 }
 
-
 void print_CA_day()
 {
     char somme[32];
-	char nb_ticket[16];
-	char *result = get_CA_day();
+    char nb_ticket[16];
+    char *result = get_CA_day();
     printf("📊 Bilan journalier - CA du jour\n");
     printf("--------------------------------\n");
     sscanf(result, "%s %s", somme, nb_ticket);
@@ -95,7 +94,7 @@ void print_day_csv()
     printf("%s\n", str);
     afficherLigneSeparation(spaces);
 
-	verif_file();
+    verif_file();
     while (1)
     {
         int i = 0;
@@ -105,7 +104,7 @@ void print_day_csv()
         if (c == EOF)
             break;
 
-		get_element(buffer, &c, &i, &is_quote, taille, ',');
+        get_element(buffer, &c, &i, &is_quote, taille, ',');
 
         switch (col)
         {

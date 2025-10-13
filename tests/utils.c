@@ -2,44 +2,18 @@
 #include <string.h>
 #include <assert.h>
 
+#include "utils.h"
 
-#include "utils.h" 
-
-void test_ft_strcmp() {
-    printf("🔹 Test ft_strcmp...\n");
-    assert(ft_strcmp("abc", "abc") == 0);
-    assert(ft_strcmp("abc", "abd") < 0);
-    assert(ft_strcmp("abd", "abc") > 0);
-    assert(ft_strcmp("", "") == 0);
-    printf("✅ ft_strcmp OK\n");
-}
-
-void test_ft_strcpy() {
-    printf("🔹 Test ft_strcpy...\n");
-    char dest[50];
-    ft_strcpy(dest, "Hello");
-    assert(strcmp(dest, "Hello") == 0);
-    ft_strcpy(dest, "");
-    assert(strcmp(dest, "") == 0);
-    printf("✅ ft_strcpy OK\n");
-}
-
-void test_ft_strlen() {
-    printf("🔹 Test ft_strlen...\n");
-    assert(ft_strlen("Hello") == 5);
-    assert(ft_strlen("") == 0);
-    assert(ft_strlen(" ") == 1);
-    printf("✅ ft_strlen OK\n");
-}
-
-void test_diff_seconds() {
+void test_diff_seconds()
+{
     printf("🔹 Test diff_seconds...\n");
     assert(diff_seconds("2025-10-12 10:00:00", "2025-10-12 10:01:00") == 60);
     assert(diff_seconds("2025-10-12 09:59:30", "2025-10-12 10:00:00") == 30);
     printf("✅ diff_seconds OK\n");
 }
 
-void test_format_time() {
+void test_format_time()
+{
     printf("🔹 Test format_time...\n");
     char buf[50];
     format_time(125, buf);
@@ -49,7 +23,8 @@ void test_format_time() {
     printf("✅ format_time OK\n");
 }
 
-void test_include_char() {
+void test_include_char()
+{
     printf("🔹 Test include_char...\n");
     char *list[] = {"pomme", "banane", "cerise"};
     assert(include_char(list, 3, "banane") == 1);
@@ -57,21 +32,19 @@ void test_include_char() {
     printf("✅ include_char OK\n");
 }
 
-void test_len_utf8_chars() {
+void test_len_utf8_chars()
+{
     printf("🔹 Test len_utf8_chars...\n");
-    assert(len_utf8_chars('A') == 1);            
-    assert(len_utf8_chars(0xC3) == 2);           
-    assert(len_utf8_chars(0xE2) == 3);           
-    assert(len_utf8_chars(0xF0) == 4);           
+    assert(len_utf8_chars('A') == 1);
+    assert(len_utf8_chars(0xC3) == 2);
+    assert(len_utf8_chars(0xE2) == 3);
+    assert(len_utf8_chars(0xF0) == 4);
     printf("✅ len_utf8_chars OK\n");
 }
 
-int main() {
+int main()
+{
     printf("\n🧪 Lancement des tests unitaires...\n\n");
-
-    test_ft_strcmp();
-    test_ft_strcpy();
-    test_ft_strlen();
     test_diff_seconds();
     test_format_time();
     test_include_char();
