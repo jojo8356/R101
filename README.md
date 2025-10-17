@@ -75,23 +75,6 @@ Générer la documentation
 doxygen && python3 -m http.server -d html
 ```
 
-Usage : ./bin/log2report [OPTION] [ARGS]
-
-Options disponibles :
--caj, --CA-jour : Affiche le chiffre d'affaire du jour
--ic, --infos-caissiere [ID] : Affiche infos d'une caissière
--p, --print : Affiche directement au lieu de renvoyer la chaîne
--idca, --ID-Caissiere NOM PRENOM : Récupère l'ID d'une caissière
--lt, --len-ticket : Nombre total de tickets
--mcl, --moyenne-client [ID] : Moyenne par client
--ltc, --len-ticket-client [ID] : Nombre de tickets par client
--idcl, --ID-client NOM PRENOM : Récupère l'ID d'un client
--cath, --CA-tranche START END : Caissières travaillant entre heures données
--pcl, --print-clients : Affiche tous les clients
--pca, --print-caissieres : Affiche toutes les caissières
--pj, --print-jour : Affiche tous les tickets du jour
--h, --help : Affiche ce message d'aide
-
 ### Options principales
 
 - **Récupérer le nombre de tickets**
