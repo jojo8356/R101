@@ -197,7 +197,7 @@ char *get_caissieres_by_time(int start_hour, int end_hour)
             {
                 char tmp[16];
                 snprintf(tmp, sizeof(tmp), "%d,", caissiere_id);
-                strncat(result, tmp, sizeof(result) - strlen(result) - 1);
+                strncat(result, tmp, sizeof(result) - strlen(result) - 1); // Empêche dépassement mémoire et corruption de chaîne.
             }
             col = 0;
         }
