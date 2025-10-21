@@ -140,7 +140,7 @@ doxygen && python3 -m http.server -d html
 
 -ltc, --len-ticket-client [ID] : Nombre de tickets par client
 
-- **Afficher les caissières travaillant dans une tranche horaire**
+- **Afficher les ID caissières travaillant dans une tranche horaire**
 
 ```bash
 ./bin/s101 -cath {start_hour} {end_hour} < data/G1C-log-YYYY-MM-DD.csv
@@ -190,6 +190,19 @@ Exemple : de 9h à 17h
 ```
 
 -ci, --caissiere-identite: Afficher l'identité d'une caissiere
+
+---
+
+- **Afficher les caissières travaillant dans une tranche horaire**
+
+```bash
+IFS=',' read -ra arr <<< "$(./bin/s101 -cath 9 17 < data/G1C-log-YYYY-MM-DD.csv)"
+unique_ids=($(printf "%s\n" "${arr[@]}" | sort -u))
+
+for id in "${unique_ids[@]}"; do
+  ./bin/s101 -ci "$id" < data/G1C-caissieres.csv
+done
+```
 
 ---
 

@@ -47,3 +47,11 @@ $BIN -pca < data/G1C-caissieres.csv > "$OUTPUT_DIR/caissieres.txt"
 
 # Tickets du jour
 $BIN -pj < "data/G1C-log-$LOG_DATE.csv" > "$OUTPUT_DIR/tickets_jour.txt"
+
+#Récupérer toutes les caissieres
+IFS=',' read -ra arr <<< "$(./bin/s101 -cath 9 17 < data/G1C-log-YYYY-MM-DD.csv)"
+unique_ids=($(printf "%s\n" "${arr[@]}" | sort -u))
+
+for id in "${unique_ids[@]}"; do
+  ./bin/s101 -ci "$id" < data/G1C-caissieres.csv
+done
