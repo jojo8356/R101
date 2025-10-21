@@ -12,6 +12,8 @@
 #include "utils.h"
 #include <string.h>
 
+// char *
+// https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
 char *get_ID_caissiere(char *target_nom, char *target_prenom)
 {
     static char result[16];
@@ -65,6 +67,8 @@ char *get_ID_caissiere(char *target_nom, char *target_prenom)
     return result;
 }
 
+// char *
+// https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
 char *get_infos_caissiere(int target_caissiere_id)
 {
     static char result[64];
@@ -148,6 +152,8 @@ char *get_infos_caissiere(int target_caissiere_id)
     return result;
 }
 
+// char *
+// https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
 char *get_caissieres_by_time(int start_hour, int end_hour)
 {
     static char result[512] = "";
