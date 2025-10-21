@@ -219,7 +219,7 @@ void print_infos_caissiere(int target_caissiere_id)
     char formatted[16];
     sscanf(result, "%lf %d %[^\n]", &somme, &nb_ticket, formatted);
 
-    printf("📊 Bilan journalier - Informations caissière n°%d\n",
+    printf("Bilan journalier - Informations caissière n°%d\n",
            target_caissiere_id);
     printf("--------------------------------\n");
     printf("Total CA : %.2lf €\n", somme);
@@ -253,7 +253,7 @@ void print_caissieres_csv()
 void print_caissieres_by_time(int start_hour, int end_hour)
 {
     char *ids = get_caissieres_by_time(start_hour, end_hour);
-    printf("📋 Caissières entre %02d:00 et %02d:00\n", start_hour, end_hour);
+    printf("Caissières entre %02d:00 et %02d:00\n", start_hour, end_hour);
     printf("---------------------------------\n");
 
     if (strlen(ids) == 0)
