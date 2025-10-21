@@ -127,3 +127,9 @@ void print_error_unknown_option(const char *option);
  * leurs arguments attendus et une courte description de leur utilité.
  */
 void print_help();
+
+/**
+ * @brief Affiche le nom et prénom d'une personne à partir de l'id.
+ * @param target_id id cible
+ */
+void print_identite_caissiere(int target_id);

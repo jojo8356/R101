@@ -12,11 +12,6 @@
 #include "utils.h"
 #include <string.h>
 
-// char *
-// https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
-// structure fonction
-// https://but.lyceum.fr/r101-init-dev/c01/#d%C3%A9finition-dune-fonction
-// fonction char *
 char *get_nb_ticket()
 {
     char buffer[127];

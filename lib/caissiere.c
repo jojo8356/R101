@@ -12,8 +12,6 @@
 #include "utils.h"
 #include <string.h>
 
-// char *
-// https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
 char *get_ID_caissiere(char *target_nom, char *target_prenom)
 {
     static char result[16];
@@ -67,8 +65,58 @@ char *get_ID_caissiere(char *target_nom, char *target_prenom)
     return result;
 }
 
-// char *
-// https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
+char *get_identite_caissiere(int target_id)
+{
+    static char result[16];
+    char nom[128];
+    char prenom[128];
+    char buffer[128];
+    int col = 0;
+    int caissiere_id = 0;
+
+    scanf("%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;\n];%*[^;"
+          "\n]\n");
+
+    while (1)
+    {
+        int i = 0;
+        int c = getchar();
+        int is_quote = 0;
+
+        if (c == EOF)
+            break;
+
+        get_element(buffer, &c, &i, &is_quote, 128, ';');
+        switch (col)
+        {
+        case 0:
+            caissiere_id = atoi(buffer);
+            break;
+        case 1:
+            strcpy(nom, buffer);
+            break;
+        case 2:
+            strcpy(prenom, buffer);
+            break;
+        }
+
+        if (c == ';' && !is_quote)
+            col++;
+        else if (c == '\n' && !is_quote)
+        {
+            if (caissiere_id == target_id)
+            {
+                snprintf(result, sizeof(result), "%s %s", nom, prenom);
+                return result;
+            }
+            col = 0;
+        }
+    }
+
+    snprintf(result, sizeof(result), "0");
+    return result;
+}
+
 char *get_infos_caissiere(int target_caissiere_id)
 {
     static char result[64];
@@ -152,8 +200,6 @@ char *get_infos_caissiere(int target_caissiere_id)
     return result;
 }
 
-// char *
-// https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
 char *get_caissieres_by_time(int start_hour, int end_hour)
 {
     static char result[512] = "";
@@ -197,7 +243,7 @@ char *get_caissieres_by_time(int start_hour, int end_hour)
             {
                 char tmp[16];
                 snprintf(tmp, sizeof(tmp), "%d,", caissiere_id);
-                strncat(result, tmp, sizeof(result) - strlen(result) - 1); // Empêche dépassement mémoire et corruption de chaîne.
+                strncat(result, tmp, sizeof(result) - strlen(result) - 1);
             }
             col = 0;
         }
@@ -219,7 +265,7 @@ void print_infos_caissiere(int target_caissiere_id)
     char formatted[16];
     sscanf(result, "%lf %d %[^\n]", &somme, &nb_ticket, formatted);
 
-    printf("Bilan journalier - Informations caissière n°%d\n",
+    printf("📊 Bilan journalier - Informations caissière n°%d\n",
            target_caissiere_id);
     printf("--------------------------------\n");
     printf("Total CA : %.2lf €\n", somme);
@@ -253,7 +299,7 @@ void print_caissieres_csv()
 void print_caissieres_by_time(int start_hour, int end_hour)
 {
     char *ids = get_caissieres_by_time(start_hour, end_hour);
-    printf("Caissières entre %02d:00 et %02d:00\n", start_hour, end_hour);
+    printf("📋 Caissières entre %02d:00 et %02d:00\n", start_hour, end_hour);
     printf("---------------------------------\n");
 
     if (strlen(ids) == 0)
@@ -281,4 +327,11 @@ void print_caissieres_by_time(int start_hour, int end_hour)
             }
         }
     }
+}
+
+void print_identite_caissiere(int target_id)
+{
+    printf("Identité de la caissiere n°%d\n", target_id);
+    printf("------------------------------\n");
+    printf("Nom et prénom: %s\n", get_identite_caissiere(target_id));
 }

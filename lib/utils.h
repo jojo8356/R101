@@ -132,3 +132,10 @@ char *get_caissieres_by_time(int start_hour, int end_hour);
  * @return char* Pointeur vers la chaîne s1.
  */
 char *strncat(char *s1, const char *s2, size_t n);
+
+/**
+ * @brief Récupérer le nom et prénom d'une personne à partir de l'id.
+ * @param target_id id cible
+ * @return Nom et prénom
+ */
+char *get_identite_caissiere(int target_id);

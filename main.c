@@ -101,25 +101,40 @@ int main(int argc, char *argv[]) {
         if (argc > 3) {
             int arg1 = atoi(args[0]) < 0 ? 0 : atoi(args[0]);
             int arg2 = atoi(args[1]) < 0 ? 0 : atoi(args[1]);
-			if (argc > 4 && (include_char(argv, argc, "-p") ||
+            if (argc > 4 && (include_char(argv, argc, "-p") ||
                              include_char(argv, argc, "--print"))) {
-				printf("%s\n", get_caissieres_by_time(arg1, arg2));
-			} else
-				print_caissieres_by_time(arg1, arg2);
+                printf("%s\n", get_caissieres_by_time(arg1, arg2));
+            } else {
+                print_caissieres_by_time(arg1, arg2);
+            }
         } else {
-			print_error_missing_args("--CA-tranche (ex: 9 17)");
+            print_error_missing_args("--CA-tranche (ex: 9 17)");
+        }
+    } else if (include_char(argv, argc, "-ci") ||
+               include_char(argv, argc, "--caissiere-identite")) {
+        if (argc > 2) {
+            int arg1 = atoi(args[0]) < 0 ? 0 : atoi(args[0]);
+            if (include_char(argv, argc, "-p") ||
+                             include_char(argv, argc, "--print")) {
+                print_identite_caissiere(arg1);
+            } else {
+                printf("%s\n", get_identite_caissiere(arg1));
+            }
+        } else {
+            print_error_missing_args("--caissiere-identite");
         }
     } else if (include_char(argv, argc, "-pcl") ||
-                include_char(argv, argc, "--print-clients")) {
-                print_clients_csv();
+               include_char(argv, argc, "--print-clients")) {
+        print_clients_csv();
     } else if (include_char(argv, argc, "-pca") ||
-                include_char(argv, argc, "--print-caissieres")) {
-                print_caissieres_csv();
+               include_char(argv, argc, "--print-caissieres")) {
+        print_caissieres_csv();
     } else if (include_char(argv, argc, "-pj") ||
-                include_char(argv, argc, "--print-jour")) {
-                print_day_csv();
+               include_char(argv, argc, "--print-jour")) {
+        print_day_csv();
     } else {
         fprintf(stderr, "Option inconnue: %s\n", argv[1]);
     }
+
     return 0;
 }

@@ -144,4 +144,5 @@ void print_help()
     printf("  -pca,  --print-caissieres        : Affiche toutes les caissières\n");
     printf("  -pj,   --print-jour              : Affiche tous les tickets du jour\n");
     printf("  -h,    --help                    : Affiche ce message d'aide\n");
+    printf("  -ci,    --caissiere-identite     : Affiche l'identite de la caissiere\n");
 }

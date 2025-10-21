@@ -183,6 +183,14 @@ Exemple : de 9h à 17h
 
 -h, --help : Affiche ce message d'aide
 
+- **Afficher l'identité d'une caissiere**
+
+```bash
+./bin/s101 -ci {id} < data/G1C-caissieres.csv
+```
+
+-ci, --caissiere-identite: Afficher l'identité d'une caissiere
+
 ---
 
 ### Remarques
