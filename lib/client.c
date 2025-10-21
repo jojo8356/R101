@@ -14,6 +14,9 @@
 
 // char *
 // https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
+// structure fonction
+// https://but.lyceum.fr/r101-init-dev/c01/#d%C3%A9finition-dune-fonction
+// fonction char *
 char *get_moyenne_client(int target_client_id)
 {
     static char result[32];
@@ -79,6 +82,9 @@ char *get_moyenne_client(int target_client_id)
 
 // char *
 // https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
+// structure fonction
+// https://but.lyceum.fr/r101-init-dev/c01/#d%C3%A9finition-dune-fonction
+// fonction char *
 char *get_nb_ticket_client(int target_client_id)
 {
     static char result[16];
@@ -121,6 +127,9 @@ char *get_nb_ticket_client(int target_client_id)
 
 // char *
 // https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
+// structure fonction
+// https://but.lyceum.fr/r101-init-dev/c01/#d%C3%A9finition-dune-fonction
+// fonction char *
 char *get_ID_client(char *target_nom, char *target_prenom)
 {
     static char result[16];
