@@ -12,6 +12,8 @@
 #include "utils.h"
 #include <string.h>
 
+// char *
+// https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
 char *get_moyenne_client(int target_client_id)
 {
     static char result[32];
@@ -75,6 +77,8 @@ char *get_moyenne_client(int target_client_id)
     return result;
 }
 
+// char *
+// https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
 char *get_nb_ticket_client(int target_client_id)
 {
     static char result[16];
@@ -115,6 +119,8 @@ char *get_nb_ticket_client(int target_client_id)
     return result;
 }
 
+// char *
+// https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
 char *get_ID_client(char *target_nom, char *target_prenom)
 {
     static char result[16];
