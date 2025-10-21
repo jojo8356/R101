@@ -186,7 +186,7 @@ char *get_ID_client(char *target_nom, char *target_prenom)
 
 void print_moyenne_client(int target_client_id)
 {
-    printf("📊 Moyenne du client n°%d\n", target_client_id);
+    printf("Moyenne du client n°%d\n", target_client_id);
     printf("--------------------------------\n");
     printf("Moyenne: %s euros\n", get_moyenne_client(target_client_id));
 }
