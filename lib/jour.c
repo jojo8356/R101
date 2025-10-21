@@ -12,6 +12,8 @@
 #include "utils.h"
 #include <string.h>
 
+// char *
+// https://but.lyceum.fr/r101-init-dev/c07/#recherche-avec-strstr
 char *get_CA_day()
 {
     float pu = 0;
