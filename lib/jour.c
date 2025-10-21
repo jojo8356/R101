@@ -72,7 +72,7 @@ void print_CA_day()
     char somme[32];
     char nb_ticket[16];
     char *result = get_CA_day();
-    printf("📊 Bilan journalier - CA du jour\n");
+    printf("Bilan journalier - CA du jour\n");
     printf("--------------------------------\n");
     sscanf(result, "%s %s", somme, nb_ticket);
     printf("Total CA : %s €\n", somme);
