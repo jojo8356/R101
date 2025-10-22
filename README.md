@@ -196,11 +196,15 @@ Exemple : de 9h à 17h
 - **Afficher les caissières travaillant dans une tranche horaire**
 
 ```bash
+> outputs/caissiere_horaire.txt
+
+echo "Horaire des caissieres de 9 à 17h\n----------------------------------------\n" >> outputs/caissiere_horaire.txt
+
 IFS=',' read -ra arr <<< "$(./bin/s101 -cath 9 17 < data/G1C-log-YYYY-MM-DD.csv)"
 unique_ids=($(printf "%s\n" "${arr[@]}" | sort -u))
 
 for id in "${unique_ids[@]}"; do
-  ./bin/s101 -ci "$id" < data/G1C-caissieres.csv
+  ./bin/s101 -ci "$id" < data/G1C-caissieres.csv >> outputs/caissiere_horaire.txt
 done
 ```
 
