@@ -49,13 +49,14 @@ $BIN -pca < data/G1C-caissieres.csv > "$OUTPUT_DIR/caissieres.txt"
 $BIN -pj < "data/G1C-log-$LOG_DATE.csv" > "$OUTPUT_DIR/tickets_jour.txt"
 
 #Récupérer toutes les caissieres
-> outputs/caissiere_horaire.txt
+: > output/caissiere_horaire.txt
 
-echo "Horaire des caissieres de 9 à 17h\n----------------------------------------\n" >> outputs/caissiere_horaire.txt
+echo "Horaire des caissieres de 9 à 17h
+----------------------------------------" >> output/caissiere_horaire.txt
 
 IFS=',' read -ra arr <<< "$(./bin/s101 -cath 9 17 < data/G1C-log-2025-09-22.csv)"
 unique_ids=($(printf "%s\n" "${arr[@]}" | sort -u))
 
 for id in "${unique_ids[@]}"; do
-  ./bin/s101 -ci "$id" < data/G1C-caissieres.csv >> outputs/caissiere_horaire.txt
+  ./bin/s101 -ci "$id" < data/G1C-caissieres.csv >> output/caissiere_horaire.txt
 done

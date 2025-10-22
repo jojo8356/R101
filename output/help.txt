@@ -14,3 +14,4 @@ Options disponibles :
   -pca,  --print-caissieres        : Affiche toutes les caissières
   -pj,   --print-jour              : Affiche tous les tickets du jour
   -h,    --help                    : Affiche ce message d'aide
+  -ci,    --caissiere-identite     : Affiche l'identite de la caissiere
