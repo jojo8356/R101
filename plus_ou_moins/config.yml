@@ -1,0 +1,32 @@
+# Configuration du jeu Juste Prix
+
+# Chemins des fichiers
+fichiers:
+  titre: "assets/titre.txt"
+  scores: "assets/scores.txt"
+
+# Limites du jeu
+limites:
+  max_joueurs: 100
+  max_nom: 50
+  min_nombre: 1
+
+# Indices de proximité
+proximite:
+  seuil_bouillant: 2
+  seuil_chaud: 5
+
+# Niveaux de difficulté
+difficulte:
+  facile:
+    max_nombre: 50
+    essais: 10
+  normal:
+    max_nombre: 100
+    essais: 7
+  difficile:
+    max_nombre: 200
+    essais: 8
+  expert:
+    max_nombre: 500
+    essais: 9

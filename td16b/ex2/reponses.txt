@@ -1,8 +1,6 @@
-Exercice 2 - Réponses aux questions de cours sur Make
-1. Principal avantage de Make
-Make recompile uniquement les fichiers modifiés en comparant les dates de modification des fichiers sources et objets. Pour un gros projet, cela évite de tout recompiler à chaque modification, ce qui économise du temps.
-2. Compilation monolithique vs séparée
-Compilation monolithique - tout en une seule commande:
+1. Make recompile uniquement les fichiers modifiés en comparant les dates de modification des fichiers sources et objets.
+Pour un gros projet, cela évite de tout recompiler à chaque modification, ce qui économise du temps.
+2. Compilation monolithique - tout en une seule commande:
 
 gcc -o app main.c lib/utils.c
 → Recompile tout à chaque modification. Compilation séparée - en deux étapes:
@@ -14,8 +12,8 @@ gcc -c lib/utils.c -o lib/utils.o
 # Étape 2: Édition de liens
 gcc main.o lib/utils.o -o app
 → Si seul main.c change, on recompile uniquement main.o puis on relie.
-3. Cible qui ne correspond pas à un fichier (.PHONY)
-On utilise .PHONY pour déclarer une cible "fictive" qui ne produit pas de fichier:
+
+3. On utilise .PHONY pour déclarer une cible "fictive" qui ne produit pas de fichier:
 
 CC = gcc
 CFLAGS = -Wall -Werror
